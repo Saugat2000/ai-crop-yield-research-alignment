@@ -1,0 +1,25 @@
+stage,step,n,source_file,n_formatted
+Search,Query result records retrieved from OpenAlex,102892,29_Logs/phase02_01_flatten_and_dedup.json,"102,892"
+Search,OpenAlex query files contributing records,86,29_Logs/phase02_01_flatten_and_dedup.json,86
+Deduplication,Unique OpenAlex work identifiers,45845,29_Logs/phase02_01_flatten_and_dedup.json,"45,845"
+Deduplication,Records merged away by pairwise matching,2762,29_Logs/phase02_01_flatten_and_dedup.json,"2,762"
+Deduplication,Unique works after pairwise matching,43083,29_Logs/phase02_01_flatten_and_dedup.json,"43,083"
+Deduplication,Works restored by splitting over-merged components,460,29_Logs/phase02_05_resolve_components.json,460
+Deduplication,Unique works after component resolution,43543,29_Logs/phase02_05_resolve_components.json,"43,543"
+Screening,Works entering screening,43543,29_Logs/phase03_03_assisted_screening.json,"43,543"
+Screening,Excluded,24676,06_Screening/s3a_decision_summary.csv,"24,676"
+Screening,"Uncertain, not resolved",11822,06_Screening/s3a_decision_summary.csv,"11,822"
+Screening,Eligible studies (frozen corpus),7045,06_Screening/eligible_corpus_manifest.json,"7,045"
+Corpus,Eligible: journal articles,4842,06_Screening/eligible_corpus_manifest.json,"4,842"
+Corpus,Eligible: conference papers,1494,06_Screening/eligible_corpus_manifest.json,"1,494"
+Corpus,Eligible: with an abstract,5927,06_Screening/eligible_corpus_manifest.json,"5,927"
+Corpus,Eligible: with a resolved study country,1821,15_Descriptive_Analysis/research_side_descriptives.json,"1,821"
+Corpus,Eligible: study location unresolved,3985,15_Descriptive_Analysis/research_side_descriptives.json,"3,985"
+Corpus,Eligible: with at least one resolved crop,4454,15_Descriptive_Analysis/research_side_descriptives.json,"4,454"
+Panel,Country-crop cells in the analytical panel,2616,12_Data_Integration/country_crop_panel.parquet,"2,616"
+Panel,Country-crop cells with at least one eligible study,485,12_Data_Integration/country_crop_panel.parquet,485
+Panel,Country-crop cells with a measured zero,2131,12_Data_Integration/country_crop_panel.parquet,"2,131"
+Panel,Countries in the panel,199,12_Data_Integration/country_crop_panel.parquet,199
+Panel,Countries with at least one eligible study,122,15_Descriptive_Analysis/research_side_descriptives.json,122
+Panel,Countries with a measured zero,77,15_Descriptive_Analysis/research_side_descriptives.json,77
+Panel,Crops in the panel,25,12_Data_Integration/country_crop_panel.parquet,25

@@ -1,0 +1,12 @@
+Country research-output percentile against country research-need percentile, 2000-2026
+publication years, 193 countries plotted of the 195 in the spatial layer. The need percentile is
+the rank-weighted need index stored as need_rank_pct and rescaled here from 0-1 to 0-100; the
+research percentile is the percentile rank of the fractional eligible study count, and countries
+with zero coded attention share the lowest rank. Colour encodes research percentile minus need
+percentile, in percentile points, on a diverging scale centred on zero: orange marks a country
+ranked lower for research than for need, blue the reverse. The shaded quadrant holds countries
+at or above the median for need and at or below the median for research, and contains 48
+countries; the ten with the largest shortfall are listed inside it, since every country there
+sits at the same research percentile. 71 of the 193 plotted countries tie at the lowest research
+percentile, 18.97, because none has an eligible study. 2 countries have no need index and are
+not plotted; they are kept in the saved data with NA.

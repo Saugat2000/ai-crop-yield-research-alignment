@@ -1,0 +1,122 @@
+{
+  "n_studies": 7045,
+  "n_conference": 1494,
+  "n_journal_article": 4842,
+  "conference_share_pct": 21.21,
+  "year_min": 2000,
+  "year_max": 2026,
+  "median_year": 2023,
+  "studies_2000_2009": 424,
+  "studies_2010_2019": 1415,
+  "studies_2020_2026": 5206,
+  "share_since_2018_pct": 80.75,
+  "n_open_access": 4173,
+  "open_access_share_pct": 59.23,
+  "n_with_country": 1821,
+  "n_global_scope": 915,
+  "n_multi_country": 56,
+  "n_region_scope": 268,
+  "n_location_unresolved": 3985,
+  "location_resolved_share_pct": 43.44,
+  "n_country_from_locative_cue": 869,
+  "n_with_crop": 4454,
+  "n_multicrop": 654,
+  "n_crop_unresolved": 2364,
+  "n_countries_with_a_study": 122,
+  "n_countries_in_panel": 199,
+  "n_countries_zero_studies": 77,
+  "gini_countries_fractional": 0.8478,
+  "top1_country_share_pct": 16.14,
+  "top3_country_share_pct": 42.97,
+  "top5_country_share_pct": 50.0,
+  "top10_country_share_pct": 60.24,
+  "top20_country_share_pct": 73.41,
+  "top10_countries_fractional": {
+    "USA": 327.7,
+    "IND": 292.7,
+    "CHN": 252.3,
+    "BRA": 93.3,
+    "IRN": 49.5,
+    "PAK": 49.4,
+    "AUS": 42.1,
+    "ETH": 39.5,
+    "NGA": 38.9,
+    "CAN": 38.1
+  },
+  "top10_countries_full": {
+    "USA": 352,
+    "IND": 303,
+    "CHN": 261,
+    "BRA": 102,
+    "PAK": 51,
+    "IRN": 50,
+    "AUS": 46,
+    "DEU": 45,
+    "ETH": 45,
+    "NGA": 42
+  },
+  "region_shares_pct": {
+    "East Asia & Pacific": 21.51,
+    "North America": 18.01,
+    "South Asia": 17.73,
+    "Europe & Central Asia": 16.12,
+    "Sub-Saharan Africa ": 10.28,
+    "Latin America & Caribbean ": 8.41,
+    "Middle East, North Africa, Afghanistan & Pakistan": 7.54
+  },
+  "income_shares_pct": {
+    "Upper middle income": 34.09,
+    "High income": 33.62,
+    "Lower middle income": 27.72,
+    "Low income": 4.18
+  },
+  "n_crops_studied": 25,
+  "n_crops_in_panel": 25,
+  "top10_crops_fractional": {
+    "wheat": 566.4,
+    "maize": 451.2,
+    "rice": 390.5,
+    "soybean": 133.3,
+    "sugarcane": 80.3,
+    "cotton": 59.1,
+    "barley": 54.2,
+    "potato": 50.2,
+    "rapeseed_canola": 35.5,
+    "coffee_cocoa": 26.2
+  },
+  "top3_crop_share_pct": 69.33,
+  "gini_crops_fractional": 0.7187,
+  "panel_cells": 2616,
+  "panel_cells_with_study": 485,
+  "panel_cells_measured_zero": 2131,
+  "panel_cells_with_production_denominator": 2345,
+  "spearman_research_vs_production_cellwise": 0.5166,
+  "spearman_research_vs_production_countrywise": 0.7912,
+  "n_leadership_observed": 1395,
+  "local_first_author_share_pct": 78.06,
+  "n_collaboration_observed": 5387,
+  "international_collaboration_share_pct": 26.34,
+  "local_participation_share_pct": 86.41,
+  "local_first_author_share_by_income_pct": {
+    "High income": [
+      403,
+      75.43
+    ],
+    "Low income": [
+      67,
+      49.25
+    ],
+    "Lower middle income": [
+      477,
+      79.04
+    ],
+    "Upper middle income": [
+      444,
+      83.78
+    ]
+  },
+  "citations_total": 123675,
+  "citations_median": 2.0,
+  "citations_mean": 17.56,
+  "share_uncited_pct": 36.45
+}

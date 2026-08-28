@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "Does AI-Based Crop-Yield Research Align with Agricultural Importance, Research Need, and Scientific Capacity? — replication data and code"
+authors:
+  - family-names: Poudel
+    given-names: Prasamsha
+    orcid: "https://orcid.org/0009-0003-6441-3023"
+    affiliation: "Agriculture and Forestry University, Nepal"
+  - family-names: Khanal
+    given-names: Saugat
+    orcid: "https://orcid.org/0000-0002-9146-7428"
+    affiliation: "Oklahoma State University, USA"
+year: 2026
+repository-code: "https://github.com/Saugat2000/ai-crop-yield-research-alignment"
+license: MIT

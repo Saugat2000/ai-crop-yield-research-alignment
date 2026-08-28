@@ -1,0 +1,72 @@
+{
+  "script": "phase15_01_robustness",
+  "start": "2026-08-28T21:47:35Z",
+  "end": "2026-08-28T21:47:39Z",
+  "elapsed_s": 3.4,
+  "python": "3.9.6",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "random_seed": 20260730,
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.12.0",
+    "statsmodels": "0.14.6",
+    "geopandas": "1.0.1",
+    "libpysal": "4.8.1",
+    "esda": "2.5.1",
+    "spreg": "1.9.0",
+    "networkx": "3.2.1",
+    "pyarrow": "21.0.0",
+    "pymc": "5.12.0",
+    "arviz": "0.17.1",
+    "sklearn": "1.6.1"
+  },
+  "inputs": [
+    {
+      "path": "12_Data_Integration/study_country_crop_dataset.parquet",
+      "exists": true,
+      "sha256": "5477d7e9632c4748702faef2f0a007169558ddea3427df6f301d20e9d251c01c",
+      "bytes": 48770
+    },
+    {
+      "path": "16_Econometrics/estimation_sample.parquet",
+      "exists": true,
+      "sha256": "038c98a14e97b261d6186f8d93a1e4c420f512ce7125ad2aa24158978ed6ff08",
+      "bytes": 323715
+    }
+  ],
+  "outputs": [
+    {
+      "path": "20_Robustness/concentration_robustness.csv",
+      "exists": true,
+      "sha256": "509440bc421e478a6eed5b72ddf7497e986e26faced24df4bc1c10a762139933",
+      "bytes": 1705,
+      "rows": 15
+    },
+    {
+      "path": "20_Robustness/model_robustness.csv",
+      "exists": true,
+      "sha256": "30a13ca2ce98b0dd4e14c1e95ef4242893028a5e835e0d8b936a291286a2e6d1",
+      "bytes": 939,
+      "rows": 11
+    },
+    {
+      "path": "20_Robustness/finding_stability_classification.csv",
+      "exists": true,
+      "sha256": "fed7cc1dbbe1fb2eaffa66fd2fceed89031f12d8b9faf0e08592c6f632fc9ff7",
+      "bytes": 2182,
+      "rows": 8
+    }
+  ],
+  "counts": {
+    "country_universe": 199,
+    "findings_stable": 3,
+    "findings_partially_stable": 3,
+    "findings_unsupported": 1,
+    "findings_specification-sensitive": 1
+  },
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "free_disk_gb_end": 35.2
+}

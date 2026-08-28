@@ -1,0 +1,200 @@
+iso3,research_share,production_share,n_studies_fractional,n_production_cells,fao_area_name,wb_region,wb_income_group,research_share_pct,production_share_pct,labelled_in_figure,plot_group,clipped_to_left_edge
+USA,0.16148612255337003,0.08817140495834742,326.2261904761905,22,United States of America,North America,High income,16.148612255337003,8.817140495834742,True,log-log scatter,False
+IND,0.14483719384345575,0.12355381403594014,292.59285714285716,22,India,South Asia,Lower middle income,14.483719384345575,12.355381403594015,True,log-log scatter,False
+CHN,0.12489643036879627,0.13347166890306972,252.3095238095238,24,"China, mainland",East Asia & Pacific,Upper middle income,12.489643036879627,13.347166890306973,True,log-log scatter,False
+BRA,0.04617643904330536,0.14062129485244101,93.28333333333333,21,Brazil,Latin America & Caribbean ,Upper middle income,4.617643904330536,14.062129485244101,True,log-log scatter,False
+IRN,0.024503130955622107,0.005339669922900234,49.5,19,Iran (Islamic Republic of),"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,2.4503130955622106,0.5339669922900234,True,log-log scatter,False
+PAK,0.024387627981420523,0.01860712417892274,49.266666666666666,20,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,2.4387627981420525,1.860712417892274,False,log-log scatter,False
+AUS,0.020861251462939455,0.011832390218910312,42.14285714285714,21,Australia,East Asia & Pacific,High income,2.0861251462939454,1.1832390218910311,False,log-log scatter,False
+ETH,0.01952825285251095,0.005199429917720401,39.45,22,Ethiopia,Sub-Saharan Africa ,Low income,1.952825285251095,0.5199429917720401,False,log-log scatter,False
+NGA,0.019206494567235104,0.024514642936768173,38.8,17,Nigeria,Sub-Saharan Africa ,Lower middle income,1.9206494567235104,2.451464293676817,False,log-log scatter,False
+CAN,0.018839949414411708,0.013402063107254197,38.05952380952381,13,Canada,North America,High income,1.8839949414411707,1.3402063107254198,False,log-log scatter,False
+DEU,0.01817109290564232,0.011780077436047646,36.708333333333336,12,Germany,Europe & Central Asia,High income,1.817109290564232,1.1780077436047647,False,log-log scatter,False
+IDN,0.017263569536915574,0.049451798861789,34.875,13,Indonesia,East Asia & Pacific,Upper middle income,1.7263569536915573,4.9451798861789,False,log-log scatter,False
+BGD,0.016170416388221996,0.010440748262711585,32.66666666666667,18,Bangladesh,South Asia,Lower middle income,1.6170416388221995,1.0440748262711586,False,log-log scatter,False
+UKR,0.015353645356367924,0.016767792890772886,31.016666666666666,15,Ukraine,Europe & Central Asia,Upper middle income,1.5353645356367924,1.6767792890772886,False,log-log scatter,False
+ESP,0.01138529317129916,0.004092561409660283,23.0,14,Spain,Europe & Central Asia,High income,1.138529317129916,0.4092561409660283,False,log-log scatter,False
+VNM,0.011055284673580345,0.010685266201740902,22.333333333333332,13,Viet Nam,East Asia & Pacific,Upper middle income,1.1055284673580346,1.0685266201740902,False,log-log scatter,False
+KEN,0.010849029362506084,0.0024028750484702413,21.916666666666664,22,Kenya,Sub-Saharan Africa ,Lower middle income,1.0849029362506084,0.24028750484702413,False,log-log scatter,False
+THA,0.010642774051431825,0.025626176311471426,21.5,16,Thailand,East Asia & Pacific,Upper middle income,1.0642774051431825,2.5626176311471425,False,log-log scatter,False
+MEX,0.009999257480880132,0.013837902783858564,20.2,24,Mexico,Latin America & Caribbean ,Upper middle income,0.9999257480880132,1.3837902783858564,False,log-log scatter,False
+NPL,0.009487744309415968,0.0024569395178334996,19.166666666666664,15,Nepal,South Asia,Lower middle income,0.9487744309415967,0.24569395178334996,False,log-log scatter,False
+MAR,0.009405242184986264,0.001740262549908106,19.0,21,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,0.9405242184986263,0.1740262549908106,True,log-log scatter,False
+GBR,0.00932274006055656,0.00501721565038746,18.833333333333332,7,United Kingdom of Great Britain and Northern Ireland,Europe & Central Asia,High income,0.9322740060556559,0.501721565038746,False,log-log scatter,False
+KAZ,0.00915773581169715,0.003237611034206975,18.5,18,Kazakhstan,Europe & Central Asia,Upper middle income,0.9157735811697151,0.32376110342069747,False,log-log scatter,False
+HUN,0.007965205104031429,0.0023943555207196964,16.09090909090909,13,Hungary,Europe & Central Asia,High income,0.7965205104031429,0.23943555207196965,False,log-log scatter,False
+ITA,0.00785832735192931,0.0028146815371825795,15.875,13,Italy,Europe & Central Asia,High income,0.7858327351929311,0.28146815371825795,False,log-log scatter,False
+ARG,0.007548944385317921,0.0213790018278417,15.25,21,Argentina,Latin America & Caribbean ,Upper middle income,0.7548944385317921,2.13790018278417,False,log-log scatter,False
+KOR,0.007425191198673365,0.0008562606403206223,15.0,16,Republic of Korea,East Asia & Pacific,High income,0.7425191198673365,0.08562606403206223,False,log-log scatter,False
+FRA,0.007186524338716008,0.015312873069440104,14.517857142857142,13,France,Europe & Central Asia,High income,0.7186524338716008,1.5312873069440105,False,log-log scatter,False
+MYS,0.007177684825384253,0.013554444185936107,14.5,11,Malaysia,East Asia & Pacific,Upper middle income,0.7177684825384253,1.3554444185936108,False,log-log scatter,False
+LKA,0.007177684825384252,0.000929430127852743,14.5,14,Sri Lanka,South Asia,Upper middle income,0.7177684825384253,0.0929430127852743,False,log-log scatter,False
+POL,0.006930178452095141,0.007384551910676217,14.0,13,Poland,Europe & Central Asia,High income,0.6930178452095141,0.7384551910676217,False,log-log scatter,False
+TUR,0.006930178452095141,0.009088469454710356,14.0,19,Türkiye,Europe & Central Asia,Upper middle income,0.6930178452095141,0.9088469454710356,False,log-log scatter,False
+SEN,0.00693017845209514,0.0011001378008791336,14.0,15,Senegal,Sub-Saharan Africa ,Lower middle income,0.693017845209514,0.11001378008791336,True,log-log scatter,False
+CZE,0.006810175362015571,0.0018756308482741624,13.757575757575758,12,Czechia,Europe & Central Asia,High income,0.6810175362015571,0.18756308482741624,False,log-log scatter,False
+EGY,0.006311412518872361,0.007910573799814108,12.75,19,Egypt,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,0.631141251887236,0.7910573799814108,False,log-log scatter,False
+TZA,0.006286661881543449,0.004867147110582754,12.7,21,United Republic of Tanzania,Sub-Saharan Africa ,Lower middle income,0.6286661881543449,0.48671471105827546,False,log-log scatter,False
+PER,0.0060639061455832486,0.004002057396825216,12.25,20,Peru,Latin America & Caribbean ,Upper middle income,0.6063906145583249,0.4002057396825216,False,log-log scatter,False
+RUS,0.005969618003377872,0.029395378201630976,12.059523809523808,16,Russian Federation,Europe & Central Asia,High income,0.5969618003377872,2.9395378201630975,True,log-log scatter,False
+PHL,0.005940152958938693,0.008823282489928155,12.0,16,Philippines,East Asia & Pacific,Upper middle income,0.5940152958938693,0.8823282489928155,False,log-log scatter,False
+ZAF,0.005733897647864432,0.005651554618030911,11.583333333333332,18,South Africa,Sub-Saharan Africa ,Upper middle income,0.5733897647864432,0.5651554618030911,False,log-log scatter,False
+COL,0.0053213870257159115,0.007836012165051016,10.75,23,Colombia,Latin America & Caribbean ,Upper middle income,0.5321387025715911,0.7836012165051016,False,log-log scatter,False
+JPN,0.004950127465782244,0.002775646406959403,10.0,18,Japan,East Asia & Pacific,High income,0.49501274657822436,0.2775646406959403,False,log-log scatter,False
+SWE,0.004950127465782244,0.0011531627928835586,10.0,11,Sweden,Europe & Central Asia,High income,0.49501274657822436,0.11531627928835586,False,log-log scatter,False
+RWA,0.004578867905848575,0.0009502288010921659,9.25,18,Rwanda,Sub-Saharan Africa ,Low income,0.45788679058485754,0.0950228801092166,False,log-log scatter,False
+GHA,0.004496365781418871,0.006462168878526427,9.083333333333332,16,Ghana,Sub-Saharan Africa ,Lower middle income,0.4496365781418871,0.6462168878526426,False,log-log scatter,False
+SRB,0.004252609504694745,0.0019431882795827439,8.59090909090909,12,Serbia,Europe & Central Asia,Upper middle income,0.42526095046947454,0.19431882795827438,False,log-log scatter,False
+NLD,0.004104480690377777,0.0020418201010328797,8.291666666666666,11,Netherlands (Kingdom of the),Europe & Central Asia,High income,0.41044806903777775,0.20418201010328796,False,log-log scatter,False
+TWN,0.003960101972625795,0.0004399978009993237,8.0,18,"China, Taiwan Province of",,,0.39601019726257947,0.04399978009993237,False,log-log scatter,False
+BFA,0.0038115981486523272,0.0010498996946269477,7.699999999999999,14,Burkina Faso,Sub-Saharan Africa ,Low income,0.3811598148652327,0.10498996946269477,False,log-log scatter,False
+GRC,0.0034650892260475706,0.0006487416156982645,7.0,14,Greece,Europe & Central Asia,High income,0.3465089226047571,0.06487416156982645,False,log-log scatter,False
+DNK,0.0033825871016178663,0.001960197879591556,6.833333333333333,12,Denmark,Europe & Central Asia,High income,0.33825871016178666,0.19601978795915562,False,log-log scatter,False
+UZB,0.002970076479469346,0.0018237645718666624,6.0,17,Uzbekistan,Europe & Central Asia,Lower middle income,0.2970076479469346,0.18237645718666623,False,log-log scatter,False
+DZA,0.0029700764794693465,0.001280378239701908,6.0,17,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,0.2970076479469346,0.1280378239701908,False,log-log scatter,False
+BEL,0.002784446699502512,0.0015325739155736104,5.625,10,Belgium,Europe & Central Asia,High income,0.2784446699502512,0.15325739155736104,False,log-log scatter,False
+FIN,0.002784446699502512,0.0005976559280460418,5.625,13,Finland,Europe & Central Asia,High income,0.2784446699502512,0.05976559280460418,False,log-log scatter,False
+UGA,0.0027225701061802336,0.0035957261782736554,5.5,18,Uganda,Sub-Saharan Africa ,Low income,0.2722570106180234,0.35957261782736555,False,log-log scatter,False
+MWI,0.0025328152199919148,0.0031499041186645116,5.116666666666667,19,Malawi,Sub-Saharan Africa ,Low income,0.25328152199919146,0.31499041186645116,False,log-log scatter,False
+TUN,0.002475063732891122,0.0003243182577524922,5.0,13,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,0.24750637328911218,0.032431825775249216,False,log-log scatter,False
+IRQ,0.002475063732891122,0.0008504083572745433,5.0,18,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,0.24750637328911218,0.08504083572745433,False,log-log scatter,False
+URY,0.0021863062973871577,0.0008945924059635229,4.416666666666667,17,Uruguay,Latin America & Caribbean ,High income,0.21863062973871578,0.0894592405963523,False,log-log scatter,False
+ZWE,0.0019800509863128974,0.0012201438991042391,4.0,19,Zimbabwe,Sub-Saharan Africa ,Lower middle income,0.19800509863128973,0.12201438991042392,False,log-log scatter,False
+ECU,0.0019800509863128974,0.0030588544065999535,4.0,21,Ecuador,Latin America & Caribbean ,Upper middle income,0.19800509863128973,0.30588544065999534,False,log-log scatter,False
+BLR,0.0019800509863128974,0.0022485527313472193,4.0,11,Belarus,Europe & Central Asia,Upper middle income,0.19800509863128973,0.22485527313472192,False,log-log scatter,False
+ZMB,0.0016500424885940812,0.001691570523059971,3.3333333333333335,17,Zambia,Sub-Saharan Africa ,Lower middle income,0.16500424885940812,0.16915705230599712,False,log-log scatter,False
+MOZ,0.0016087914263792293,0.0018687633364097124,3.25,16,Mozambique,Sub-Saharan Africa ,Low income,0.16087914263792294,0.18687633364097125,False,log-log scatter,False
+BGR,0.0015919159918367897,0.0017550086878270325,3.2159090909090913,14,Bulgaria,Europe & Central Asia,High income,0.15919159918367898,0.17550086878270324,False,log-log scatter,False
+HRV,0.0015300393985145117,0.0006514349912774955,3.090909090909091,12,Croatia,Europe & Central Asia,High income,0.15300393985145117,0.06514349912774955,False,log-log scatter,False
+CRI,0.001485038239734673,0.0011180497983602343,3.0,15,Costa Rica,Latin America & Caribbean ,High income,0.1485038239734673,0.11180497983602343,False,log-log scatter,False
+SLE,0.001485038239734673,0.000592565985463428,3.0,15,Sierra Leone,Sub-Saharan Africa ,Low income,0.1485038239734673,0.0592565985463428,False,log-log scatter,False
+SAU,0.001485038239734673,0.00023140302369230857,3.0,10,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.1485038239734673,0.023140302369230856,False,log-log scatter,False
+CYP,0.001485038239734673,2.066159006687043e-05,3.0,12,Cyprus,Europe & Central Asia,High income,0.1485038239734673,0.002066159006687043,False,log-log scatter,False
+NER,0.001237531866445561,0.0013507807513977708,2.5,14,Niger,Sub-Saharan Africa ,Low income,0.12375318664455609,0.13507807513977707,False,log-log scatter,False
+AUT,0.0012000309007956953,0.0012027327550730676,2.4242424242424243,12,Austria,Europe & Central Asia,High income,0.12000309007956954,0.12027327550730676,False,log-log scatter,False
+BEN,0.0011137786798010047,0.0016083315051548162,2.25,16,Benin,Sub-Saharan Africa ,Lower middle income,0.11137786798010046,0.1608331505154816,False,log-log scatter,False
+LBN,0.0011137786798010047,0.00012510555790528702,2.25,15,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,0.11137786798010046,0.012510555790528703,False,log-log scatter,False
+MMR,0.0010725276175861526,0.006725349285621784,2.1666666666666665,20,Myanmar,East Asia & Pacific,Lower middle income,0.10725276175861526,0.6725349285621784,True,log-log scatter,False
+MLI,0.0009900254931564487,0.0018210136487219202,2.0,16,Mali,Sub-Saharan Africa ,Low income,0.09900254931564487,0.18210136487219203,False,log-log scatter,False
+AZE,0.0009900254931564487,0.0006564430723078301,2.0,15,Azerbaijan,Europe & Central Asia,Upper middle income,0.09900254931564487,0.06564430723078302,False,log-log scatter,False
+KHM,0.0009900254931564487,0.003779345507392465,2.0,12,Cambodia,East Asia & Pacific,Lower middle income,0.09900254931564487,0.37793455073924653,False,log-log scatter,False
+MKD,0.0009900254931564487,0.00010754882240812249,2.0,17,North Macedonia,Europe & Central Asia,Upper middle income,0.09900254931564487,0.010754882240812249,False,log-log scatter,False
+SWZ,0.0009900254931564487,0.0007846419013345651,2.0,11,Eswatini,Sub-Saharan Africa ,Lower middle income,0.09900254931564487,0.07846419013345651,False,log-log scatter,False
+CMR,0.0009900254931564487,0.0030995798768603676,2.0,18,Cameroon,Sub-Saharan Africa ,Lower middle income,0.09900254931564487,0.3099579876860368,False,log-log scatter,False
+CHL,0.0009900254931564487,0.0007770922629002886,2.0,15,Chile,Latin America & Caribbean ,High income,0.09900254931564487,0.07770922629002887,False,log-log scatter,False
+PRK,0.0009900254931564487,0.0009019092754418177,2.0,12,Democratic People's Republic of Korea,East Asia & Pacific,Low income,0.09900254931564487,0.09019092754418177,False,log-log scatter,False
+SSD,0.0009900254931564487,0.00035197535047519257,2.0,9,South Sudan,Sub-Saharan Africa ,Low income,0.09900254931564487,0.035197535047519254,False,log-log scatter,False
+NOR,0.0009900254931564487,0.00021077190148168244,2.0,6,Norway,Europe & Central Asia,High income,0.09900254931564487,0.021077190148168244,False,log-log scatter,False
+PRT,0.0009900254931564487,0.0002098958832515171,2.0,11,Portugal,Europe & Central Asia,High income,0.09900254931564487,0.02098958832515171,False,log-log scatter,False
+MNG,0.0008250212442970405,9.645299539771338e-05,1.6666666666666665,5,Mongolia,East Asia & Pacific,Upper middle income,0.08250212442970405,0.009645299539771338,False,log-log scatter,False
+CHE,0.0007425191198673365,0.0003724694604362491,1.5,11,Switzerland,Europe & Central Asia,High income,0.07425191198673366,0.037246946043624905,False,log-log scatter,False
+MDG,0.0006600169954376324,0.001706964340064256,1.3333333333333333,17,Madagascar,Sub-Saharan Africa ,Low income,0.06600169954376324,0.17069643400642562,False,log-log scatter,False
+HND,0.0006187659332227804,0.0013103609873984666,1.25,15,Honduras,Latin America & Caribbean ,Lower middle income,0.06187659332227804,0.13103609873984665,False,log-log scatter,False
+BIH,0.0005400139053580629,0.00028224593458061405,1.0909090909090908,12,Bosnia and Herzegovina,Europe & Central Asia,Upper middle income,0.05400139053580629,0.028224593458061404,False,log-log scatter,False
+ROU,0.0005400139053580629,0.004454194166913009,1.0909090909090908,13,Romania,Europe & Central Asia,High income,0.05400139053580629,0.4454194166913009,True,log-log scatter,False
+LUX,0.0004950127465782243,2.4807709309345683e-05,1.0,13,Luxembourg,Europe & Central Asia,High income,0.04950127465782243,0.0024807709309345683,False,log-log scatter,False
+LTU,0.0004950127465782243,0.0010341452649241115,1.0,12,Lithuania,Europe & Central Asia,High income,0.04950127465782243,0.10341452649241115,False,log-log scatter,False
+NZL,0.0004950127465782243,0.00020994425546418105,1.0,10,New Zealand,East Asia & Pacific,High income,0.04950127465782243,0.020994425546418106,False,log-log scatter,False
+MRT,0.0004950127465782243,6.719389954054148e-05,1.0,12,Mauritania,Sub-Saharan Africa ,Lower middle income,0.04950127465782243,0.006719389954054148,False,log-log scatter,False
+LVA,0.0004950127465782243,0.0004953764978804194,1.0,13,Latvia,Europe & Central Asia,High income,0.04950127465782243,0.04953764978804193,False,log-log scatter,False
+MDA,0.0004950127465782243,0.000634654561225576,1.0,14,Republic of Moldova,Europe & Central Asia,Upper middle income,0.04950127465782243,0.0634654561225576,False,log-log scatter,False
+PAN,0.0004950127465782243,0.000513647671527376,1.0,13,Panama,Latin America & Caribbean ,High income,0.04950127465782243,0.0513647671527376,False,log-log scatter,False
+LAO,0.0004950127465782243,0.0014020439376432662,1.0,12,Lao People's Democratic Republic,East Asia & Pacific,Lower middle income,0.04950127465782243,0.1402043937643266,False,log-log scatter,False
+ISR,0.0004950127465782243,0.00013431745936443184,1.0,15,Israel,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.04950127465782243,0.013431745936443184,False,log-log scatter,False
+KGZ,0.0004950127465782243,0.0005255985944880007,1.0,16,Kyrgyzstan,Europe & Central Asia,Lower middle income,0.04950127465782243,0.05255985944880007,False,log-log scatter,False
+CIV,0.0004950127465782243,0.003693172086942852,1.0,16,Côte d'Ivoire,Sub-Saharan Africa ,Lower middle income,0.04950127465782243,0.3693172086942852,True,log-log scatter,False
+EST,0.0004950127465782243,0.00024041686327448827,1.0,13,Estonia,Europe & Central Asia,High income,0.04950127465782243,0.024041686327448828,False,log-log scatter,False
+BOL,0.0004950127465782243,0.0025378198235350923,1.0,19,Bolivia (Plurinational State of),Latin America & Caribbean ,Lower middle income,0.04950127465782243,0.25378198235350924,True,log-log scatter,False
+IRL,0.0004950127465782243,0.00035628256292134775,1.0,13,Ireland,Europe & Central Asia,High income,0.04950127465782243,0.03562825629213477,False,log-log scatter,False
+GNB,0.0004950127465782243,8.474839644548576e-05,1.0,12,Guinea-Bissau,Sub-Saharan Africa ,Low income,0.04950127465782243,0.008474839644548576,False,log-log scatter,False
+GTM,0.0004950127465782243,0.0052653298972659265,1.0,17,Guatemala,Latin America & Caribbean ,Upper middle income,0.04950127465782243,0.5265329897265927,True,log-log scatter,False
+CUB,0.0004950127465782243,0.002056213493227676,1.0,15,Cuba,Latin America & Caribbean ,Upper middle income,0.04950127465782243,0.2056213493227676,False,log-log scatter,False
+ALB,0.0004950127465782243,0.0001359510172019394,1.0,13,Albania,Europe & Central Asia,Upper middle income,0.04950127465782243,0.013595101720193941,False,log-log scatter,False
+ARM,0.00024750637328911217,9.298344389667704e-05,0.5,10,Armenia,Europe & Central Asia,Upper middle income,0.024750637328911217,0.009298344389667704,False,log-log scatter,False
+VEN,0.00024750637328911217,0.0011802650206081083,0.5,19,Venezuela (Bolivarian Republic of),Latin America & Caribbean ,Lower middle income,0.024750637328911217,0.11802650206081083,True,log-log scatter,False
+NAM,0.00024750637328911217,2.1398462881301462e-05,0.5,9,Namibia,Sub-Saharan Africa ,Lower middle income,0.024750637328911217,0.0021398462881301464,False,log-log scatter,False
+GIN,0.00024750637328911217,0.0013980631086568205,0.5,14,Guinea,Sub-Saharan Africa ,Lower middle income,0.024750637328911217,0.13980631086568204,True,log-log scatter,False
+GEO,0.00024750637328911217,8.382050476227379e-05,0.5,11,Georgia,Europe & Central Asia,Upper middle income,0.024750637328911217,0.008382050476227379,False,log-log scatter,False
+BWA,0.00024750637328911217,1.5041255022708372e-05,0.5,9,Botswana,Sub-Saharan Africa ,Upper middle income,0.024750637328911217,0.0015041255022708372,False,log-log scatter,False
+SOM,0.00012375318664455609,7.894586929482148e-05,0.25,11,Somalia,Sub-Saharan Africa ,Low income,0.012375318664455608,0.007894586929482148,False,log-log scatter,False
+SYR,0.00012375318664455609,0.0006205145453577136,0.25,19,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",Low income,0.012375318664455608,0.06205145453577136,False,log-log scatter,False
+MNE,4.500115877983858e-05,5.077484782678823e-06,0.09090909090909091,7,Montenegro,Europe & Central Asia,Upper middle income,0.004500115877983858,0.0005077484782678824,False,log-log scatter,False
+SVK,4.500115877983858e-05,0.0008562578274986912,0.09090909090909091,13,Slovakia,Europe & Central Asia,High income,0.004500115877983858,0.08562578274986912,False,log-log scatter,False
+SVN,4.500115877983858e-05,0.00010158731495623358,0.09090909090909091,13,Slovenia,Europe & Central Asia,High income,0.004500115877983858,0.010158731495623357,False,log-log scatter,False
+TCD,0.0,0.0005899901303621661,0.0,12,Chad,Sub-Saharan Africa ,Low income,0.0,0.058999013036216616,False,zero-research strip,False
+TGO,0.0,0.000568187695373219,0.0,15,Togo,Sub-Saharan Africa ,Lower middle income,0.0,0.0568187695373219,False,zero-research strip,False
+SYC,0.0,3.0723781417263315e-07,0.0,2,Seychelles,Sub-Saharan Africa ,High income,0.0,3.072378141726332e-05,False,zero-research strip,True
+LBR,0.0,0.00021831746964870962,0.0,10,Liberia,Sub-Saharan Africa ,Low income,0.0,0.02183174696487096,False,zero-research strip,False
+CAF,0.0,0.00037000630031178177,0.0,13,Central African Republic,Sub-Saharan Africa ,Low income,0.0,0.03700063003117818,False,zero-research strip,False
+STP,0.0,1.0703417539644175e-05,0.0,6,Sao Tome and Principe,Sub-Saharan Africa ,Lower middle income,0.0,0.0010703417539644176,False,zero-research strip,False
+COD,0.0,0.007835004426137774,0.0,20,Democratic Republic of the Congo,Sub-Saharan Africa ,Low income,0.0,0.7835004426137774,False,zero-research strip,False
+COG,0.0,0.00036967100876112195,0.0,14,Congo,Sub-Saharan Africa ,Lower middle income,0.0,0.03696710087611219,False,zero-research strip,False
+SLV,0.0,0.0011824016077797996,0.0,12,El Salvador,Latin America & Caribbean ,Upper middle income,0.0,0.11824016077797996,False,zero-research strip,False
+COK,0.0,4.2493820102143325e-08,0.0,4,Cook Islands,,,0.0,4.2493820102143325e-06,False,zero-research strip,True
+SLB,0.0,5.292804521583708e-05,0.0,7,Solomon Islands,East Asia & Pacific,Lower middle income,0.0,0.005292804521583708,False,zero-research strip,False
+SUR,0.0,5.1714562562930186e-05,0.0,10,Suriname,Latin America & Caribbean ,Upper middle income,0.0,0.0051714562562930185,False,zero-research strip,False
+TON,0.0,3.1306376754052707e-06,0.0,6,Tonga,East Asia & Pacific,Upper middle income,0.0,0.00031306376754052705,False,zero-research strip,False
+TJK,0.0,0.00038748712357221176,0.0,16,Tajikistan,Europe & Central Asia,Lower middle income,0.0,0.038748712357221174,False,zero-research strip,False
+TKM,0.0,0.0004694218910980678,0.0,11,Turkmenistan,Europe & Central Asia,Upper middle income,0.0,0.046942189109806784,False,zero-research strip,False
+ARE,0.0,3.1810033989393824e-06,0.0,5,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.0003181003398939382,False,zero-research strip,False
+YEM,0.0,0.0001379612275593202,0.0,15,Yemen,"Middle East, North Africa, Afghanistan & Pakistan",Low income,0.0,0.013796122755932021,False,zero-research strip,False
+WSM,0.0,3.3298847055360312e-06,0.0,5,Samoa,East Asia & Pacific,Upper middle income,0.0,0.0003329884705536031,False,zero-research strip,False
+VUT,0.0,7.404799737703965e-06,0.0,9,Vanuatu,East Asia & Pacific,Lower middle income,0.0,0.0007404799737703965,False,zero-research strip,False
+VCT,0.0,9.28320288049043e-06,0.0,9,Saint Vincent and the Grenadines,Latin America & Caribbean ,Upper middle income,0.0,0.000928320288049043,False,zero-research strip,False
+ATG,0.0,7.100431155248037e-08,0.0,7,Antigua and Barbuda,Latin America & Caribbean ,High income,0.0,7.100431155248037e-06,False,zero-research strip,True
+BDI,0.0,0.0009112185462152748,0.0,18,Burundi,Sub-Saharan Africa ,Low income,0.0,0.09112185462152748,False,zero-research strip,False
+BHR,0.0,9.99493774191577e-09,0.0,4,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,9.99493774191577e-07,False,zero-research strip,True
+BHS,0.0,1.0479845021720878e-05,0.0,5,Bahamas,Latin America & Caribbean ,High income,0.0,0.0010479845021720878,False,zero-research strip,False
+BLZ,0.0,0.0002720367749273249,0.0,14,Belize,Latin America & Caribbean ,Upper middle income,0.0,0.027203677492732493,False,zero-research strip,False
+BRB,0.0,1.4571720230984244e-05,0.0,8,Barbados,Latin America & Caribbean ,High income,0.0,0.0014571720230984245,False,zero-research strip,False
+TUV,0.0,3.9475075070174015e-08,0.0,1,Tuvalu,East Asia & Pacific,Upper middle income,0.0,3.9475075070174016e-06,False,zero-research strip,True
+BRN,0.0,8.482418417906897e-07,0.0,6,Brunei Darussalam,East Asia & Pacific,High income,0.0,8.482418417906897e-05,False,zero-research strip,True
+BTN,0.0,1.9150887265747413e-05,0.0,17,Bhutan,South Asia,Lower middle income,0.0,0.0019150887265747412,False,zero-research strip,False
+TTO,0.0,1.989820136719487e-06,0.0,9,Trinidad and Tobago,Latin America & Caribbean ,High income,0.0,0.0001989820136719487,False,zero-research strip,True
+COM,0.0,2.746044026887385e-05,0.0,9,Comoros,Sub-Saharan Africa ,Lower middle income,0.0,0.002746044026887385,False,zero-research strip,False
+TLS,0.0,2.536928296447559e-05,0.0,10,Timor-Leste,East Asia & Pacific,Lower middle income,0.0,0.0025369282964475587,False,zero-research strip,False
+SGP,0.0,6.599397248771783e-11,0.0,4,Singapore,East Asia & Pacific,High income,0.0,6.5993972487717825e-09,False,zero-research strip,True
+REU,0.0,,0.0,0,,,,0.0,,False,no production denominator,False
+SDN,0.0,0.0023566097308932135,0.0,16,Sudan,Sub-Saharan Africa ,Low income,0.0,0.23566097308932135,False,zero-research strip,False
+ISL,0.0,1.9341162949294597e-06,0.0,2,Iceland,Europe & Central Asia,High income,0.0,0.00019341162949294596,False,zero-research strip,True
+GRD,0.0,1.8939421218851731e-06,0.0,9,Grenada,Latin America & Caribbean ,Upper middle income,0.0,0.0001893942121885173,False,zero-research strip,True
+MUS,0.0,0.0003899134774069028,0.0,9,Mauritius,Sub-Saharan Africa ,Upper middle income,0.0,0.038991347740690276,False,zero-research strip,False
+MTQ,0.0,,0.0,0,,,,0.0,,False,no production denominator,False
+GUF,0.0,,0.0,0,,,,0.0,,False,no production denominator,False
+GUY,0.0,0.00030373130632083747,0.0,12,Guyana,Latin America & Caribbean ,High income,0.0,0.030373130632083748,False,zero-research strip,False
+HKG,0.0,8.310859190880649e-09,0.0,2,"China, Hong Kong SAR",East Asia & Pacific,High income,0.0,8.310859190880649e-07,False,zero-research strip,True
+HTI,0.0,0.0004615745620689166,0.0,13,Haiti,Latin America & Caribbean ,Lower middle income,0.0,0.04615745620689166,False,zero-research strip,False
+MLT,0.0,1.111218009772444e-06,0.0,13,Malta,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.00011112180097724439,False,zero-research strip,True
+MDV,0.0,6.107974912562412e-08,0.0,6,Maldives,South Asia,Upper middle income,0.0,6.107974912562412e-06,False,zero-research strip,True
+GNQ,0.0,4.074382233527812e-05,0.0,5,Equatorial Guinea,Sub-Saharan Africa ,Upper middle income,0.0,0.004074382233527812,False,zero-research strip,False
+JAM,0.0,0.00014398415184987886,0.0,12,Jamaica,Latin America & Caribbean ,Upper middle income,0.0,0.014398415184987886,False,zero-research strip,False
+JOR,0.0,3.975421588210153e-05,0.0,12,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,0.0,0.003975421588210153,False,zero-research strip,False
+KIR,0.0,1.0000688254041256e-06,0.0,1,Kiribati,East Asia & Pacific,Lower middle income,0.0,0.00010000688254041257,False,zero-research strip,True
+KNA,0.0,3.1260879249783686e-08,0.0,6,Saint Kitts and Nevis,Latin America & Caribbean ,High income,0.0,3.1260879249783686e-06,False,zero-research strip,True
+KWT,0.0,6.975378236617968e-06,0.0,7,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.0006975378236617968,False,zero-research strip,False
+LSO,0.0,3.0053813894574927e-05,0.0,8,Lesotho,Sub-Saharan Africa ,Lower middle income,0.0,0.003005381389457493,False,zero-research strip,False
+AGO,0.0,0.0028460802244432777,0.0,17,Angola,Sub-Saharan Africa ,Lower middle income,0.0,0.28460802244432776,False,zero-research strip,False
+LCA,0.0,2.264613287646218e-06,0.0,7,Saint Lucia,Latin America & Caribbean ,Upper middle income,0.0,0.0002264613287646218,False,zero-research strip,False
+NCL,0.0,2.200548201225735e-06,0.0,9,New Caledonia,East Asia & Pacific,High income,0.0,0.0002200548201225735,False,zero-research strip,False
+NIC,0.0,0.0013357541393696055,0.0,14,Nicaragua,Latin America & Caribbean ,Lower middle income,0.0,0.13357541393696054,False,zero-research strip,False
+CPV,0.0,5.286767004136378e-06,0.0,8,Cabo Verde,Sub-Saharan Africa ,Upper middle income,0.0,0.0005286767004136378,False,zero-research strip,False
+ERI,0.0,3.86586137987567e-05,0.0,11,Eritrea,Sub-Saharan Africa ,Low income,0.0,0.0038658613798756704,False,zero-research strip,False
+DJI,0.0,1.6735534708420195e-06,0.0,3,Djibouti,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,0.0,0.00016735534708420195,False,zero-research strip,True
+DMA,0.0,5.938032766057038e-06,0.0,9,Dominica,Latin America & Caribbean ,Upper middle income,0.0,0.0005938032766057038,False,zero-research strip,False
+LBY,0.0,8.170091500908977e-05,0.0,11,Libya,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,0.0,0.008170091500908977,False,zero-research strip,False
+QAT,0.0,4.5680790433275646e-07,0.0,5,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,4.5680790433275646e-05,False,zero-research strip,True
+PYF,0.0,1.0737424699184744e-06,0.0,8,French Polynesia,East Asia & Pacific,High income,0.0,0.00010737424699184744,False,zero-research strip,True
+PSE,0.0,1.7893890487586982e-05,0.0,13,Palestine,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,0.0,0.0017893890487586982,False,zero-research strip,False
+PRY,0.0,0.0036326060017651688,0.0,18,Paraguay,Latin America & Caribbean ,Upper middle income,0.0,0.3632606001765169,False,zero-research strip,False
+DOM,0.0,0.0013174162540314813,0.0,16,Dominican Republic,Latin America & Caribbean ,Upper middle income,0.0,0.13174162540314813,False,zero-research strip,False
+PRI,0.0,3.106364489889685e-05,0.0,10,Puerto Rico,Latin America & Caribbean ,High income,0.0,0.0031063644898896847,False,zero-research strip,False
+NIU,0.0,7.408658605174076e-08,0.0,4,Niue,,,0.0,7.408658605174076e-06,False,zero-research strip,True
+PNG,0.0,0.0008188282109607222,0.0,12,Papua New Guinea,East Asia & Pacific,Lower middle income,0.0,0.08188282109607221,False,zero-research strip,False
+FJI,0.0,0.00024328298067812813,0.0,11,Fiji,East Asia & Pacific,Upper middle income,0.0,0.024328298067812813,False,zero-research strip,False
+FRO,0.0,2.077482038896035e-07,0.0,1,Faroe Islands,Europe & Central Asia,High income,0.0,2.077482038896035e-05,False,zero-research strip,True
+FSM,0.0,1.9896911609475295e-06,0.0,7,Micronesia (Federated States of),East Asia & Pacific,Upper middle income,0.0,0.00019896911609475294,False,zero-research strip,True
+GAB,0.0,0.00022118532836218785,0.0,11,Gabon,Sub-Saharan Africa ,Upper middle income,0.0,0.022118532836218785,False,zero-research strip,False
+OMN,0.0,2.2431785549157718e-05,0.0,7,Oman,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.002243178554915772,False,zero-research strip,False
+GLP,0.0,,0.0,0,,,,0.0,,False,no production denominator,False
+GMB,0.0,2.62880206538855e-05,0.0,9,Gambia,Sub-Saharan Africa ,Low income,0.0,0.00262880206538855,False,zero-research strip,False
+AFG,0.0,0.000853762711595787,0.0,13,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",Low income,0.0,0.0853762711595787,False,zero-research strip,False

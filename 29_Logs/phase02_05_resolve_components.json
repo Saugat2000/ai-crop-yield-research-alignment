@@ -1,0 +1,79 @@
+{
+  "script": "phase02_05_resolve_components",
+  "start": "2026-08-13T20:08:24Z",
+  "end": "2026-08-13T20:08:32Z",
+  "elapsed_s": 8.7,
+  "python": "3.9.6",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "random_seed": 20260730,
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.12.0",
+    "statsmodels": "0.14.6",
+    "geopandas": "1.0.1",
+    "libpysal": "4.8.1",
+    "esda": "2.5.1",
+    "spreg": "1.9.0",
+    "networkx": "3.2.1",
+    "pyarrow": "21.0.0",
+    "pymc": "5.12.0",
+    "arviz": "0.17.1",
+    "sklearn": "1.6.1"
+  },
+  "inputs": [
+    {
+      "path": "05_Deduplication/deduplicated_records.parquet",
+      "exists": true,
+      "sha256": "dbbf1afe7eded40d54d11f89cdadbc1a5524d74aebc3d6162545ff2030192e22",
+      "bytes": 54756846
+    }
+  ],
+  "outputs": [
+    {
+      "path": "05_Deduplication/final_work_assignment.csv",
+      "exists": true,
+      "sha256": "50ce6459cfb010dfd3e698b6b9b54f57f54e14ac4d005bf3142f53b52ba2d538",
+      "bytes": 2122825,
+      "rows": 45845
+    },
+    {
+      "path": "05_Deduplication/component_resolutions.csv",
+      "exists": true,
+      "sha256": "ddb364c2d8190c09a83d61a8693fb74889c0db8c3a26f7da7fefc908c5b34374",
+      "bytes": 1018174,
+      "rows": 2494
+    },
+    {
+      "path": "05_Deduplication/final_works.parquet",
+      "exists": true,
+      "sha256": "bf02d89ca077306a2936f00b75ff9445ed9768e8874b1d7cac7d86d3ac04b85f",
+      "bytes": 54589335,
+      "rows": 43543
+    }
+  ],
+  "counts": {
+    "records_in": 45845,
+    "dup_groups_in": 43083,
+    "components_multi_record": 2494,
+    "flag_span_gt_2_years": 0,
+    "flag_conflicting_dois": 322,
+    "flag_disjoint_authors": 63,
+    "flag_unrelated_venues": 51,
+    "flag_enumerated_series": 5,
+    "components_kept_merged": 2089,
+    "components_split": 405,
+    "records_in_split_components": 865,
+    "unique_works_before_resolution": 43083,
+    "unique_works_after_resolution": 43543,
+    "works_restored_by_splitting": 460,
+    "final_works": 43543,
+    "works_with_abstract": 34223,
+    "works_conference": 502,
+    "works_any_conference_member": 502
+  },
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "free_disk_gb_end": 82.2
+}

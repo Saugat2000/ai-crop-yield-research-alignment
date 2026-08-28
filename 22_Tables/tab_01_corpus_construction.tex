@@ -1,0 +1,40 @@
+% Requires \usepackage{booktabs}
+\begin{table}[htbp]
+\centering
+\small
+\caption{Corpus construction, from retrieved records to the frozen eligible corpus and the analytical panel.}
+\label{tab:tab_01_corpus_construction}
+\begin{tabular}{llrl}
+\toprule
+stage & step & n\_formatted & source\_file \\
+\midrule
+Search & Query result records retrieved from OpenAlex & 102,892 & 29\_Logs/phase02\_01\_flatten\_and\_dedup.json \\
+Search & OpenAlex query files contributing records & 86 & 29\_Logs/phase02\_01\_flatten\_and\_dedup.json \\
+Deduplication & Unique OpenAlex work identifiers & 45,845 & 29\_Logs/phase02\_01\_flatten\_and\_dedup.json \\
+Deduplication & Records merged away by pairwise matching & 2,762 & 29\_Logs/phase02\_01\_flatten\_and\_dedup.json \\
+Deduplication & Unique works after pairwise matching & 43,083 & 29\_Logs/phase02\_01\_flatten\_and\_dedup.json \\
+Deduplication & Works restored by splitting over-merged components & 460 & 29\_Logs/phase02\_05\_resolve\_components.json \\
+Deduplication & Unique works after component resolution & 43,543 & 29\_Logs/phase02\_05\_resolve\_components.json \\
+Screening & Works entering screening & 43,543 & 29\_Logs/phase03\_03\_assisted\_screening.json \\
+Screening & Excluded & 24,676 & 06\_Screening/s3a\_decision\_summary.csv \\
+Screening & Uncertain, not resolved & 11,822 & 06\_Screening/s3a\_decision\_summary.csv \\
+Screening & Eligible studies (frozen corpus) & 7,045 & 06\_Screening/eligible\_corpus\_manifest.json \\
+Corpus & Eligible: journal articles & 4,842 & 06\_Screening/eligible\_corpus\_manifest.json \\
+Corpus & Eligible: conference papers & 1,494 & 06\_Screening/eligible\_corpus\_manifest.json \\
+Corpus & Eligible: with an abstract & 5,927 & 06\_Screening/eligible\_corpus\_manifest.json \\
+Corpus & Eligible: with a resolved study country & 1,821 & 15\_Descriptive\_Analysis/research\_side\_descriptives.json \\
+Corpus & Eligible: study location unresolved & 3,985 & 15\_Descriptive\_Analysis/research\_side\_descriptives.json \\
+Corpus & Eligible: with at least one resolved crop & 4,454 & 15\_Descriptive\_Analysis/research\_side\_descriptives.json \\
+Panel & Country-crop cells in the analytical panel & 2,616 & 12\_Data\_Integration/country\_crop\_panel.parquet \\
+Panel & Country-crop cells with at least one eligible study & 485 & 12\_Data\_Integration/country\_crop\_panel.parquet \\
+Panel & Country-crop cells with a measured zero & 2,131 & 12\_Data\_Integration/country\_crop\_panel.parquet \\
+Panel & Countries in the panel & 199 & 12\_Data\_Integration/country\_crop\_panel.parquet \\
+Panel & Countries with at least one eligible study & 122 & 15\_Descriptive\_Analysis/research\_side\_descriptives.json \\
+Panel & Countries with a measured zero & 77 & 15\_Descriptive\_Analysis/research\_side\_descriptives.json \\
+Panel & Crops in the panel & 25 & 12\_Data\_Integration/country\_crop\_panel.parquet \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{\linewidth}\footnotesize
+Counts are read from the run logs and frozen manifests named in the source column; none is typed by hand. Screening was carried out entirely by rule-based and model-assisted machinery, with no human screening pass, and the uncertain group of 11,822 works was never resolved. A stratified validation of 85 adjudicated records measured a false-inclusion rate of 10 per cent (95 per cent CI 4 to 23 per cent), implying about 257 ineligible studies inside the corpus, and a false-exclusion rate of 2.22 per cent in the largest exclusion stratum, implying about 100 eligible studies outside it. The validation does not meet its own preregistered confidence bounds and that failure is reported rather than repaired.
+\end{minipage}
+\end{table}

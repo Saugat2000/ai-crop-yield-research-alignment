@@ -1,0 +1,24 @@
+% Requires \usepackage{booktabs}
+\begin{table}[htbp]
+\centering
+\small
+\caption{Stability of the main findings across prespecified robustness variants.}
+\label{tab:tab_04_finding_stability}
+\begin{tabular}{p{4.2cm}p{3.2cm}rp{2.4cm}rp{2.2cm}}
+\toprule
+Finding & Measure & Baseline & Range across variants & Variants & Classification \\
+\midrule
+Research output is concentrated across countries & Gini of fractional country counts, all countries & 0.8466 & [0.772, 0.899] & 14 & stable \\
+Attention is concentrated on wheat, maize and rice & top-3 crop share of fractional attention & 69.33 & single estimate & 1 & partially stable \\
+Harvested area predicts whether a crop system is studied & logit coefficient on log harvested area & 0.706 & [0.672, 0.861] & 11 & stable \\
+Research and development spending predicts research participation & logit coefficient on R\&D expenditure share of GDP & 0.283 & [-0.074, 2.218] & 11 & partially stable \\
+Research need is associated with research attention & logit coefficient on the need index & -0.016 & not recorded & 11 & unsupported \\
+Citation-weighted research output is spatially clustered & global Moran's I, citation-weighted count & 0.0219 & [0.0137, 0.1468] & 5 & specification-sensitive \\
+The evidence gap is spatially clustered & global Moran's I, evidence gap & 0.3868 & [0.3144, 0.4729] & 5 & stable \\
+Local first authorship is the norm where it can be observed & share of studies with a first author affiliated in the study country & 78.06 & single estimate & 1 & partially stable \\
+\bottomrule
+\end{tabular}
+\begin{minipage}{\linewidth}\footnotesize
+Classification follows the prespecified scheme: stable, partially stable, specification-sensitive, unsupported. Reasons, one per finding. Research output is concentrated across countries: computed over the full country universe with measured zeros; the Gini stays above 0.6 in every variant, including full counting, citation weighting, journal-only, and dropping the three largest producers. The conditional Gini over countries carrying research runs 0.619-0.836 || Attention is concentrated on wheat, maize and rice: computed on the baseline corpus only; crop-level variants were not prespecified and are not added now || Harvested area predicts whether a crop system is studied: positive in every subsample and every alternative need index || Research and development spending predicts research participation: positive in most subsamples; income-group splits move it materially || Research need is associated with research attention: the interval spans roughly plus or minus 100 log-points in every variant and every alternative need index. The design cannot detect an association; this is not evidence that none exists || Citation-weighted research output is spatially clustered: Moran's I ranges from 0.014 to 0.147 across the five weights matrices and is not significant under the primary matrix; no clustering claim is made || The evidence gap is spatially clustered: positive and significant under all five weights matrices || Local first authorship is the norm where it can be observed: observable for 1,395 of 7,045 studies; the observable subset is those with a resolved study country, which is not a random subset Values are read from 20\_Robustness/finding\_stability\_classification.csv.
+\end{minipage}
+\end{table}

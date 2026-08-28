@@ -1,0 +1,9 @@
+Finding,Measure,Baseline,Range across variants,Variants,Classification
+Research output is concentrated across countries,"Gini of fractional country counts, all countries",0.8466,"[0.772, 0.899]",14,stable
+"Attention is concentrated on wheat, maize and rice",top-3 crop share of fractional attention,69.33,single estimate,1,partially stable
+Harvested area predicts whether a crop system is studied,logit coefficient on log harvested area,0.706,"[0.672, 0.861]",11,stable
+Research and development spending predicts research participation,logit coefficient on R&D expenditure share of GDP,0.283,"[-0.074, 2.218]",11,partially stable
+Research need is associated with research attention,logit coefficient on the need index,-0.016,not recorded,11,unsupported
+Citation-weighted research output is spatially clustered,"global Moran's I, citation-weighted count",0.0219,"[0.0137, 0.1468]",5,specification-sensitive
+The evidence gap is spatially clustered,"global Moran's I, evidence gap",0.3868,"[0.3144, 0.4729]",5,stable
+Local first authorship is the norm where it can be observed,share of studies with a first author affiliated in the study country,78.06,single estimate,1,partially stable

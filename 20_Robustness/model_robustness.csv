@@ -1,0 +1,12 @@
+variant,n,log_area,log_area_se,rd,rd_se,need,need_se,pseudo_r2,note
+baseline,1799,0.706,0.054,0.283,0.135,-0.016,1.1,0.3644,
+exclude USA,1777,0.715,0.055,0.28,0.137,-0.023,1.1,0.3578,
+exclude China,1775,0.708,0.055,0.358,0.131,0.286,1.1,0.3702,
+exclude USA and China,1753,0.718,0.056,0.359,0.133,0.258,1.1,0.3634,
+income group: Lower middle income,475,0.696,0.107,2.218,0.804,-1.237,3.0,0.4203,
+income group: Upper middle income,592,0.672,0.08,-0.074,0.394,0.794,1.9,0.3502,
+income group: High income,505,0.847,0.115,0.248,0.13,-0.752,1.5,0.4096,
+income group: Low income,227,0.861,0.135,1.013,1.321,-13.365,2.9,0.4222,
+need index: need_equal_pct,1799,0.706,0.054,0.283,0.122,-0.015,0.8,0.3644,alternative need-index weighting
+need index: need_pca_pct,1799,0.726,0.052,0.304,0.111,1.44,0.9,0.3678,alternative need-index weighting
+need index: need_entropy_pct,1799,0.706,0.054,0.283,0.134,-0.012,1.1,0.3644,alternative need-index weighting

@@ -1,0 +1,595 @@
+{
+  "script": "phase02_01_flatten_and_dedup",
+  "start": "2026-08-11T15:33:13Z",
+  "end": "2026-08-11T15:33:54Z",
+  "elapsed_s": 41.4,
+  "python": "3.9.6",
+  "platform": "macOS-15.6.1-arm64-arm-64bit",
+  "random_seed": 20260730,
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.12.0",
+    "statsmodels": "0.14.6",
+    "geopandas": "1.0.1",
+    "libpysal": "4.8.1",
+    "esda": "2.5.1",
+    "spreg": "1.9.0",
+    "networkx": "3.2.1",
+    "pyarrow": "21.0.0",
+    "pymc": "5.12.0",
+    "arviz": "0.17.1",
+    "sklearn": "1.6.1"
+  },
+  "inputs": [
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q01.jsonl.gz",
+      "exists": true,
+      "sha256": "301af2754816f9f21f1552429f510452c80fb071bfed0e19ee9c3b24d0117ec0",
+      "bytes": 51000202
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q01C.jsonl.gz",
+      "exists": true,
+      "sha256": "0b1f65abda7e7ded0d9580b6eb01cd4d0371c3d716abc4845b983ec57c8b2739",
+      "bytes": 11010000
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q02.jsonl.gz",
+      "exists": true,
+      "sha256": "58fa5e8ca8344a4b37c98b8536734b423dd18086ed9ca650424b25aa7a707112",
+      "bytes": 16110141
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q02C.jsonl.gz",
+      "exists": true,
+      "sha256": "104da9e1336d8d587ad34b63f9bb981e06a9b93506892a74823556a14a2b4c32",
+      "bytes": 2620884
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q03.jsonl.gz",
+      "exists": true,
+      "sha256": "70068a12c0a9152b62f37cbec660045a87720a03fd252f9c32f3f3c93cf6019d",
+      "bytes": 32929253
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q03C.jsonl.gz",
+      "exists": true,
+      "sha256": "c030e080c12752fa442a348e420259968185377093df1af9b6b82e13e974370b",
+      "bytes": 5207182
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q04.jsonl.gz",
+      "exists": true,
+      "sha256": "d16f6f88ff5ac4a34aca562d6d3c6d5b3e02201284ff0c222099583d0b2dbe1f",
+      "bytes": 15161206
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q04C.jsonl.gz",
+      "exists": true,
+      "sha256": "e9b4b7b4038855ae389697830560213892acbca14005bc678bc8515cf907f161",
+      "bytes": 3139521
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q05.jsonl.gz",
+      "exists": true,
+      "sha256": "06f7d83b09ca4efba11bb034bed7d586175fc45deae4ba7e04291a2c012b00f8",
+      "bytes": 59921374
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q05C.jsonl.gz",
+      "exists": true,
+      "sha256": "d288fb2a8094106dcc197bedd96c2def8f3dd448f1710f1d435c9d58f6a5d735",
+      "bytes": 7111330
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q06.jsonl.gz",
+      "exists": true,
+      "sha256": "91b3687d866690beaf203e6db806bd5b5e521579508ede7775a3be5d805398b0",
+      "bytes": 11174770
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q06C.jsonl.gz",
+      "exists": true,
+      "sha256": "207e4fbae3a0fb31cbee0c983af9564626cf94cc27c06052e5ceb468dde668ff",
+      "bytes": 1275494
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q07.jsonl.gz",
+      "exists": true,
+      "sha256": "5a97f7cc00d8a4e0986e005260aae1148d05987f5ffb216730db7f951d563f49",
+      "bytes": 8341933
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q07C.jsonl.gz",
+      "exists": true,
+      "sha256": "5ead41ebc50ba0416aeb4764b752282de6a9eab7a4b9139d518e01a60ecab4e1",
+      "bytes": 855856
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q08.jsonl.gz",
+      "exists": true,
+      "sha256": "ce1abc20934a7d4ffc4cbcbc1803c34965c8e083c2305f77d50c1cfef9d3911a",
+      "bytes": 2681237
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q08C.jsonl.gz",
+      "exists": true,
+      "sha256": "0240db2d8bc166243ee2844bffc8f364fff70aaab9fb02fabe1a1cad22217b07",
+      "bytes": 185916
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q09.jsonl.gz",
+      "exists": true,
+      "sha256": "8a7f8ce2549fa09f20419d7aa69b4648459cfd7febcad77fcc65aff492e80026",
+      "bytes": 6818129
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q09C.jsonl.gz",
+      "exists": true,
+      "sha256": "07fbf240a357cbea4a9eb5ccf8876cfdbdf65ff07254645391b9bc93be3cb1da",
+      "bytes": 1964527
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q10.jsonl.gz",
+      "exists": true,
+      "sha256": "a898f9361998314a21c20fd7dbdd5651c6d7e145b5164ceb1b68bcdb17aff1ce",
+      "bytes": 13042908
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q10C.jsonl.gz",
+      "exists": true,
+      "sha256": "28344cf31789eaba3016e6705ee1c974af9133eb967234f8e397205e3b22f021",
+      "bytes": 1115537
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q11.jsonl.gz",
+      "exists": true,
+      "sha256": "6c813e68f837e990f68adaa23a806bf6b67cc1de7cca1d5343a99be4cd42ee28",
+      "bytes": 14141424
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q11C.jsonl.gz",
+      "exists": true,
+      "sha256": "61b3855d4c6913f638112b2bfef89902ad965d1f61d43a7f47735f363cfe584e",
+      "bytes": 1415233
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q12.jsonl.gz",
+      "exists": true,
+      "sha256": "11321035978e952a92c309c9ec30bf2637c6e942e59518a15f7f7b0b0e0bc03e",
+      "bytes": 8647725
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q12C.jsonl.gz",
+      "exists": true,
+      "sha256": "b8684fadb58ea63d83db464c6cd62bc3f15fb37b2397da63318f21ee04da1976",
+      "bytes": 1233815
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q13.jsonl.gz",
+      "exists": true,
+      "sha256": "a1aa60243b7a0401637f64565192c97a5647236bf9e887b6cb7061dc8c0621b0",
+      "bytes": 4535594
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q13C.jsonl.gz",
+      "exists": true,
+      "sha256": "4be625087dad428b16eb443f622bee3a2f58a0ddd174325fdcfa734e88baba64",
+      "bytes": 429823
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q14.jsonl.gz",
+      "exists": true,
+      "sha256": "69e8548c78b1759c09b9320a54ff822d4e72f4038e6f51ffadda307796624a25",
+      "bytes": 1807733
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q14C.jsonl.gz",
+      "exists": true,
+      "sha256": "6bd4d8c44753cfefb076e129d38fa900e2ff6afdc1c032a07810fdd4ac9e4cf1",
+      "bytes": 172983
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q15.jsonl.gz",
+      "exists": true,
+      "sha256": "26b68c84493db0949de83c7f44182aa301cd060eaea846d1ac113e07cd7f5dda",
+      "bytes": 1484524
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q15C.jsonl.gz",
+      "exists": true,
+      "sha256": "dd145cf7c5c0fd8b4faf6d3a03ae6f5e234ee652fc2012ea410f3c04d426444e",
+      "bytes": 89607
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q16.jsonl.gz",
+      "exists": true,
+      "sha256": "92de07fd618775df467fe3132fc6e6f7f5a8acf3bb7cde2cb0baa67830a1103f",
+      "bytes": 916875
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q16C.jsonl.gz",
+      "exists": true,
+      "sha256": "1e98e4856a7f9b2dd66c7cd227eac4b9af272e6829ad80e3e99b058588413c2d",
+      "bytes": 50764
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q17.jsonl.gz",
+      "exists": true,
+      "sha256": "242984ea33e6be1d0aa8cb3a0d7b03ade77ed8a6508b122e81f77827d38c6161",
+      "bytes": 448957
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q17C.jsonl.gz",
+      "exists": true,
+      "sha256": "24dddc39d8c76cd263e3690c5c1194110ed4d96ccf15f127c7cb502580d464ce",
+      "bytes": 50635
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q18.jsonl.gz",
+      "exists": true,
+      "sha256": "13ef3d8e261c7f7ba8f030f0682add20feda2024474de00c4fa911684ddc47ed",
+      "bytes": 1587781
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q18C.jsonl.gz",
+      "exists": true,
+      "sha256": "9769a4069013891fb5fb948190b0a2f5d2bb937d340c3ab66e2a309fe65abe24",
+      "bytes": 342343
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q19.jsonl.gz",
+      "exists": true,
+      "sha256": "044da373841d9e82d070ccd7de2c1e58cde6b1a9e1263eed943dff55d1825161",
+      "bytes": 134028
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q19C.jsonl.gz",
+      "exists": true,
+      "sha256": "da8b9e66b213db9f6afedd6dca45390b7e51d13d981b38f07ba9d79b37e03efe",
+      "bytes": 4518
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q20.jsonl.gz",
+      "exists": true,
+      "sha256": "6813b4a3ad4082dfa7f75cde49d5a174d0e844a76a339417157414d27034b3de",
+      "bytes": 162569
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q20C.jsonl.gz",
+      "exists": true,
+      "sha256": "860b73e07d61f237d9bcf90db1cbc6c5d41cafccf41ec3141f626e493dbfa60e",
+      "bytes": 9797
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q21.jsonl.gz",
+      "exists": true,
+      "sha256": "fc872cc712d62ac770494c68dc3e90070eb0ff31ba2889c2dc61f62b431e9cfc",
+      "bytes": 1900980
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q21C.jsonl.gz",
+      "exists": true,
+      "sha256": "7afb0f8e6c722e7e26640637843a524907233e733f4dfbfd8d039ae1d5054e27",
+      "bytes": 312991
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q22.jsonl.gz",
+      "exists": true,
+      "sha256": "fbe7b3102ae130e7d29aed7f7d3fe6144c1b5f329327ebcb6b67c958faab1602",
+      "bytes": 1395624
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q22C.jsonl.gz",
+      "exists": true,
+      "sha256": "6b8c53a4c2d8bf05129c71a12f0de0919f1b3d358d4f0ab601c15fb845be19c0",
+      "bytes": 223095
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q23.jsonl.gz",
+      "exists": true,
+      "sha256": "620a947bbea3875050ffae8c46c50b1cba4675e390e9be040b438e3d1e236e6c",
+      "bytes": 331188
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q23C.jsonl.gz",
+      "exists": true,
+      "sha256": "1bedb3a0275f43aae18957f651ed999e5b8599eff6f9450d8770cb220e5a87ec",
+      "bytes": 70802
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q24.jsonl.gz",
+      "exists": true,
+      "sha256": "0a2afa5a31e2bc34b9057888d1b5f836de9a41fab0c328a6b42cb36752536ee4",
+      "bytes": 982133
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q24C.jsonl.gz",
+      "exists": true,
+      "sha256": "aecbda9072785c6661e97644cf36928ffc80bf1d9ed9f45257074a5bdbbd41eb",
+      "bytes": 60128
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q25.jsonl.gz",
+      "exists": true,
+      "sha256": "c803be3d99291f51566bacfbd93a71fb31a2cacfb1d49ae937e922cb0f9d3427",
+      "bytes": 657257
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q25C.jsonl.gz",
+      "exists": true,
+      "sha256": "85662f3c3e8d4b6d01b91f91edeeaf1e2ef38e4542894c489e3fce2755c851ee",
+      "bytes": 44585
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q26.jsonl.gz",
+      "exists": true,
+      "sha256": "a9b2e9e5728579540c5cb53c211e80d7726eb6c61b36e797a049826a1858304e",
+      "bytes": 588453
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q26C.jsonl.gz",
+      "exists": true,
+      "sha256": "5ad5d368fe874bb3116e9adea1edfc2dd62f1af8f72ae2ace1e51b9ee1da43e4",
+      "bytes": 98479
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q27.jsonl.gz",
+      "exists": true,
+      "sha256": "f7c0da9eef276a0ffb66e9ff427aa706fab485e294e162667074056733a5ed65",
+      "bytes": 534308
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q27C.jsonl.gz",
+      "exists": true,
+      "sha256": "ac2021ecd69ab1ddbec384fe2312cd7ee5326607fe4f4df868de2252cfee8a54",
+      "bytes": 44311
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q28.jsonl.gz",
+      "exists": true,
+      "sha256": "7ca0940d043414719e6ddff3ec7685b418fd6e0fcf0e091d037448f62a4f9440",
+      "bytes": 676582
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q28C.jsonl.gz",
+      "exists": true,
+      "sha256": "96b5900691e708d0251fb6495cca6d9cf8d3376b23da5fb0338f63f9dd5b9ea5",
+      "bytes": 20039
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q29.jsonl.gz",
+      "exists": true,
+      "sha256": "d9cab5d4b07d78ba329457cb27340030abd1ba285d9946107e70e712b59308cc",
+      "bytes": 417889
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q29C.jsonl.gz",
+      "exists": true,
+      "sha256": "90621f5f67feb7f7af7a5fc6ce0f5a349093082dad3e4045a294615eba798686",
+      "bytes": 14876
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q30.jsonl.gz",
+      "exists": true,
+      "sha256": "af935c527e3cfb6a0ab4c228993cd80ea699a1b0db53c235bcb911a4e5002ed0",
+      "bytes": 194376
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q30C.jsonl.gz",
+      "exists": true,
+      "sha256": "fa8a5deea8ab7062ce2d358401f93e21e2aed4f5e7581026edfd7f213a3f1a5c",
+      "bytes": 7408
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q31.jsonl.gz",
+      "exists": true,
+      "sha256": "5eb20ea6ad745bb6b9e4b01e15c3de6a42b9dbc56d5655512af4baa5b0b90849",
+      "bytes": 169059
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q31C.jsonl.gz",
+      "exists": true,
+      "sha256": "c8d175903b1e01c940e26a7389a91c5eac13d1bc7341bda26d4f0a6ea2c667bc",
+      "bytes": 7025
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q32.jsonl.gz",
+      "exists": true,
+      "sha256": "466b3facf80d3ac3238efa1846f9671f093c894eaeb0372ed20bb4a15ceedbd9",
+      "bytes": 785656
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q32C.jsonl.gz",
+      "exists": true,
+      "sha256": "842e42fe2e0d3b99515a7dbf3c21ac9d52663f3266a8c58052abbbed9bb1b150",
+      "bytes": 32501
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q33.jsonl.gz",
+      "exists": true,
+      "sha256": "eeabbde39c7194a72ee5440497867bfb96997341e5867c45c2ba6ff9890564ba",
+      "bytes": 339260
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q33C.jsonl.gz",
+      "exists": true,
+      "sha256": "18c0d8dc7c296bcb305b4fa824c1dbebf8336a3839efc08241434ba8e3d80c01",
+      "bytes": 59368
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q34.jsonl.gz",
+      "exists": true,
+      "sha256": "479c38f4f4da65a0e65cf7140d8bda781bcbd5b397b9f0ab050991c9a0beccdb",
+      "bytes": 478307
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q34C.jsonl.gz",
+      "exists": true,
+      "sha256": "720195643f925f2d2c53e5345fed08ef2ac36b99fcd364e65f2681e226144f16",
+      "bytes": 97353
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q35.jsonl.gz",
+      "exists": true,
+      "sha256": "d00f3be8c77a19b645e637023230f2b1fa2c4867d839dc10b874f9e3e5bf28e2",
+      "bytes": 257874
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q35C.jsonl.gz",
+      "exists": true,
+      "sha256": "277a95bebd4fe3eb81c002647cacd48e2e21db413300677538d3991f30fe3a26",
+      "bytes": 32664
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q36.jsonl.gz",
+      "exists": true,
+      "sha256": "fe9be607906beac9307bb9d1366b64e5892d5c22138ffeea7320f169bca13345",
+      "bytes": 3394270
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q36C.jsonl.gz",
+      "exists": true,
+      "sha256": "40dd0ce2dbe77aead6113792ff6142ed7757209a2571f0d1c2f8a3cb1708f338",
+      "bytes": 285551
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q37.jsonl.gz",
+      "exists": true,
+      "sha256": "796529a816b973aba3bc05102ed2c7baf019accaa6c019f9c396560eda751127",
+      "bytes": 1298371
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q37C.jsonl.gz",
+      "exists": true,
+      "sha256": "b883f76c0b4251f846f15ac295e18ca60837bca1f2e4325afcaecc9286c766f1",
+      "bytes": 143745
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q38.jsonl.gz",
+      "exists": true,
+      "sha256": "98c0c6f9111857ae62fa6024af8a9011c21d6305f82d1c25bf923a71adae6490",
+      "bytes": 3972441
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q38C.jsonl.gz",
+      "exists": true,
+      "sha256": "303b800058f5ce748b2f09d73c39136fce6a1608e7d4ad1a09c1165eccff029e",
+      "bytes": 1249398
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q39.jsonl.gz",
+      "exists": true,
+      "sha256": "f1c4c61994dd3f6dc6a365c341faa2e0d86e355fb2b29acf3b24e26ba9fd157c",
+      "bytes": 729016
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q39C.jsonl.gz",
+      "exists": true,
+      "sha256": "73a3e98d407426c471051d8c7fa6fb43c452113c610d55cb0d3aee6064878874",
+      "bytes": 172692
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q40.jsonl.gz",
+      "exists": true,
+      "sha256": "9f46c54a52fd7309385548723d6126439ac687f84e886a6820a06e0a0c4ea93c",
+      "bytes": 4087674
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q40C.jsonl.gz",
+      "exists": true,
+      "sha256": "5523d232bf5181c3b313910da6b5570f733081d9846b769400f30be77dd6ff97",
+      "bytes": 356443
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q41.jsonl.gz",
+      "exists": true,
+      "sha256": "a034d5b506a60bf3fd5f171b1aa05ba61a61ce5d71eadca00a23098d396f18aa",
+      "bytes": 1458642
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q41C.jsonl.gz",
+      "exists": true,
+      "sha256": "4b0b6e252715afb7fb8d5a3cb82427ed1e21328f9a97e84a2e85b1097f7b391e",
+      "bytes": 104526
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q42.jsonl.gz",
+      "exists": true,
+      "sha256": "864a72725bf8dc6fedcc8a39a71d5058124a88e3d3169fdb1457f456f4df382e",
+      "bytes": 2574034
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q42C.jsonl.gz",
+      "exists": true,
+      "sha256": "82ab4a63a1c7e707821c446761af0fad621a81d30d8d6d8614aa1a42acafcc15",
+      "bytes": 385542
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q43.jsonl.gz",
+      "exists": true,
+      "sha256": "4d7f8645da55db2049bb6249114490fcaa6de346d53122717a3c80829ed35a93",
+      "bytes": 2548747
+    },
+    {
+      "path": "04_Raw_Bibliographic_Data/raw/openalex_Q43C.jsonl.gz",
+      "exists": true,
+      "sha256": "a3801b59292e64c510325b51c418c89a5273717cccaf48e52da2f1aa7049adc5",
+      "bytes": 273002
+    }
+  ],
+  "outputs": [
+    {
+      "path": "04_Raw_Bibliographic_Data/processed/candidates_flat.parquet",
+      "exists": true,
+      "sha256": "297239fd5ca4add78556ebdc2ec0b2902190d7f1094476c4eaa884c98226d810",
+      "bytes": 52006670,
+      "rows": 45845
+    },
+    {
+      "path": "05_Deduplication/deduplicated_records.parquet",
+      "exists": true,
+      "sha256": "dbbf1afe7eded40d54d11f89cdadbc1a5524d74aebc3d6162545ff2030192e22",
+      "bytes": 54756846,
+      "rows": 45845
+    },
+    {
+      "path": "05_Deduplication/duplicate_groups.csv",
+      "exists": true,
+      "sha256": "d68680c33260192eaabcd4c4a53d443d24bf593569d3674aba9d6fe4ab15f7b4",
+      "bytes": 1088210,
+      "rows": null
+    },
+    {
+      "path": "05_Deduplication/duplicate_removal_log.csv",
+      "exists": true,
+      "sha256": "5663b9626b6d257020b58c9660acbc40404824d7c22f17acefdeb1708e1dab10",
+      "bytes": 412161,
+      "rows": 5087
+    }
+  ],
+  "counts": {
+    "raw_files": 86,
+    "raw_lines_read": 102892,
+    "unique_openalex_ids": 45845,
+    "merges_pass2_doi": 57,
+    "generic_titles_3plus_occurrences": 235,
+    "merges_pass3_title": 2338,
+    "pass3_flagged_not_merged": 388,
+    "merges_pass4_fuzzy": 2235,
+    "groups_split_as_chaining_artefacts": 34,
+    "records_before_dedup": 45845,
+    "unique_works_after_dedup": 43083,
+    "records_merged_away": 2762,
+    "pairs_flagged_for_manual_review": 2692
+  },
+  "errors": [],
+  "warnings": [
+    "34 duplicate groups span more than 2 publication years \u2014 split back to singletons as chaining artefacts"
+  ],
+  "notes": [
+    "candidates_flat.parquet is stale (43 raw files added or changed since it was built) \u2014 re-flattening from all 86 files"
+  ],
+  "free_disk_gb_end": 21.2
+}

@@ -1,0 +1,21 @@
+ISO3,Country,Crop,World Bank region,Income group,Production (Mt),Harvested area (Mha),Share of world production (%),Need percentile,Fractional studies,Full-count studies
+NGA,Nigeria,yam,Sub-Saharan Africa ,Lower middle income,57.12,6.86,0.782,92.2,0,0
+COD,Democratic Republic of the Congo,cassava,Sub-Saharan Africa ,Low income,41.61,5.11,0.570,94.8,0,0
+GTM,Guatemala,sugarcane,Latin America & Caribbean ,Upper middle income,27.31,0.26,0.374,75.6,0,0
+MMR,Myanmar,sugarcane,East Asia & Pacific,Lower middle income,11.40,0.18,0.156,78.8,0,0
+NGA,Nigeria,oilpalm,Sub-Saharan Africa ,Lower middle income,10.20,3.97,0.140,92.2,0,0
+UGA,Uganda,banana plantain,Sub-Saharan Africa ,Low income,10.01,2.24,0.137,97.4,0,0
+BOL,Bolivia (Plurinational State of),sugarcane,Latin America & Caribbean ,Lower middle income,9.80,0.18,0.134,75.1,0,0
+AGO,Angola,cassava,Sub-Saharan Africa ,Lower middle income,9.55,0.98,0.131,93.3,0,0
+ECU,Ecuador,sugarcane,Latin America & Caribbean ,Upper middle income,9.38,0.12,0.128,80.8,0,0
+TZA,United Republic of Tanzania,cassava,Sub-Saharan Africa ,Lower middle income,9.01,1.27,0.123,95.9,0,0
+IRN,Iran (Islamic Republic of),sugarcane,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,8.41,0.09,0.115,76.2,0,0
+CIV,Côte d'Ivoire,yam,Sub-Saharan Africa ,Lower middle income,7.57,1.36,0.104,81.9,0,0
+MWI,Malawi,sweet potato,Sub-Saharan Africa ,Low income,6.78,0.30,0.093,91.2,0,0
+MOZ,Mozambique,cassava,Sub-Saharan Africa ,Low income,6.22,0.79,0.085,97.9,0,0
+CIV,Côte d'Ivoire,cassava,Sub-Saharan Africa ,Lower middle income,6.21,1.09,0.085,81.9,0,0
+NGA,Nigeria,banana plantain,Sub-Saharan Africa ,Lower middle income,5.89,0.49,0.081,92.2,0,0
+CMR,Cameroon,cassava,Sub-Saharan Africa ,Lower middle income,5.86,0.42,0.080,78.2,0,0
+MWI,Malawi,cassava,Sub-Saharan Africa ,Low income,5.85,0.24,0.080,91.2,0,0
+ZWE,Zimbabwe,sugarcane,Sub-Saharan Africa ,Lower middle income,5.76,0.07,0.079,89.1,0,0
+COD,Democratic Republic of the Congo,banana plantain,Sub-Saharan Africa ,Low income,5.67,1.30,0.078,94.8,0,0

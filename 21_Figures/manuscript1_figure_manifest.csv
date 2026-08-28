@@ -1,0 +1,11 @@
+kind,name,status,detail
+figure,fig_01_research_intensity_map,produced,195 plotted rows
+figure,fig_02_crop_attention_vs_production,produced,25 plotted rows
+figure,fig_03_research_vs_production_share,produced,199 plotted rows
+figure,fig_04_need_vs_research_percentile,produced,195 plotted rows
+figure,fig_05_evidence_gap_lisa_map,produced,195 plotted rows
+figure,fig_06_model_coefficients,produced,16 plotted rows
+table,tab_01_corpus_construction,produced,24 rows
+table,tab_02_main_regression_estimates,produced,16 rows
+table,tab_03_under_researched_systems,produced,20 rows
+table,tab_04_finding_stability,produced,8 rows

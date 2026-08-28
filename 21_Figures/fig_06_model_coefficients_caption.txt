@@ -1,0 +1,11 @@
+Coefficients of the two main models on the country-crop panel. Unit is the country-crop cell.
+Left: participation logit, outcome is whether the cell has any eligible study, 1,799 cells.
+Right: PPML intensity with log harvested area as the exposure, outcome is the fractional
+eligible study count, 1,792 cells. Bars are 95 per cent confidence intervals from standard
+errors clustered by country. Colour marks only whether the interval excludes zero: vermillion
+excludes it, blue includes it. Harvested area enters the PPML as the exposure and so has no
+coefficient there. The need index is entered in the estimation as need_rank_pct divided by 100,
+giving it a range of roughly 0 to 0.01, so its coefficient is on a hundredfold-compressed scale;
+its interval falls outside the plotted range and its estimate and interval are printed beside
+the row. Estimates are read from 16_Econometrics/model_coefficients.csv without modification.
+These are associations, not causal effects.

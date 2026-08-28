@@ -1,0 +1,183 @@
+{
+  "diagnostics": {
+    "participation_logit": {
+      "link": "logit",
+      "n": 1799,
+      "events": 447,
+      "events_per_variable": 55.875,
+      "separation_suspected": false,
+      "vif": {
+        "log_area": 1.418307898856748,
+        "log_gdp_pc": 8.081789816361914,
+        "rd": 2.0214822357347324,
+        "tertiary": 2.8453245003443124,
+        "internet": 5.1917121379843705,
+        "need": 5.164490333605544,
+        "yield_volatility": 1.1107865322934085,
+        "log_population": 1.6552308487130716
+      },
+      "converged": true,
+      "pseudo_r2": 0.36439954115819406
+    },
+    "participation_probit": {
+      "link": "probit",
+      "n": 1799,
+      "events": 447,
+      "events_per_variable": 55.875,
+      "separation_suspected": true,
+      "vif": {
+        "log_area": 1.418307898856748,
+        "log_gdp_pc": 8.081789816361914,
+        "rd": 2.0214822357347324,
+        "tertiary": 2.8453245003443124,
+        "internet": 5.1917121379843705,
+        "need": 5.164490333605544,
+        "yield_volatility": 1.1107865322934085,
+        "log_population": 1.6552308487130716
+      },
+      "converged": true,
+      "pseudo_r2": 0.35900024946701237
+    },
+    "ppml_area_exposure": {
+      "family": "poisson",
+      "n": 1792,
+      "zero_share": 0.7505580357142857,
+      "mean": 1.0877588665674602,
+      "variance": 44.251139477906705,
+      "dispersion_ratio": 40.68101933064074,
+      "pearson_dispersion": 367.6773625498446,
+      "vif": {
+        "log_gdp_pc": 7.959610227165033,
+        "rd": 2.023185988157495,
+        "tertiary": 2.820881114617342,
+        "internet": 5.11413107195149,
+        "need": 5.101288711616961,
+        "yield_volatility": 1.0722673413095474,
+        "log_population": 1.3792358132038054
+      },
+      "fractional_counts_present": true,
+      "overdispersed": true,
+      "note": "Pearson dispersion above 1.5: report PPML with robust errors and compare against the negative binomial"
+    },
+    "ppml_no_exposure": {
+      "family": "poisson",
+      "n": 1799,
+      "zero_share": 0.7515286270150083,
+      "mean": 1.0835263417948244,
+      "variance": 44.08354210789715,
+      "dispersion_ratio": 40.68525185541338,
+      "pearson_dispersion": 22.793750908386787,
+      "vif": {
+        "log_area": 1.418307898856748,
+        "log_gdp_pc": 8.081789816361914,
+        "rd": 2.0214822357347324,
+        "tertiary": 2.8453245003443124,
+        "internet": 5.1917121379843705,
+        "need": 5.164490333605544,
+        "yield_volatility": 1.1107865322934085,
+        "log_population": 1.6552308487130716
+      },
+      "fractional_counts_present": true,
+      "overdispersed": true,
+      "note": "Pearson dispersion above 1.5: report PPML with robust errors and compare against the negative binomial"
+    },
+    "negbin_area_exposure": {
+      "family": "negbin",
+      "n": 1792,
+      "zero_share": 0.8175223214285714,
+      "mean": 1.0680803571428572,
+      "variance": 44.398266850685594,
+      "dispersion_ratio": 41.568283279220786,
+      "pearson_dispersion": 253250815527.47723,
+      "vif": {
+        "log_gdp_pc": 7.959610227165033,
+        "rd": 2.023185988157495,
+        "tertiary": 2.820881114617342,
+        "internet": 5.11413107195149,
+        "need": 5.101288711616961,
+        "yield_volatility": 1.0722673413095474,
+        "log_population": 1.3792358132038054
+      },
+      "fractional_counts_present": false,
+      "overdispersed": true
+    },
+    "overdispersion": {
+      "alpha": -5.366465762425701,
+      "t": -0.17442998278779967,
+      "p_value": 0.8615472780905236,
+      "overdispersed": false
+    },
+    "hurdle": {
+      "fitted": true
+    },
+    "leadership_fractional_logit": {
+      "n": 313,
+      "boundary_zero_share": 0.1757188498402556,
+      "boundary_one_share": 0.5463258785942492,
+      "mean_outcome": 0.727394900976708,
+      "vif": {
+        "log_area": 1.376175849314063,
+        "log_gdp_pc": 11.990865611581988,
+        "rd": 2.8260150956301837,
+        "tertiary": 3.955983283540755,
+        "internet": 6.712636208057404,
+        "need": 6.069492598659404,
+        "yield_volatility": 1.2810454182274282,
+        "log_population": 1.8284751812776843
+      },
+      "predictions_within_unit_interval": true
+    },
+    "citation_ppml": {
+      "family": "poisson",
+      "n": 1433,
+      "zero_share": 0.26238660153524074,
+      "mean": 24.93579902302861,
+      "variance": 3243.7167435520714,
+      "dispersion_ratio": 130.08272726919427,
+      "pearson_dispersion": 100.37433264661205,
+      "vif": {
+        "age": 1.1173368552715712,
+        "is_oa_f": 1.4479250008635407,
+        "is_conf_f": 1.3516181468369517,
+        "intl": 1.0954023758814984,
+        "n_auth": 1.1104092124359244,
+        "log_gdp_pc": 1.0350814905696895
+      },
+      "fractional_counts_present": false,
+      "overdispersed": true,
+      "note": "Pearson dispersion above 1.5: report PPML with robust errors and compare against the negative binomial"
+    }
+  },
+  "residual_moran": {
+    "participation_logit": {
+      "I": -0.030675172899772046,
+      "expected_I": -0.005154639175257732,
+      "p_value": 0.408,
+      "permutations": 999,
+      "n": 195,
+      "residual_clustering": false,
+      "n_countries_missing_filled": 53
+    },
+    "ppml_area_exposure": {
+      "I": 0.036847494333208664,
+      "expected_I": -0.005154639175257732,
+      "p_value": 0.267,
+      "permutations": 999,
+      "n": 195,
+      "residual_clustering": false,
+      "n_countries_missing_filled": 53
+    }
+  },
+  "estimability": {
+    "estimable": true,
+    "problems": [],
+    "warnings": [
+      "51 rows exceed 3p/n leverage"
+    ],
+    "n_complete": 1799,
+    "n_dropped_missing": 0,
+    "rank": 9,
+    "n_parameters": 9,
+    "max_leverage": 0.04295502706027694
+  }
+}

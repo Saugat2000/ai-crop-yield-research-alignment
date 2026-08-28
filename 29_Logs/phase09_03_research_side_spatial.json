@@ -1,0 +1,112 @@
+{
+  "script": "phase09_03_research_side_spatial",
+  "start": "2026-08-28T21:47:16Z",
+  "end": "2026-08-28T21:47:33Z",
+  "elapsed_s": 16.3,
+  "python": "3.9.6",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "random_seed": 20260730,
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.12.0",
+    "statsmodels": "0.14.6",
+    "geopandas": "1.0.1",
+    "libpysal": "4.8.1",
+    "esda": "2.5.1",
+    "spreg": "1.9.0",
+    "networkx": "3.2.1",
+    "pyarrow": "21.0.0",
+    "pymc": "5.12.0",
+    "arviz": "0.17.1",
+    "sklearn": "1.6.1"
+  },
+  "inputs": [
+    {
+      "path": "14_Spatial_Weights/country_analytical_layer.parquet",
+      "exists": true,
+      "sha256": "e3180ee09653746973164e7a8c4c1afdd828ffc6931b5da510259f6300c7bf8a",
+      "bytes": 967383
+    },
+    {
+      "path": "12_Data_Integration/country_crop_panel.parquet",
+      "exists": true,
+      "sha256": "880bbc3a2c54eb91500fa7ef04116eab3a99807e3b2a76619789309f7dfee4e1",
+      "bytes": 310911
+    },
+    {
+      "path": "13_Indices/country_need_indices.parquet",
+      "exists": true,
+      "sha256": "0b4df72580c3e1e81014d015632c27921ec781ee3c6f185f59c0b9383d38976b",
+      "bytes": 43574
+    }
+  ],
+  "outputs": [
+    {
+      "path": "17_Spatial_Econometrics/research_side_global_moran.csv",
+      "exists": true,
+      "sha256": "252be7c5e14ba27fe73bb748b5f46ace2bf08792846d4e7341b495d3670f096d",
+      "bytes": 2960,
+      "rows": 25
+    },
+    {
+      "path": "17_Spatial_Econometrics/research_side_local_moran_summary.csv",
+      "exists": true,
+      "sha256": "470cf78e414e671f818cbb922101a9b9b5c5ee20bf82dba6fe9ac292df5f89e6",
+      "bytes": 841,
+      "rows": 5
+    },
+    {
+      "path": "17_Spatial_Econometrics/research_side_getis_ord_summary.csv",
+      "exists": true,
+      "sha256": "9727e068c79b6b23bd241985abcc6031d2413591eb208669b09efb1eb96c0e1a",
+      "bytes": 212,
+      "rows": 5
+    },
+    {
+      "path": "17_Spatial_Econometrics/research_side_lisa_clusters.csv",
+      "exists": true,
+      "sha256": "a7439fad6e40f5b5854d1d6243059f9b25f17e6b45ac9dbd01520ce284aafdcc",
+      "bytes": 123849,
+      "rows": 195
+    },
+    {
+      "path": "17_Spatial_Econometrics/research_side_moran_weight_sensitivity.csv",
+      "exists": true,
+      "sha256": "8422c0dacab9fdb6056e74344263ccf3d66bc79380a50532b5f05157e229b38b",
+      "bytes": 311,
+      "rows": 5
+    },
+    {
+      "path": "12_Data_Integration/country_research_side.parquet",
+      "exists": true,
+      "sha256": "c63d1c7e142885e87fd2f24ade9baf6cd4faf655dfbff190583bcc428b2d4a1f",
+      "bytes": 67348,
+      "rows": 195
+    }
+  ],
+  "counts": {
+    "random_seed": 20260730,
+    "countries_in_layer": 195,
+    "countries_with_zero_studies": 73,
+    "countries_missing_need_index": 2,
+    "evidence_gap_corr_with_research_pct": 0.6561,
+    "countries_with_evidence_gap": 193,
+    "max_moran_spread_across_matrices": 0.1585,
+    "moran_log_studies_knn_k6": 0.1572,
+    "moran_p_log_studies_knn_k6": 0.0007,
+    "moran_research_intensity_per_mha_knn_k6": 0.1016,
+    "moran_p_research_intensity_per_mha_knn_k6": 0.0035,
+    "moran_citation_weighted_knn_k6": 0.0219,
+    "moran_p_citation_weighted_knn_k6": 0.0878,
+    "moran_evidence_gap_knn_k6": 0.3868,
+    "moran_p_evidence_gap_knn_k6": 0.0001,
+    "moran_cell_coverage_pct_knn_k6": 0.1427,
+    "moran_p_cell_coverage_pct_knn_k6": 0.0006,
+    "queen_islands_dropped": 43
+  },
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "free_disk_gb_end": 35.2
+}

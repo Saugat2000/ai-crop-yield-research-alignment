@@ -1,0 +1,3 @@
+layer,n_features,crs_storage,crs_display,n_null_geometry,n_invalid_geometry,value_column,n_value_missing,n_value_zero,value_min,value_max,n_duplicate_iso3
+country_analytical_layer + research side,195,EPSG:4326,EPSG:8857,0,0,n_studies_fractional,0,73,0.0,326.2261904761905,0
+country_analytical_layer + LISA (FDR),195,EPSG:4326,EPSG:8857,0,0,evidence_gap_value,2,0,-81.02564102564102,86.01036269430051,0

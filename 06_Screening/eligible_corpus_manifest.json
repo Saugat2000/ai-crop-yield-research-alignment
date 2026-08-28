@@ -1,0 +1,20 @@
+{
+  "frozen_utc": "2026-08-13T20:46:35Z",
+  "n_eligible": 7045,
+  "sha256": "98c132b07b6102b952af1bcf1d249ae20c044e3d764fc74c8306f83c1426024c",
+  "screening_stage_version": "1.5.0",
+  "n_conference": 1494,
+  "n_journal_article": 4842,
+  "n_with_abstract": 5927,
+  "year_min": 2000,
+  "year_max": 2026,
+  "measured_false_inclusion_rate_point": 0.1,
+  "measured_false_inclusion_ci95": [
+    0.04,
+    0.23
+  ],
+  "estimated_false_inclusions": 257,
+  "measured_false_exclusion_rate_largest_stratum": 0.0222,
+  "validation_passes_preregistered_ci_bounds": false,
+  "decision_method": "AUTOMATED_RULE; validation MODEL_ASSISTED_VALIDATION; no human screening"
+}

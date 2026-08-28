@@ -1,0 +1,6 @@
+variable,weights,n_sig_raw,n_sig_fdr,HH_fdr,LL_fdr,HL_fdr,LH_fdr,n_missing_filled,note
+log_studies,knn_k6,43,24,2,21,0,1,0,categories reported on FDR-adjusted p only; raw counts shown for comparison and never used to call a cluster
+research_intensity_per_mha,knn_k6,61,25,2,19,0,4,1,categories reported on FDR-adjusted p only; raw counts shown for comparison and never used to call a cluster
+citation_weighted,knn_k6,41,16,0,16,0,0,0,categories reported on FDR-adjusted p only; raw counts shown for comparison and never used to call a cluster
+evidence_gap,knn_k6,75,34,19,13,0,2,2,categories reported on FDR-adjusted p only; raw counts shown for comparison and never used to call a cluster
+cell_coverage_pct,knn_k6,48,26,4,21,0,1,0,categories reported on FDR-adjusted p only; raw counts shown for comparison and never used to call a cluster

@@ -1,0 +1,16 @@
+family,variant,n_studies,n_countries,gini,top5_share_pct,top10_share_pct,top1_country,n_countries_all,gini_all,note
+concentration,baseline (fractional),2031,122,0.7498,50.0,60.24,USA,199.0,0.8466,
+concentration,full counting,2031,122,0.7375,47.67,58.02,USA,199.0,0.8391,each study contributes 1 to every country it covers
+concentration,citation-weighted,2031,122,0.8361,61.24,72.81,USA,199.0,0.8995,
+concentration,journal only,1712,120,0.7489,50.37,61.26,USA,199.0,0.8486,the split D-119 made possible; impossible before the conference pass
+concentration,preprints excluded,1963,121,0.7481,50.03,60.2,USA,199.0,0.8468,
+concentration,uncertain-location cells excluded,1444,113,0.7345,50.87,61.22,USA,199.0,0.8492,drops every country resolved only from a locative phrase
+concentration,low-confidence locations excluded,1713,120,0.7358,48.16,58.65,USA,199.0,0.8407,
+concentration,exclude USA,1723,121,0.7173,43.28,54.74,IND,199.0,0.8281,
+concentration,exclude China,1784,121,0.7285,45.68,56.66,USA,199.0,0.8349,
+concentration,exclude USA and China,1471,120,0.683,36.32,49.34,IND,199.0,0.8088,
+concentration,"exclude USA, China and India",1180,119,0.6185,23.63,39.45,BRA,199.0,0.7719,
+concentration,period 2000-2014,267,70,0.6318,49.44,63.22,CHN,199.0,0.8705,
+concentration,period 2015-2019,344,65,0.6374,49.9,62.31,USA,199.0,0.8815,
+concentration,period 2020-2026,1420,112,0.7433,50.86,61.09,USA,199.0,0.8555,
+screening,measured error correction,2031,122,0.7498,50.0,60.24,USA,,,"11,822 works undecided at screening; measured false-inclusion rate 10.0% implies ~257 ineligible studies in the corpus and ~100 eligible outside it. Concentration is unchanged by construction and the bound is reported instead."

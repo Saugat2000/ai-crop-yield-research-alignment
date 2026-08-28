@@ -1,0 +1,196 @@
+iso3,evidence_gap_value,evidence_gap_lisa_I,evidence_gap_lisa_p,evidence_gap_lisa_cat_fdr,evidence_gap_lisa_cat_raw,evidence_gap_value_missing,wb_region,wb_income_group,n_studies_fractional,need_rank_pct,display_class
+AFG,-77.91683273548558,0.5250254146027463,0.2507,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Low income,0.0,0.9689119170984456,Not significant
+ALB,-4.3828882688986255,-0.0890462224185969,0.0377,Not significant,Low-High,False,Europe & Central Asia,Upper middle income,1.0,0.5233160621761658,Not significant
+DZA,25.403215092334264,-0.1394246387148544,0.2996,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,6.0,0.4818652849740932,Not significant
+AGO,-74.28988973030424,1.947223827731491,0.0066,Low-Low,Low-Low,False,Sub-Saharan Africa ,Lower middle income,0.0,0.932642487046632,Low-Low
+ATG,12.756742394048093,0.0261192790741323,0.4321,Not significant,Not significant,False,Latin America & Caribbean ,High income,0.0,0.0621761658031088,Not significant
+ARG,48.31938355254418,0.5451964218116631,0.1443,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,15.25,0.38860103626943,Not significant
+ARM,-20.89942872326292,0.1335426559379171,0.2726,Not significant,Not significant,False,Europe & Central Asia,Upper middle income,0.5,0.6269430051813472,Not significant
+AUS,67.38939816660024,-0.7348930242627411,0.1534,Not significant,Not significant,False,East Asia & Pacific,High income,42.14285714285714,0.2953367875647668,Not significant
+AUT,52.71422877640494,1.5315155885975429,0.0022,High-High,High-High,False,Europe & Central Asia,High income,2.4242424242424243,0.1036269430051813,High-High
+AZE,0.948585093662814,-0.0093953060911378,0.0789,Not significant,Not significant,False,Europe & Central Asia,Upper middle income,2.0,0.5751295336787565,Not significant
+BHS,13.793011824099906,-0.160138129186968,0.1312,Not significant,Not significant,False,Latin America & Caribbean ,High income,0.0,0.0518134715025906,Not significant
+BHR,6.539125813737213,0.0014934869829567,0.4996,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.1243523316062176,Not significant
+BGD,12.499003587086476,-0.0121068811620642,0.4555,Not significant,Not significant,False,South Asia,Lower middle income,32.66666666666667,0.8134715025906736,Not significant
+BRB,6.020991098711308,-0.0129974507773658,0.4094,Not significant,Not significant,False,Latin America & Caribbean ,High income,0.0,0.1295336787564766,Not significant
+BLR,21.049554935565297,0.180236562399522,0.2158,Not significant,Not significant,False,Europe & Central Asia,Upper middle income,4.0,0.4766839378238341,Not significant
+BEL,63.75581240866214,2.6648682301432367,0.0001,High-High,High-High,False,Europe & Central Asia,High income,5.625,0.0880829015544041,High-High
+BLZ,-20.403879367609935,0.3858126868464266,0.0402,Not significant,Low-Low,False,Latin America & Caribbean ,Upper middle income,0.0,0.3937823834196891,Not significant
+BEN,-22.148266241530493,0.2760365965601593,0.1213,Not significant,Not significant,False,Sub-Saharan Africa ,Lower middle income,2.25,0.844559585492228,Not significant
+BTN,-54.60077055931977,-0.372237199520564,0.2777,Not significant,Not significant,False,South Asia,Lower middle income,0.0,0.7357512953367875,Not significant
+BOL,-27.180815730038525,-0.5528917738287714,0.0258,Not significant,Low-High,False,Latin America & Caribbean ,Lower middle income,1.0,0.7512953367875648,Not significant
+BIH,5.926664009565563,0.1102153510433523,0.0302,Not significant,High-High,False,Europe & Central Asia,Upper middle income,1.0909090909090908,0.4715025906735751,Not significant
+BWA,-21.93569815331474,0.2430123126440145,0.1488,Not significant,Not significant,False,Sub-Saharan Africa ,Upper middle income,0.5,0.6373056994818653,Not significant
+BRA,65.30091669988043,-0.3678479426195739,0.2969,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,93.28333333333332,0.3316062176165803,Not significant
+BRN,14.82928125415172,0.2596055422437414,0.0446,Not significant,High-High,False,East Asia & Pacific,High income,0.0,0.0414507772020725,Not significant
+BGR,24.69775474956821,0.3515016393983736,0.0885,Not significant,Not significant,False,Europe & Central Asia,High income,3.2159090909090913,0.4196891191709844,Not significant
+BFA,3.882024711040259,-0.0673846244402626,0.0391,Not significant,High-Low,False,Sub-Saharan Africa ,Low income,7.699999999999999,0.7150259067357513,Not significant
+BDI,-81.02564102564102,1.4641948014710842,0.0414,Not significant,Low-Low,False,Sub-Saharan Africa ,Low income,0.0,1.0,Not significant
+CPV,-37.50232496346486,0.6783245342646197,0.0451,Not significant,Low-Low,False,Sub-Saharan Africa ,Upper middle income,0.0,0.5647668393782384,Not significant
+KHM,-7.859705061777603,-0.0639875366608061,0.245,Not significant,Not significant,False,East Asia & Pacific,Lower middle income,2.0,0.6632124352331606,Not significant
+CMR,-19.776803507373444,0.5639182526532954,0.0042,Low-Low,Low-Low,False,Sub-Saharan Africa ,Lower middle income,2.0,0.7823834196891192,Low-Low
+CAN,66.88720605819051,0.4029269533779065,0.2903,Not significant,Not significant,False,North America,High income,38.05952380952381,0.2849740932642487,Not significant
+CAF,-79.9893715955892,2.3547718050098942,0.0026,Low-Low,Low-Low,False,Sub-Saharan Africa ,Low income,0.0,0.9896373056994818,Low-Low
+TCD,-79.4712368805633,2.103222577397791,0.0056,Low-Low,Low-Low,False,Sub-Saharan Africa ,Low income,0.0,0.9844559585492229,Low-Low
+CHL,38.254284575528104,0.4750904237887959,0.1213,Not significant,Not significant,False,Latin America & Caribbean ,High income,2.0,0.2020725388601036,Not significant
+HKG,12.238607679022188,0.068104425602218,0.3101,Not significant,Not significant,False,East Asia & Pacific,High income,0.0,0.0673575129533678,Not significant
+TWN,41.70054470572605,0.8323200551876834,0.0249,Not significant,High-High,False,,,8.0,0.3419689119170984,Not significant
+CHN,44.05207918161287,-0.2737011508423999,0.2796,Not significant,Not significant,False,East Asia & Pacific,Upper middle income,252.3095238095238,0.5492227979274611,Not significant
+COL,16.274744254018863,0.0043573427416319,0.4995,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,10.75,0.6321243523316062,Not significant
+COM,-50.97382755413844,0.6524667668979457,0.1125,Not significant,Not significant,False,Sub-Saharan Africa ,Lower middle income,0.0,0.6994818652849741,Not significant
+COG,-58.745848279527024,1.934693271026951,0.0011,Low-Low,Low-Low,False,Sub-Saharan Africa ,Lower middle income,0.0,0.7772020725388601,Low-Low
+COK,18.45622425933307,-0.093588502306437,0.3114,Not significant,Not significant,False,,,0.0,0.005181347150259,Not significant
+CRI,15.13086222930783,-0.2522748751716585,0.0566,Not significant,Not significant,False,Latin America & Caribbean ,High income,3.0,0.4974093264248704,Not significant
+HRV,43.355918692706254,0.9442271255074668,0.0174,Not significant,High-High,False,Europe & Central Asia,High income,3.090909090909091,0.2279792746113989,Not significant
+CUB,-5.937292413976351,0.0852621449451767,0.1011,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,1.0,0.538860103626943,Not significant
+CYP,34.819981400292285,-0.2850097902096006,0.2219,Not significant,Not significant,False,Europe & Central Asia,High income,3.0,0.3005181347150259,Not significant
+CZE,55.615783180550025,1.6330600334498766,0.002,High-High,High-High,False,Europe & Central Asia,High income,13.757575757575758,0.2746113989637305,High-High
+CIV,-33.91656702537532,0.6712127573163164,0.0331,Not significant,Low-Low,False,Sub-Saharan Africa ,Lower middle income,1.0,0.8186528497409327,Not significant
+PRK,-35.32084495815066,-1.0020766070537968,0.0036,Low-High,Low-High,False,East Asia & Pacific,Low income,2.0,0.9378238341968912,Low-High
+COD,-75.84429387538196,2.068308691493527,0.005,Low-Low,Low-Low,False,Sub-Saharan Africa ,Low income,0.0,0.9481865284974094,Low-Low
+DNK,66.06881891855986,2.7371090478751117,0.0001,High-High,High-High,False,Europe & Central Asia,High income,6.833333333333333,0.082901554404145,High-High
+DJI,-5.896107346884548,0.2041982276012085,0.0011,Low-Low,Low-Low,False,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,0.0,0.2487046632124352,Low-Low
+DMA,-11.59558921216952,-0.0350433660911275,0.4016,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,0.0,0.3056994818652849,Not significant
+DOM,-12.63185864222134,0.1143336360631338,0.2022,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,0.0,0.3160621761658031,Not significant
+ECU,-12.111066826092738,0.0006829736408263,0.4856,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,4.0,0.8082901554404145,Not significant
+EGY,17.79726318586421,-0.0554416304900864,0.377,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,12.75,0.6476683937823834,Not significant
+SLV,-35.42978610336124,0.3996539115262393,0.1469,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,0.0,0.5440414507772021,Not significant
+GNQ,-18.331340507506308,0.5264842991219721,0.004,Low-Low,Low-Low,False,Sub-Saharan Africa ,Upper middle income,0.0,0.3730569948186528,Low-Low
+ERI,-60.81838713963066,1.011787998862187,0.0562,Not significant,Not significant,False,Sub-Saharan Africa ,Low income,0.0,0.7979274611398963,Not significant
+EST,21.523847482396707,0.5398490953457398,0.0075,High-High,High-High,False,Europe & Central Asia,High income,1.0,0.2642487046632124,High-High
+SWZ,-0.6058190514148976,0.0138065768317798,0.082,Not significant,Not significant,False,Sub-Saharan Africa ,Lower middle income,2.0,0.5906735751295337,Not significant
+ETH,8.327354855852263,-0.1716246609118844,0.0219,Not significant,High-Low,False,Sub-Saharan Africa ,Low income,39.45,0.8808290155440415,Not significant
+FRO,,-8.084334070123431e-18,0.0004,Low-High,Low-High,True,Europe & Central Asia,High income,0.0,,no data
+FJI,-41.64740268367211,0.4510376134161619,0.1534,Not significant,Not significant,False,East Asia & Pacific,Upper middle income,0.0,0.6062176165803109,Not significant
+FIN,50.80244453301447,1.0702572410763418,0.0203,Not significant,High-High,False,Europe & Central Asia,High income,5.625,0.2176165803108808,Not significant
+FRA,61.80151454762854,1.6822444488653407,0.0033,High-High,High-High,False,Europe & Central Asia,High income,14.517857142857142,0.2435233160621761,High-High
+PYF,17.419954829281256,-0.0861883588188159,0.3213,Not significant,Not significant,False,East Asia & Pacific,High income,0.0,0.0155440414507772,Not significant
+GAB,-40.611133253620295,1.426684455120152,0.0004,Low-Low,Low-Low,False,Sub-Saharan Africa ,Upper middle income,0.0,0.5958549222797928,Low-Low
+GMB,-61.33652185465657,0.9355512767206452,0.0722,Not significant,Not significant,False,Sub-Saharan Africa ,Low income,0.0,0.8031088082901554,Not significant
+GEO,-20.381294008237013,0.1315244712272836,0.2761,Not significant,Not significant,False,Europe & Central Asia,Upper middle income,0.5,0.6217616580310881,Not significant
+DEU,78.80961870599175,2.7993804380789142,0.0002,High-High,High-High,False,Europe & Central Asia,High income,36.708333333333336,0.160621761658031,High-High
+GHA,10.078384482529572,-0.2020742864276048,0.0271,Not significant,High-Low,False,Sub-Saharan Africa ,Lower middle income,9.083333333333332,0.6735751295336787,Not significant
+GRC,42.22930782516275,0.5192073752407507,0.1222,Not significant,Not significant,False,Europe & Central Asia,High income,7.0,0.3264248704663212,Not significant
+GRD,-1.751029626677294,0.0024875503880126,0.4467,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,0.0,0.2072538860103626,Not significant
+GTM,-27.698950445064433,0.3383228816056545,0.1291,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,1.0,0.7564766839378239,Not significant
+GIN,-27.635180018599712,0.6809607037267225,0.011,Not significant,Low-Low,False,Sub-Saharan Africa ,Lower middle income,0.5,0.694300518134715,Not significant
+GNB,-34.952836455427125,0.8439549661858513,0.0118,Not significant,Low-Low,False,Sub-Saharan Africa ,Low income,1.0,0.8290155440414507,Not significant
+GUY,11.202338248970374,-0.0476392209933517,0.3417,Not significant,Not significant,False,Latin America & Caribbean ,High income,0.0,0.077720207253886,Not significant
+HTI,-72.73548558522651,0.1362620305668976,0.4147,Not significant,Not significant,False,Latin America & Caribbean ,Lower middle income,0.0,0.917098445595855,Not significant
+HND,-18.17457154244719,0.2437281079258045,0.1059,Not significant,Not significant,False,Latin America & Caribbean ,Lower middle income,1.25,0.7202072538860104,Not significant
+HUN,45.71808157300385,0.8910078538896689,0.0305,Not significant,High-High,False,Europe & Central Asia,High income,16.09090909090909,0.4248704663212435,Not significant
+ISL,9.129799388866749,0.3117112715796206,0.0004,High-High,High-High,False,Europe & Central Asia,High income,0.0,0.0984455958549222,High-High
+IND,25.393915238474833,0.0704600152037283,0.3947,Not significant,Not significant,False,South Asia,Lower middle income,292.59285714285716,0.7409326424870466,Not significant
+IDN,43.06363757140958,0.1183802144991339,0.394,Not significant,Not significant,False,East Asia & Pacific,Upper middle income,34.875,0.5129533678756477,Not significant
+IRN,21.78291483990965,-0.3844912591117821,0.0461,Not significant,High-Low,False,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,49.5,0.7616580310880829,Not significant
+IRQ,-4.098578450910054,0.0539434740348736,0.125,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,5.0,0.7461139896373057,Not significant
+IRL,42.249236083432976,1.2198278461208445,0.0028,High-High,High-High,False,Europe & Central Asia,High income,1.0,0.0569948186528497,High-High
+ISR,29.295868207785308,-0.215563851252618,0.2457,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",High income,1.0,0.1865284974093264,Not significant
+ITA,65.41251494619371,1.4199023521944258,0.0188,Not significant,High-High,False,Europe & Central Asia,High income,15.875,0.2227979274611398,Not significant
+JAM,-39.05672910854257,0.375217316777075,0.1813,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,0.0,0.5803108808290155,Not significant
+JPN,67.31898498737877,1.2017245558861631,0.0436,Not significant,High-High,False,East Asia & Pacific,High income,10.0,0.1139896373056994,Not significant
+JOR,-45.27434568885346,0.0610476756889933,0.437,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,0.0,0.6424870466321243,Not significant
+KAZ,48.30344094592799,-0.9486841812402932,0.0322,Not significant,High-Low,False,Europe & Central Asia,Upper middle income,18.5,0.4041450777202072,Not significant
+KEN,-7.686993490102296,0.1629074547599581,0.0276,Not significant,Low-Low,False,Sub-Saharan Africa ,Lower middle income,21.916666666666664,0.9948186528497408,Not significant
+KIR,1.3577786634781468,0.00537374667154,0.3145,Not significant,Not significant,False,East Asia & Pacific,Lower middle income,0.0,0.1761658031088082,Not significant
+KWT,-17.8132057924804,-0.1039022689151969,0.2989,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.3678756476683937,Not significant
+KGZ,-4.901022983924534,0.0631708835585833,0.1281,Not significant,Not significant,False,Europe & Central Asia,Lower middle income,1.0,0.5284974093264249,Not significant
+LAO,-34.43470174040123,-0.2689605981831952,0.24,Not significant,Not significant,False,East Asia & Pacific,Lower middle income,1.0,0.8238341968911918,Not significant
+LVA,16.860635047163544,0.4300483820313261,0.008,High-High,High-High,False,Europe & Central Asia,High income,1.0,0.310880829015544,High-High
+LBN,10.49422080510164,-0.0553805017196007,0.3083,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,2.25,0.5181347150259067,Not significant
+LSO,-49.41942340906071,0.4593472276498105,0.1886,Not significant,Not significant,False,Sub-Saharan Africa ,Lower middle income,0.0,0.6839378238341969,Not significant
+LBR,-68.07227314999335,1.3778771219237629,0.0263,Not significant,Low-Low,False,Sub-Saharan Africa ,Low income,0.0,0.8704663212435233,Not significant
+LBY,-30.248438953102163,0.139954049663619,0.3285,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,0.0,0.4922279792746113,Not significant
+LTU,18.933173907267175,0.363651081018412,0.0331,Not significant,High-High,False,Europe & Central Asia,High income,1.0,0.2901554404145077,Not significant
+LUX,44.83990965856251,1.8168625003527836,0.0002,High-High,High-High,False,Europe & Central Asia,High income,1.0,0.0310880829015544,High-High
+MDG,-42.0140826358443,0.6448039464302487,0.0713,Not significant,Not significant,False,Sub-Saharan Africa ,Low income,1.3333333333333333,0.9637305699481864,Not significant
+MWI,-19.909658562508294,0.5077370596131285,0.0078,Low-Low,Low-Low,False,Sub-Saharan Africa ,Low income,5.116666666666667,0.911917098445596,Low-Low
+MYS,39.788760462335595,0.5921408271323199,0.0761,Not significant,Not significant,False,East Asia & Pacific,Upper middle income,14.5,0.4559585492227979,Not significant
+MDV,8.093529958814933,0.0159274981093999,0.4262,Not significant,Not significant,False,South Asia,Upper middle income,0.0,0.1088082901554404,Not significant
+MLI,-27.548824232762044,0.3609939235654287,0.1119,Not significant,Not significant,False,Sub-Saharan Africa ,Low income,2.0,0.8601036269430051,Not significant
+MLT,2.394048093529957,0.0421288982380082,0.0285,Not significant,High-High,False,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.1658031088082901,Not significant
+MRT,-18.89066028962403,0.2784909810407017,0.0856,Not significant,Not significant,False,Sub-Saharan Africa ,Lower middle income,1.0,0.6683937823834197,Not significant
+MUS,-6.9323767769363585,0.125682845520904,0.0515,Not significant,Not significant,False,Sub-Saharan Africa ,Upper middle income,0.0,0.2590673575129533,Not significant
+MEX,45.69151056197689,-0.8572757527204893,0.0394,Not significant,High-Low,False,Latin America & Caribbean ,Upper middle income,20.2,0.4507772020725388,Not significant
+FSM,-21.95828351268766,0.3546290103156738,0.0663,Not significant,Not significant,False,East Asia & Pacific,Upper middle income,0.0,0.4093264248704663,Not significant
+MNG,12.379434037465131,0.0004731374808521,0.4966,Not significant,Not significant,False,East Asia & Pacific,Upper middle income,1.6666666666666663,0.4300518134715025,Not significant
+MNE,29.135113591072148,0.5074438426776485,0.0501,Not significant,Not significant,False,Europe & Central Asia,Upper middle income,0.0909090909090909,0.0932642487046632,Not significant
+MAR,13.059651919755566,0.174238205072862,0.0985,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,19.0,0.7668393782383419,Not significant
+MOZ,-30.74797396040921,0.5528619661552121,0.0467,Not significant,Low-Low,False,Sub-Saharan Africa ,Low income,3.25,0.9792746113989638,Not significant
+MMR,-17.21801514547628,0.0350294764503926,0.4178,Not significant,Not significant,False,East Asia & Pacific,Lower middle income,2.1666666666666665,0.7875647668393783,Not significant
+NAM,-28.671449448651515,0.4836335850269827,0.057,Not significant,Not significant,False,Sub-Saharan Africa ,Lower middle income,0.5,0.7046632124352331,Not significant
+NPL,30.15278331340508,0.0767507586469357,0.4027,Not significant,Not significant,False,South Asia,Lower middle income,19.166666666666664,0.6010362694300518,Not significant
+NLD,53.09419423409061,2.282141967147627,0.0001,High-High,High-High,False,Europe & Central Asia,High income,8.291666666666666,0.233160621761658,High-High
+NCL,-2.2691643417032026,0.0396576923317118,0.0755,Not significant,Not significant,False,East Asia & Pacific,High income,0.0,0.2124352331606217,Not significant
+NZL,32.40467649794075,-0.4323613459604826,0.1067,Not significant,Not significant,False,East Asia & Pacific,High income,1.0,0.155440414507772,Not significant
+NIC,-53.56450112926797,0.489193367471932,0.1913,Not significant,Not significant,False,Latin America & Caribbean ,Lower middle income,0.0,0.7253886010362695,Not significant
+NER,-23.975023249634653,0.5173629964607536,0.0218,Not significant,Low-Low,False,Sub-Saharan Africa ,Low income,2.5,0.8756476683937824,Not significant
+NGA,3.669456622824498,-0.0442714052709183,0.108,Not significant,Not significant,False,Sub-Saharan Africa ,Lower middle income,38.8,0.922279792746114,Not significant
+NIU,,-8.070393677995479e-19,0.3703,Not significant,Not significant,True,,,0.0,,no data
+MKD,24.78278198485453,0.380378319831243,0.069,Not significant,Not significant,False,Europe & Central Asia,Upper middle income,2.0,0.3367875647668393,Not significant
+NOR,41.36309286568354,1.1290047814655304,0.0037,High-High,High-High,False,Europe & Central Asia,High income,2.0,0.1709844559585492,High-High
+OMN,-27.139630662946725,0.1803210127726307,0.2623,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.4611398963730569,Not significant
+PAK,14.016208316726448,-0.1176191467406777,0.2086,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,49.266666666666666,0.8341968911917098,Not significant
+PSE,-24.54895708781719,0.0929999415062988,0.3545,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,0.0,0.4352331606217616,Not significant
+PAN,10.124883751826758,-0.1196676330369138,0.1247,Not significant,Not significant,False,Latin America & Caribbean ,High income,1.0,0.3782383419689119,Not significant
+PNG,-58.22771356450112,1.4476299483039343,0.008,Low-Low,Low-Low,False,East Asia & Pacific,Lower middle income,0.0,0.772020725388601,Low-Low
+PRY,-31.80284309817989,-0.663007921125507,0.0265,Not significant,Low-High,False,Latin America & Caribbean ,Upper middle income,0.0,0.5077720207253886,Not significant
+PER,20.39856516540454,0.1038224931251892,0.3134,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,12.25,0.6113989637305699,Not significant
+PHL,27.14494486515212,0.4197809908195434,0.0693,Not significant,Not significant,False,East Asia & Pacific,Upper middle income,12.0,0.533678756476684,Not significant
+POL,48.86940348080245,1.121399634223924,0.0139,Not significant,High-High,False,Europe & Central Asia,High income,14.0,0.3523316062176165,Not significant
+PRT,33.07293742526903,1.074257807598648,0.0009,High-High,High-High,False,Europe & Central Asia,High income,2.0,0.2538860103626943,High-High
+PRI,15.347415969177629,-0.1334570783168762,0.2047,Not significant,Not significant,False,Latin America & Caribbean ,High income,0.0,0.0362694300518134,Not significant
+QAT,-16.77693636242859,-0.0502822432806151,0.4002,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.3575129533678756,Not significant
+KOR,66.97754749568222,0.7228208911212674,0.1464,Not significant,Not significant,False,East Asia & Pacific,High income,15.0,0.1968911917098445,Not significant
+MDA,-38.57977946060847,-0.6019368044445556,0.076,Not significant,Not significant,False,Europe & Central Asia,Upper middle income,1.0,0.8652849740932642,Not significant
+ROU,-3.917895575926664,-0.0601041043641959,0.092,Not significant,Not significant,False,Europe & Central Asia,High income,1.0909090909090908,0.5699481865284974,Not significant
+RUS,39.574863823568485,-0.1502801967828569,0.3581,Not significant,Not significant,False,Europe & Central Asia,High income,12.059523809523808,0.4145077720207253,Not significant
+RWA,-12.724857180815718,0.3629431282257725,0.0036,Low-Low,Low-Low,False,Sub-Saharan Africa ,Low income,9.25,0.9067357512953368,Low-Low
+KNA,14.311146539125817,0.0268655441905361,0.4321,Not significant,Not significant,False,Latin America & Caribbean ,High income,0.0,0.0466321243523316,Not significant
+LCA,-4.859837916832735,-0.0111939767460567,0.4274,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,0.0,0.238341968911917,Not significant
+VCT,0.8396439484522382,-0.0008706426358044,0.4305,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,0.0,0.1813471502590673,Not significant
+WSM,4.466586953633588,0.0130755853728867,0.3892,Not significant,Not significant,False,East Asia & Pacific,Upper middle income,0.0,0.1450777202072538,Not significant
+STP,-46.310615118905275,1.0587492826456255,0.0157,Not significant,Low-Low,False,Sub-Saharan Africa ,Lower middle income,0.0,0.6528497409326425,Not significant
+SAU,36.89252026039591,-0.4137694432201527,0.1457,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",High income,3.0,0.2797927461139896,Not significant
+SEN,15.190647004118505,-0.3574074977935115,0.0123,Not significant,High-Low,False,Sub-Saharan Africa ,Lower middle income,14.0,0.689119170984456,Not significant
+SRB,38.58110801115984,0.4224538637114634,0.1506,Not significant,Not significant,False,Europe & Central Asia,Upper middle income,8.59090909090909,0.3834196891191709,Not significant
+SYC,16.383685399229442,-0.2271330435327892,0.0917,Not significant,Not significant,False,Sub-Saharan Africa ,High income,0.0,0.0259067357512953,Not significant
+SLE,-25.28364554271289,0.6306566207840465,0.0101,Not significant,Low-Low,False,Sub-Saharan Africa ,Low income,3.0,0.9015544041450776,Not significant
+SGP,17.93808954430716,0.3202936393349804,0.0446,Not significant,High-High,False,East Asia & Pacific,High income,0.0,0.0103626943005181,Not significant
+SVK,11.518533280191315,0.3419023247369527,0.0019,High-High,High-High,False,Europe & Central Asia,High income,0.0909090909090909,0.2694300518134715,High-High
+SVN,19.29055400557992,0.5862067486964556,0.0017,High-High,High-High,False,Europe & Central Asia,High income,0.0909090909090909,0.1917098445595854,High-High
+SLB,-54.082635844293875,0.8488765699093013,0.0686,Not significant,Not significant,False,East Asia & Pacific,Lower middle income,0.0,0.7305699481865285,Not significant
+SOM,-48.85744652584031,0.7846161995887371,0.0644,Not significant,Not significant,False,Sub-Saharan Africa ,Low income,0.25,0.8860103626943006,Not significant
+ZAF,24.55958549222798,-0.4315176865409597,0.05,Not significant,Not significant,False,Sub-Saharan Africa ,Upper middle income,11.583333333333332,0.5544041450777202,Not significant
+SSD,-34.28457552809884,0.7813719657293837,0.0157,Not significant,Low-Low,False,Sub-Saharan Africa ,Low income,2.0,0.927461139896373,Not significant
+ESP,46.18838846818121,1.3517378099734287,0.0021,High-High,High-High,False,Europe & Central Asia,High income,23.0,0.466321243523316,High-High
+LKA,41.343164607413314,0.2457000513480285,0.2842,Not significant,Not significant,False,South Asia,Upper middle income,14.5,0.4404145077720207,Not significant
+SDN,-75.32615916035606,1.3692440464104942,0.0419,Not significant,Low-Low,False,Sub-Saharan Africa ,Low income,0.0,0.9430051813471504,Not significant
+SUR,-20.922014082635844,0.0126931245007298,0.4715,Not significant,Not significant,False,Latin America & Caribbean ,Upper middle income,0.0,0.3989637305699481,Not significant
+SWE,65.24644612727514,1.6064084386272208,0.0096,Not significant,High-High,False,Europe & Central Asia,High income,10.0,0.1347150259067357,Not significant
+CHE,39.845888136043584,1.4781584349728747,0.0004,High-High,High-High,False,Europe & Central Asia,High income,1.5,0.1502590673575129,High-High
+SYR,-55.59319782117709,0.0080361406961198,0.4827,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Low income,0.25,0.9533678756476685,Not significant
+TJK,-52.01009698419024,0.3474556166134215,0.2584,Not significant,Not significant,False,Europe & Central Asia,Lower middle income,0.0,0.7098445595854922,Not significant
+THA,32.73282848412383,-0.0013316269365558,0.4996,Not significant,Not significant,False,East Asia & Pacific,Upper middle income,21.5,0.5854922279792746,Not significant
+TLS,-65.99973428988973,-0.9436975258663116,0.096,Not significant,Not significant,False,East Asia & Pacific,Lower middle income,0.0,0.8497409326424871,Not significant
+TGO,-60.30025242460475,0.7613769850109577,0.1118,Not significant,Not significant,False,Sub-Saharan Africa ,Lower middle income,0.0,0.7927461139896373,Not significant
+TON,-17.295071077454498,-0.0999740122607937,0.3019,Not significant,Not significant,False,East Asia & Pacific,Upper middle income,0.0,0.3626943005181347,Not significant
+TTO,-13.149993357247244,0.0314944608708962,0.4131,Not significant,Not significant,False,Latin America & Caribbean ,High income,0.0,0.3212435233160621,Not significant
+TUN,20.253753155307557,0.1980439506652916,0.1763,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,5.0,0.5025906735751295,Not significant
+TKM,-42.68367211372393,0.2641648553507448,0.2763,Not significant,Not significant,False,Europe & Central Asia,Upper middle income,0.0,0.616580310880829,Not significant
+TUV,16.901820114255347,-0.3950230016164014,0.0134,Not significant,High-Low,False,East Asia & Pacific,Upper middle income,0.0,0.0207253886010362,Not significant
+TUR,16.22691643417032,-0.1437626078792658,0.1963,Not significant,Not significant,False,Europe & Central Asia,Upper middle income,14.0,0.6787564766839378,Not significant
+UGA,-25.614454629998676,0.6828047654299075,0.0067,Low-Low,Low-Low,False,Sub-Saharan Africa ,Low income,5.5,0.9740932642487048,Low-Low
+UKR,9.395509499136438,0.0618343839425816,0.2606,Not significant,Not significant,False,Europe & Central Asia,Upper middle income,31.016666666666666,0.8393782383419689,Not significant
+ARE,7.05726052876312,0.0012137172934844,0.4913,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.1191709844559585,Not significant
+GBR,81.97688322040655,2.5384258940705866,0.0014,High-High,High-High,False,Europe & Central Asia,High income,18.833333333333332,0.0725388601036269,High-High
+TZA,-13.803640228510702,0.3269830229495568,0.0134,Not significant,Low-Low,False,Sub-Saharan Africa ,Lower middle income,12.7,0.9585492227979274,Not significant
+USA,86.01036269430051,0.698729765358362,0.2129,Not significant,Not significant,False,North America,High income,326.2261904761905,0.1398963730569948,Not significant
+URY,35.028563836853984,0.4476568128769594,0.1101,Not significant,Not significant,False,Latin America & Caribbean ,High income,4.416666666666667,0.3471502590673575,Not significant
+UZB,7.786634781453429,-0.0945517552901804,0.1176,Not significant,Not significant,False,Europe & Central Asia,Lower middle income,6.0,0.6580310880829016,Not significant
+VUT,-25.585226517869,0.4897364826399814,0.0386,Not significant,Low-Low,False,East Asia & Pacific,Lower middle income,0.0,0.4455958549222797,Not significant
+VEN,-6.90979141756344,-0.0055503128672435,0.4739,Not significant,Not significant,False,Latin America & Caribbean ,Lower middle income,0.5,0.4870466321243523,Not significant
+VNM,36.34914308489438,0.1052829816319519,0.3898,Not significant,Not significant,False,East Asia & Pacific,Upper middle income,22.333333333333332,0.5595854922279793,Not significant
+YEM,-70.66294672512288,0.3576921256476306,0.3056,Not significant,Not significant,False,"Middle East, North Africa, Afghanistan & Pakistan",Low income,0.0,0.8963730569948186,Not significant
+ZMB,-17.799920286966923,0.3841322165394323,0.0227,Not significant,Low-Low,False,Sub-Saharan Africa ,Lower middle income,3.3333333333333335,0.8549222797927462,Not significant
+ZWE,-20.401222266507233,0.2918606693651254,0.0903,Not significant,Not significant,False,Sub-Saharan Africa ,Lower middle income,4.0,0.8911917098445595,Not significant

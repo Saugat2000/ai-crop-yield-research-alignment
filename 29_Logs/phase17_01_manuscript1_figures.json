@@ -1,0 +1,389 @@
+{
+  "script": "phase17_01_manuscript1_figures",
+  "start": "2026-08-28T21:47:53Z",
+  "end": "2026-08-28T21:47:59Z",
+  "elapsed_s": 6.4,
+  "python": "3.9.6",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "random_seed": 20260730,
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.12.0",
+    "statsmodels": "0.14.6",
+    "geopandas": "1.0.1",
+    "libpysal": "4.8.1",
+    "esda": "2.5.1",
+    "spreg": "1.9.0",
+    "networkx": "3.2.1",
+    "pyarrow": "21.0.0",
+    "pymc": "5.12.0",
+    "arviz": "0.17.1",
+    "sklearn": "1.6.1"
+  },
+  "inputs": [
+    {
+      "path": "12_Data_Integration/country_crop_panel.parquet",
+      "exists": true,
+      "sha256": "880bbc3a2c54eb91500fa7ef04116eab3a99807e3b2a76619789309f7dfee4e1",
+      "bytes": 310911
+    },
+    {
+      "path": "12_Data_Integration/country_research_side.parquet",
+      "exists": true,
+      "sha256": "c63d1c7e142885e87fd2f24ade9baf6cd4faf655dfbff190583bcc428b2d4a1f",
+      "bytes": 67348
+    },
+    {
+      "path": "15_Descriptive_Analysis/research_side_descriptives.json",
+      "exists": true,
+      "sha256": "123316c636d777e3084fe419e6915d598b79de6000b6acbafe6b707cb215781c",
+      "bytes": 2994
+    },
+    {
+      "path": "17_Spatial_Econometrics/research_side_lisa_clusters.csv",
+      "exists": true,
+      "sha256": "a7439fad6e40f5b5854d1d6243059f9b25f17e6b45ac9dbd01520ce284aafdcc",
+      "bytes": 123849
+    },
+    {
+      "path": "17_Spatial_Econometrics/research_side_global_moran.csv",
+      "exists": true,
+      "sha256": "252be7c5e14ba27fe73bb748b5f46ace2bf08792846d4e7341b495d3670f096d",
+      "bytes": 2960
+    },
+    {
+      "path": "16_Econometrics/model_coefficients.csv",
+      "exists": true,
+      "sha256": "d1543c201a299443c010b450745d2d008da25823691a01ddb338bd4c5d08fd9f",
+      "bytes": 4136
+    },
+    {
+      "path": "16_Econometrics/model_comparison.csv",
+      "exists": true,
+      "sha256": "8bfbb8c978316d52c155145d173f63f6988a365c7c71929106138d1f5c09c16c",
+      "bytes": 581
+    },
+    {
+      "path": "16_Econometrics/model_diagnostics.json",
+      "exists": true,
+      "sha256": "6c231d593855fc53a3f52623360dd206d9d627f8627afd91e3e7a5cdd40a1ee7",
+      "bytes": 5756
+    },
+    {
+      "path": "20_Robustness/finding_stability_classification.csv",
+      "exists": true,
+      "sha256": "fed7cc1dbbe1fb2eaffa66fd2fceed89031f12d8b9faf0e08592c6f632fc9ff7",
+      "bytes": 2182
+    },
+    {
+      "path": "14_Spatial_Weights/country_analytical_layer.parquet",
+      "exists": true,
+      "sha256": "e3180ee09653746973164e7a8c4c1afdd828ffc6931b5da510259f6300c7bf8a",
+      "bytes": 967383
+    },
+    {
+      "path": "29_Logs/phase02_01_flatten_and_dedup.json",
+      "exists": true,
+      "sha256": "6165a6943344431cd13cc9f1ae52d4910ebc00a0f41529a6f9c9d3c1a91881d3",
+      "bytes": 20431
+    },
+    {
+      "path": "29_Logs/phase02_05_resolve_components.json",
+      "exists": true,
+      "sha256": "a2d4478e0b5caa801c700a32e52d9d3104fd6d5636636c5f57a35fb8da876ae7",
+      "bytes": 2178
+    },
+    {
+      "path": "29_Logs/phase03_03_assisted_screening.json",
+      "exists": true,
+      "sha256": "c08390ad2e0acf7046061bd2ebb83f8d6fadfe5de7120a9a224e80dc9cb3fddb",
+      "bytes": 3210
+    },
+    {
+      "path": "06_Screening/eligible_corpus_manifest.json",
+      "exists": true,
+      "sha256": "a47d2591f31c50b916930aa0bc4c1b630bde0d702eecd23ff6d914b6516c4584",
+      "bytes": 657
+    }
+  ],
+  "outputs": [
+    {
+      "path": "21_Figures/fig_01_research_intensity_map.png",
+      "exists": true,
+      "sha256": "95dda7fe216e2eba3f452d104d023c0c5f99bf3b175d829aeeb41c4b4cdf537a",
+      "bytes": 483884,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_01_research_intensity_map.pdf",
+      "exists": true,
+      "sha256": "5b0b4209a5ed120e691d48f6dc1ff4b2d09b02f1245285ae91ecaa94bed66424",
+      "bytes": 860663,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_01_research_intensity_map_data.csv",
+      "exists": true,
+      "sha256": "7c09b2f2ee627058879bbfc560ab9682669bf8e735a5a1c7f8b048c74f82193f",
+      "bytes": 17385,
+      "rows": 195
+    },
+    {
+      "path": "21_Figures/fig_01_research_intensity_map_caption.txt",
+      "exists": true,
+      "sha256": "130ddad0f6002d447454f4f1ee038b87a2c8f971a82f29a027a0a87e42a0e67a",
+      "bytes": 812,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_02_crop_attention_vs_production.png",
+      "exists": true,
+      "sha256": "5cd381923e1885fe2c9143b65f501af47e80fc67b462f46cf5eba0d0270d1c95",
+      "bytes": 136493,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_02_crop_attention_vs_production.pdf",
+      "exists": true,
+      "sha256": "798f5f978c7b647f84b3ce2cf52124c99f08a35f276bfab519bb5da8966dff59",
+      "bytes": 14286,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_02_crop_attention_vs_production_data.csv",
+      "exists": true,
+      "sha256": "e0e26bbea5c9df64d3ca17fb2be12b93155aed2a050772eaa31d789cb22f3b70",
+      "bytes": 2308,
+      "rows": 25
+    },
+    {
+      "path": "21_Figures/fig_02_crop_attention_vs_production_caption.txt",
+      "exists": true,
+      "sha256": "3a9cc4bfd9958403c7d94d358fd03d39049fc8ba5654f583a649a302ea8557a7",
+      "bytes": 532,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_03_research_vs_production_share.png",
+      "exists": true,
+      "sha256": "871ba0ee9875a4aee254f34309053e5f6882d9049c0788ec85a03d39ce1b9363",
+      "bytes": 252551,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_03_research_vs_production_share.pdf",
+      "exists": true,
+      "sha256": "4188ab6b53911c2ac5c3511059667b297272b8335fa7465c68da381e83615f37",
+      "bytes": 21238,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_03_research_vs_production_share_data.csv",
+      "exists": true,
+      "sha256": "faa8403a49c4d3f4aed2fe1103cacb98250974e5bb494b47f65fa7cc1e695e22",
+      "bytes": 32873,
+      "rows": 199
+    },
+    {
+      "path": "21_Figures/fig_03_research_vs_production_share_caption.txt",
+      "exists": true,
+      "sha256": "24b2b674b10d408e0fed54558089dc4a67f911ff3a6e65049c7bd992ab071580",
+      "bytes": 1384,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_04_need_vs_research_percentile.png",
+      "exists": true,
+      "sha256": "dbba1801a0e648a95a475ebea50fa5441ae3bc241e14fb10fd888d8a01dfbf1f",
+      "bytes": 358478,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_04_need_vs_research_percentile.pdf",
+      "exists": true,
+      "sha256": "2767239c2d4f8697c911b7e84b607243591f02375bdc2e37ac2c946a3dd3f11a",
+      "bytes": 24249,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_04_need_vs_research_percentile_data.csv",
+      "exists": true,
+      "sha256": "9a0133758f21ce296bd414b6ce470e9e77b488c00dbe7763b8f233afcafb85eb",
+      "bytes": 31708,
+      "rows": 195
+    },
+    {
+      "path": "21_Figures/fig_04_need_vs_research_percentile_caption.txt",
+      "exists": true,
+      "sha256": "c2b30286f778e21f3ec530322ab0ae0a059fe6d2f235458f43994299b31ea8ac",
+      "bytes": 1088,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_05_evidence_gap_lisa_map.png",
+      "exists": true,
+      "sha256": "bc443a57fdfd9e90644987cd73b3eeee93adf5d9c3280c748b169ab4d179f393",
+      "bytes": 424465,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_05_evidence_gap_lisa_map.pdf",
+      "exists": true,
+      "sha256": "bd760d36ebb1e8e8a9b2a5a9103d21d0e062780aa7e2ac77919641ffb255e6ee",
+      "bytes": 855894,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_05_evidence_gap_lisa_map_data.csv",
+      "exists": true,
+      "sha256": "cb4723e54c9e078af151aa19f6a0f956308a21e709a4970f950fdec50a2dc7f4",
+      "bytes": 32215,
+      "rows": 195
+    },
+    {
+      "path": "21_Figures/fig_05_evidence_gap_lisa_map_caption.txt",
+      "exists": true,
+      "sha256": "753b0fa86038aadb4e4c8813ac644834493e69650defdd352799f334428fc23f",
+      "bytes": 1132,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_06_model_coefficients.png",
+      "exists": true,
+      "sha256": "61073c81316790d6b2ac97335358e9805d03c4fe1b11310e89a5072fd89db149",
+      "bytes": 174788,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_06_model_coefficients.pdf",
+      "exists": true,
+      "sha256": "b2fd348b2ea1be0eb39dd8add3976f8322e9799a4cee79493329444463b14244",
+      "bytes": 25899,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_06_model_coefficients_data.csv",
+      "exists": true,
+      "sha256": "6d63f8dd6b09651e77f9ee138717eeab9ea8e4f4c485ca0bf89afe8a70d8e510",
+      "bytes": 1159,
+      "rows": 16
+    },
+    {
+      "path": "21_Figures/fig_06_model_coefficients_caption.txt",
+      "exists": true,
+      "sha256": "1e63c094bcd919eb04ed707958cec896c6ff656660026feb014b0dc0ef87c079",
+      "bytes": 977,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/01_Data_Validation/map_input_audit_manuscript1.csv",
+      "exists": true,
+      "sha256": "519e839bc64b957242c993ad3241bdb497d3a1239e1531d952696ec5f2f9f629",
+      "bytes": 402,
+      "rows": 2
+    },
+    {
+      "path": "22_Tables/tab_01_corpus_construction.csv",
+      "exists": true,
+      "sha256": "b36c3a69531e0a3f22bb8b95ee9e7dc9bf6842db035a2e99d6135a6cfd12837c",
+      "bytes": 2467,
+      "rows": 24
+    },
+    {
+      "path": "22_Tables/tab_01_corpus_construction.tex",
+      "exists": true,
+      "sha256": "132a27fa17510c986d74653b3d13c381051f17f573d3d8eb3253cdb08e3e5526",
+      "bytes": 3698,
+      "rows": 24
+    },
+    {
+      "path": "22_Tables/tab_02_main_regression_estimates.csv",
+      "exists": true,
+      "sha256": "d501f2907926bd64e93ca94f7bea868bebfb7bc7241e8cde7e75cb591dd7a5a6",
+      "bytes": 1811,
+      "rows": 16
+    },
+    {
+      "path": "22_Tables/tab_02_main_regression_estimates.tex",
+      "exists": true,
+      "sha256": "a7bf9f41b16c11f9bddd04d7d5d1b36dbcaad1bb430f54afa8cf8bc9172c2984",
+      "bytes": 2530,
+      "rows": 16
+    },
+    {
+      "path": "22_Tables/tab_03_under_researched_systems.csv",
+      "exists": true,
+      "sha256": "7c5c42aa03fd5585a250dddc5fbda393dd8803aadb32d128c14cfafeadb243ef",
+      "bytes": 2039,
+      "rows": 20
+    },
+    {
+      "path": "22_Tables/tab_03_under_researched_systems.tex",
+      "exists": true,
+      "sha256": "d2b2fc5df55c95aff5dfb52ef989a42249305db94abc2b53586f9b7b5896e77a",
+      "bytes": 3555,
+      "rows": 20
+    },
+    {
+      "path": "22_Tables/tab_04_finding_stability.csv",
+      "exists": true,
+      "sha256": "d7203774f867810135fe7e673f3b443147652e1ea9a5b403606b0fa7a8080b35",
+      "bytes": 1184,
+      "rows": 8
+    },
+    {
+      "path": "22_Tables/tab_04_finding_stability.tex",
+      "exists": true,
+      "sha256": "f175313055f3bef871bd12980a7f4e85e63e927969327c747ec57fdc1a0887d7",
+      "bytes": 3341,
+      "rows": 8
+    },
+    {
+      "path": "21_Figures/manuscript1_figure_manifest.csv",
+      "exists": true,
+      "sha256": "9462f543b58dced4e99a25a4c23e24ddd60d9cd151cb5a671d176727be1afba7",
+      "bytes": 620,
+      "rows": 10
+    }
+  ],
+  "counts": {
+    "random_seed": 20260730,
+    "panel_countries": 199,
+    "layer_countries": 195,
+    "panel_countries_without_geometry": 4,
+    "fig01_countries_measured_zero": 73,
+    "fig01_countries_no_data": 0,
+    "fig02_crops": 25,
+    "fig02_top_crop_fractional": 565.58,
+    "fig03_countries_plotted": 122,
+    "fig03_countries_measured_zero_strip": 73,
+    "fig03_countries_no_production_denominator": 4,
+    "fig03_zero_research_clipped_to_left_edge": 21,
+    "fig04_countries_plotted": 193,
+    "fig04_high_need_low_research_countries": 48,
+    "fig04_countries_without_need_index": 2,
+    "fig05_High_High": 19,
+    "fig05_Low_Low": 13,
+    "fig05_High_Low": 0,
+    "fig05_Low_High": 1,
+    "fig05_Not_significant": 160,
+    "fig05_no_data": 2,
+    "fig05_global_moran_I": 0.3868,
+    "fig06_coefficients_plotted": 15,
+    "fig06_coefficients_off_scale": 0,
+    "tab01_rows": 24,
+    "tab02_rows": 16,
+    "tab03_cells_meeting_rule": 643,
+    "tab03_countries_meeting_rule": 49,
+    "tab04_findings": 8
+  },
+  "errors": [],
+  "warnings": [
+    "panel countries with no boundary in the spatial layer, not mapped: GLP (fractional studies 0), GUF (fractional studies 0), MTQ (fractional studies 0), REU (fractional studies 0)"
+  ],
+  "notes": [
+    "map input audit written to a manuscript-1 specific file; the existing map_input_audit.csv is left untouched"
+  ],
+  "free_disk_gb_end": 35.2
+}

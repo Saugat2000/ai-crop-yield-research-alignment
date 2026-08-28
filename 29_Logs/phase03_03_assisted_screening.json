@@ -1,0 +1,93 @@
+{
+  "script": "phase03_03_assisted_screening",
+  "start": "2026-08-13T20:41:21Z",
+  "end": "2026-08-13T20:45:04Z",
+  "elapsed_s": 223.0,
+  "python": "3.9.6",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "random_seed": 20260730,
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.12.0",
+    "statsmodels": "0.14.6",
+    "geopandas": "1.0.1",
+    "libpysal": "4.8.1",
+    "esda": "2.5.1",
+    "spreg": "1.9.0",
+    "networkx": "3.2.1",
+    "pyarrow": "21.0.0",
+    "pymc": "5.12.0",
+    "arviz": "0.17.1",
+    "sklearn": "1.6.1"
+  },
+  "inputs": [
+    {
+      "path": "06_Screening/s2e_deterministic_results.parquet",
+      "exists": true,
+      "sha256": "5f96dbb333e32a1b418fed8a3bafb12d1611ad46dd1183b3bb21266d2881b019",
+      "bytes": 85399008
+    },
+    {
+      "path": "05_Deduplication/final_works.parquet",
+      "exists": true,
+      "sha256": "bf02d89ca077306a2936f00b75ff9445ed9768e8874b1d7cac7d86d3ac04b85f",
+      "bytes": 54589335
+    }
+  ],
+  "outputs": [
+    {
+      "path": "06_Screening/s3a_screening_decisions.parquet",
+      "exists": true,
+      "sha256": "4064930346952643196f745c90e83d2f0f4b99eb4b974d4b77bc59c16cffec95",
+      "bytes": 74204817,
+      "rows": 43543
+    },
+    {
+      "path": "06_Screening/s3a_decision_summary.csv",
+      "exists": true,
+      "sha256": "6f6ffca7d66bc48c81d6fc1c16788635bf20382a129673d380a7870c1739f6e7",
+      "bytes": 1192,
+      "rows": 19
+    },
+    {
+      "path": "06_Screening/s3a_eligible_corpus.parquet",
+      "exists": true,
+      "sha256": "70564ba90138500af615522091caed3a33be0272c5648be1af666b3fafcd3f6d",
+      "bytes": 12098028,
+      "rows": 7045
+    }
+  ],
+  "counts": {
+    "input_works": 43543,
+    "s3a_exclude_0        s2e_non_crop_domain\n1                       s2e_\n2                       s2e_\n3                       s2e_\n4                       s2e_\n                ...         \n43538                   s2e_\n43539                   s2e_\n43540                   s2e_\n43541                   s2e_\n43542                   s2e_\nName: s2e_reason, Length: 43543, dtype: object": 818,
+    "s3a_exclude_ineligible_document_type": 1717,
+    "s3a_exclude_process_model_not_ai": 597,
+    "s3a_include_all_criteria_affirmative": 4143,
+    "s3a_include_empirical_marker_not_named": 2902,
+    "s3a_uncertain_yield_object_not_declared_in_title": 4168,
+    "s3a_exclude_no_ai_method_named": 403,
+    "s3a_uncertain_no_ai_method_no_abstract": 675,
+    "s3a_exclude_yield_not_modelled_outcome": 8422,
+    "s3a_uncertain_yield_unclear_no_abstract": 652,
+    "s3a_exclude_no_crop_context": 2048,
+    "s3a_uncertain_no_crop_context_no_abstract": 2739,
+    "s3a_exclude_neither_yield_nor_method": 10671,
+    "s3a_uncertain_insufficient_metadata": 3588,
+    "decision_exclude": 24676,
+    "decision_uncertain": 11822,
+    "decision_include": 7045,
+    "basis_absence_of_evidence": 29198,
+    "basis_affirmative_evidence": 7275,
+    "basis_combined": 7070,
+    "exclusions_on_absence": 21544,
+    "exclusions_affirmative": 3132,
+    "eligible_studies": 7045,
+    "eligible_conference": 1494,
+    "eligible_with_abstract": 5927
+  },
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "free_disk_gb_end": 74.9
+}

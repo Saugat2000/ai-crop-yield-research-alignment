@@ -1,0 +1,6 @@
+variable,weights,n_hot_fdr,n_cold_fdr,n_sig_raw
+log_studies,knn_k6,3,21,44
+research_intensity_per_mha,knn_k6,6,18,60
+citation_weighted,knn_k6,0,20,41
+evidence_gap,knn_k6,21,13,75
+cell_coverage_pct,knn_k6,5,21,48

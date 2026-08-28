@@ -1,0 +1,26 @@
+variable,label,weights,n,n_islands,n_missing_filled,morans_I,expected_I,z_sim,p_sim,permutations
+log_studies,"Research output, log(1 + fractional study count)",knn_k6,195,0,0,0.1572,-0.0052,4.284,0.0007,9999
+log_studies,"Research output, log(1 + fractional study count)",knn_k4,195,0,0,0.1526,-0.0052,3.413,0.0016,9999
+log_studies,"Research output, log(1 + fractional study count)",knn_k8,195,0,0,0.1199,-0.0052,3.873,0.0007,9999
+log_studies,"Research output, log(1 + fractional study count)",queen,195,43,0,0.1694,-0.0052,2.775,0.0045,9999
+log_studies,"Research output, log(1 + fractional study count)",distance_band,195,1,0,0.131,-0.0052,5.464,0.0001,9999
+research_intensity_per_mha,Studies per million hectares harvested,knn_k6,195,0,1,0.1016,-0.0052,4.02,0.0035,9999
+research_intensity_per_mha,Studies per million hectares harvested,knn_k4,195,0,1,0.1548,-0.0052,4.775,0.0018,9999
+research_intensity_per_mha,Studies per million hectares harvested,knn_k8,195,0,1,0.0811,-0.0052,3.829,0.0034,9999
+research_intensity_per_mha,Studies per million hectares harvested,queen,195,43,1,0.0511,-0.0052,1.257,0.0804,9999
+research_intensity_per_mha,Studies per million hectares harvested,distance_band,195,1,1,0.0432,-0.0052,2.709,0.0145,9999
+citation_weighted,Citation-weighted fractional study count,knn_k6,195,0,0,0.0219,-0.0052,0.998,0.0878,9999
+citation_weighted,Citation-weighted fractional study count,knn_k4,195,0,0,0.0359,-0.0052,1.251,0.0602,9999
+citation_weighted,Citation-weighted fractional study count,knn_k8,195,0,0,0.0137,-0.0052,0.777,0.1235,9999
+citation_weighted,Citation-weighted fractional study count,queen,195,43,0,0.1468,-0.0052,3.341,0.0171,9999
+citation_weighted,Citation-weighted fractional study count,distance_band,195,1,0,0.0719,-0.0052,4.329,0.0058,9999
+evidence_gap,"Evidence gap, research percentile minus need percentile",knn_k6,195,0,2,0.3868,-0.0052,10.243,0.0001,9999
+evidence_gap,"Evidence gap, research percentile minus need percentile",knn_k4,195,0,2,0.4129,-0.0052,8.858,0.0001,9999
+evidence_gap,"Evidence gap, research percentile minus need percentile",knn_k8,195,0,2,0.3669,-0.0052,11.36,0.0001,9999
+evidence_gap,"Evidence gap, research percentile minus need percentile",queen,195,43,2,0.4729,-0.0052,7.643,0.0001,9999
+evidence_gap,"Evidence gap, research percentile minus need percentile",distance_band,195,1,2,0.3144,-0.0052,12.589,0.0001,9999
+cell_coverage_pct,Share of a country's crop systems with any study,knn_k6,195,0,0,0.1427,-0.0052,3.88,0.0006,9999
+cell_coverage_pct,Share of a country's crop systems with any study,knn_k4,195,0,0,0.1411,-0.0052,3.105,0.0038,9999
+cell_coverage_pct,Share of a country's crop systems with any study,knn_k8,195,0,0,0.116,-0.0052,3.761,0.0013,9999
+cell_coverage_pct,Share of a country's crop systems with any study,queen,195,43,0,0.2355,-0.0052,3.884,0.0005,9999
+cell_coverage_pct,Share of a country's crop systems with any study,distance_band,195,1,0,0.1464,-0.0052,6.113,0.0001,9999
