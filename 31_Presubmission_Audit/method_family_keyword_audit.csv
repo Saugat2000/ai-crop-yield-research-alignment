@@ -1,0 +1,11 @@
+,0
+neural_deep,29.78
+tree_boosting,24.5
+svm_kernel,9.87
+other_ml,44.41
+classical_regression,23.26
+process_model,4.74
+any_ml,62.57
+classical_only,9.64
+process_only,2.87
+no_signal,24.93

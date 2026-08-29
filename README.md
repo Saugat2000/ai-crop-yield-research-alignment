@@ -69,6 +69,26 @@ included files without it.
 | `run_robustness.py` | `concentration_robustness.csv`, `model_robustness.csv`, `finding_stability_classification.csv` | Table 6 |
 | `make_manuscript1_figures.py` | `fig_01`–`fig_06` (+ data/caption sidecars), `tab_01`–`tab_04` CSVs | Figures 1–4, A1–A2; Tables 1, 3, 5, 6 inputs |
 
+## Pre-submission audit (2026-08-29): revised primary specifications
+
+`31_Presubmission_Audit/` holds the scripts and outputs of the pre-submission audit that
+revised the reported specifications. In the submitted manuscript:
+
+- the **primary research-need index excludes the two agricultural-scale components**
+  (share of global harvested area and production); `audit_need_index.py` rebuilds it and
+  `need_index_scale_excluded.parquet` stores it. The original eleven-component index
+  (`13_Indices/`) is the sensitivity variant.
+- the **primary regression estimates** are `table5_need9_primary.csv`: the scale-excluded index, no standalone yield-volatility
+  regressor. Crop and region fixed-effect, country-level, allocation-scope, and
+  coverage-threshold variants are in `model_audit_results.csv`.
+- the **primary spatial statistics** are observed-sample results with weights rebuilt on
+  countries whose mismatch value is observed (`spatial_audit_global.csv`,
+  `gap9_lisa_clusters.csv`); the earlier mean-filled outputs in `17_Spatial_Econometrics/`
+  are superseded for the mismatch variable.
+- cross-crop comparisons use **harvested area**; production is compared within crops
+  (`within_crop_benchmarks.csv`).
+- figure files `21_Figures/fig_0*_v2*.pdf` are the submitted versions.
+
 ## Data sources and licences
 
 | Source | Used for | Licence |

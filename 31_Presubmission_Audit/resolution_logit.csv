@@ -1,0 +1,7 @@
+term,estimate,se
+const,-2.152,0.105
+year_c,-0.02,0.005
+conference,-0.108,0.07
+preprint,0.298,0.159
+has_abstract,1.209,0.097
+log_citations,0.094,0.019

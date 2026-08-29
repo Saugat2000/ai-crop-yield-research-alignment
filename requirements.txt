@@ -1,4 +1,5 @@
 # Python 3.9 environment used for the reported results
+esda==2.5.1
 geopandas==1.0.1
 libpysal==4.8.1
 matplotlib==3.9.4

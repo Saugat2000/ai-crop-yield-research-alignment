@@ -1,0 +1,4 @@
+allocation,studies,gini_all_countries,gini_studied,top1_share_pct,countries_with_any
+baseline_all,2031,0.847,0.75,16.1,122
+no_global,1688,0.847,0.731,15.6,113
+strict_specific_only,1394,0.839,0.712,13.9,111

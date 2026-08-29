@@ -1,0 +1,13 @@
+analysis,n,morans_I,p_sim
+gap11_observed_knn4,193,0.4245,0.0001
+gap11_observed_knn6,193,0.3945,0.0001
+gap11_observed_knn8,193,0.386,0.0001
+gap11_observed_knn6_dup,193,0.3945,0.0001
+gap11_observed_queen_connected,152,0.4212,0.0001
+gap11_commonsample_knn4,152,0.4147,0.0001
+gap11_commonsample_knn6,152,0.408,0.0001
+gap11_commonsample_knn8,152,0.4,0.0001
+gap9_observed_knn6,193,0.3626,0.0001
+gap9_observed_knn4,193,0.3784,0.0001
+gap9_observed_knn8,193,0.3579,0.0001
+gap11_needcov_ge7_knn6,188,0.3926,0.0001
