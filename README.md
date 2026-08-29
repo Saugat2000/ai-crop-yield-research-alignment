@@ -1,4 +1,4 @@
-# Does AI-Based Crop-Yield Research Align with Agricultural Importance, Research Need, and Scientific Capacity?
+# AI-Based Crop-Yield Research Follows Agricultural Importance and Scientific Capacity More Than Research Need: A Global Country-Crop Analysis
 
 Replication data and code for the manuscript submitted to *Advances in Agriculture* (Wiley).
 
