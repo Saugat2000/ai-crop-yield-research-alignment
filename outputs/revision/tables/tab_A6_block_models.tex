@@ -1,0 +1,26 @@
+\begin{table*}[!t]
+\centering
+\caption{Nested block models of research participation}
+\label{tab:blocks}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l r r r r r@{}}
+\toprule
+Model & Covariates & Log-likelihood & McFadden $R^2$ & AIC & BIC \\
+\midrule
+Constant only & 0 & $-$1008.6 & 0.000 & 2019.2 & 2024.7 \\
+Agricultural scale & 1 & $-$704.1 & 0.302 & 1412.2 & 1423.2 \\
+Scale $+$ research need & 2 & $-$662.3 & 0.343 & 1330.6 & 1347.1 \\
+Scale $+$ capacity indicators & 6 & $-$641.2 & 0.364 & 1296.5 & 1334.9 \\
+Scale $+$ need $+$ capacity & 7 & $-$639.8 & 0.366 & 1295.6 & 1339.6 \\
+\midrule
+\multicolumn{6}{l}{\textit{Likelihood-ratio tests}} \\
+Comparison & $\chi^2$ & df & $p$ & $\Delta$ McFadden $R^2$ & \\
+Need added to scale & 83.60 & 1 & 0.0000 & 0.0414 & \\
+Capacity added to scale & 125.74 & 5 & 0.0000 & 0.0623 & \\
+Capacity added to scale+need & 44.97 & 5 & 0.0000 & 0.0223 & \\
+Need added to scale+capacity & 2.83 & 1 & 0.0926 & 0.0014 & \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}
+\item[] Participation logit on the 1,799-cell estimation sample, standard errors clustered by country. Capacity indicators are research and development expenditure, log GDP per capita, tertiary enrolment, internet use, and log population. Differences in fit describe how much each block adds to in-sample explanation and are not evidence of causal importance. The corresponding comparison for the intensity model, scaled by the estimated dispersion, distinguishes neither block from the other.
+\end{tablenotes}
+\end{table*}

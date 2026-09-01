@@ -1,0 +1,7 @@
+quantity,n_sampled,n_determinable,n_correct,rate,ci_low,ci_high,note,decision_method
+"Location coding accuracy, allocated records (drive the counts)",170,158,87,0.5506329113924051,0.4727853010967712,0.6260768824042228,strict: scope and country both correct,MODEL_ASSISTED_VALIDATION - not human review
+"Location coding accuracy, single-country study-area cue",45,44,43,0.9772727272727273,0.8819229030178671,0.9959767479399467,,MODEL_ASSISTED_VALIDATION - not human review
+"Location coding accuracy, single-country locative cue",45,35,34,0.9714285714285714,0.8546691276638632,0.9949385081445556,,MODEL_ASSISTED_VALIDATION - not human review
+"Country-assignment precision, allocated records",169,157,87,0.554140127388535,0.47601905780316917,0.6296750842709311,excludes scope-label-only errors with no wrong country,MODEL_ASSISTED_VALIDATION - not human review
+False-unresolved rate (study area present but not coded),50,50,31,0.62,0.4815044693099298,0.7413721068980641,higher is worse; these are missed locations,MODEL_ASSISTED_VALIDATION - not human review
+Crop coding precision (records with a determinable crop),210,170,152,0.8941176470588236,0.8388485280345371,0.9319687494378756,excludes not_applicable and cannot_determine,MODEL_ASSISTED_VALIDATION - not human review

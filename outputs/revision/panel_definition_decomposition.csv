@@ -1,0 +1,10 @@
+component,cells
+199 countries x 25 crops (full cross),4975
+"FAOSTAT records, any year 1990-2024",2590
+"FAOSTAT records, reference window 2018-2022",2507
+in panel but absent from FAOSTAT extract,30
+in FAOSTAT extract but absent from panel,4
+PANEL TOTAL,2616
+panel cells with NO FAOSTAT area/production/yield,109
+  of which carry any research,0
+panel cells with a positive area denominator,2343

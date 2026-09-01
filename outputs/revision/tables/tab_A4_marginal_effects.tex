@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+\centering
+\caption{Average marginal effects on the probability that a country-crop system is studied}
+\label{tab:ame}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l r r r r r r@{}}
+\toprule
+Covariate & AME & (SE) & 95\% CI & 25th pct. & 75th pct. & IQR effect (pp) \\
+\midrule
+Log harvested area & 0.081 & (0.004) & [0.072, 0.089] & 8.27 & 12.34 & 35.0 \\
+R\&D expenditure (\% GDP) & 0.036 & (0.014) & [0.008, 0.063] & 0.18 & 0.94 & 2.7 \\
+Research-need index (0-1) & 0.107 & (0.109) & [$-$0.108, 0.321] & 0.26 & 0.76 & 5.2 \\
+Log GDP per capita & 0.039 & (0.040) & [$-$0.038, 0.117] & 8.81 & 10.53 & 7.0 \\
+Tertiary enrolment (share) & 0.029 & (0.053) & [$-$0.075, 0.133] & 0.15 & 0.71 & 1.6 \\
+Internet use (share) & 0.149 & (0.111) & [$-$0.070, 0.367] & 0.55 & 0.91 & 5.6 \\
+Log population & 0.013 & (0.012) & [$-$0.011, 0.036] & 15.76 & 17.82 & 2.6 \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}
+\item[] Average marginal effects from the participation logit of Table~\ref{tab:reg}, computed by the delta method with standard errors clustered by country. The final column reports the change in mean predicted probability, in percentage points, when the covariate moves from its 25th to its 75th percentile with all other covariates held at their observed values. Percentage-point changes are comparable across covariates; raw coefficients are not.
+\end{tablenotes}
+\end{table*}

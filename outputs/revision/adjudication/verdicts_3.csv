@@ -1,0 +1,43 @@
+id,loc_verdict,loc_should_be,loc_error_type,crop_verdict,crop_should_be,note
+W4292061349,cannot_determine,,,not_applicable,,India named only as motivational framing; no study area or dataset asserted
+W4414662386,correct,,,correct,,
+W1144997387,correct,,,not_applicable,,Sediment yield study; no specific crop yield modelled
+W3175779217,cannot_determine,,,not_applicable,,"India only contextual framing; no study area, dataset or crop named"
+W4413060562,correct,,,correct,,
+W4378191380,correct,,,correct,,
+W2268886164,incorrect,GHA,false_country_assignment,correct,,"GIN from 'Guinea savanna' agro-ecological zone, not the country Guinea"
+W4408355384,correct,,,not_applicable,,No specific crop named in abstract
+W2924370212,correct,,,correct,,
+W4408437686,incorrect,,other,cannot_determine,maize,Europe-wide NUTS-2 study; scope should be region. Only maize verifiable
+W3207909856,correct,,,correct,,
+W4364360149,incorrect,NGA,false_country_assignment,correct,,GIN from 'Guinea Savanna' zone name; study area is Nigeria only
+W4394836475,incorrect,IRN,false_country_assignment,incorrect,wheat,"USA unsupported; barley named only as field-mapping confusion, not modelled"
+W7162091625,incorrect,EGY,false_country_assignment,correct,,"Spain is model-training provenance; study area is Nile Delta, Egypt"
+W4405139381,incorrect,AUS,false_country_assignment,correct,,GBR spurious ('New South Wales'); sole study area is Australia
+W7154600928,correct,,,not_applicable,,No crop named in abstract
+W7139958713,correct,,,correct,,
+W7163057425,incorrect,AUS,false_country_assignment,correct,,GBR spurious ('New South Wales'); sole study area is Australia
+W3107408591,incorrect,AUS,false_country_assignment,correct,,GBR spurious ('New South Wales'); sole study area is Australia
+W3005001178,correct,,,correct,,
+W2242204034,correct,,,not_applicable,,"Abstract names only generic cereal yield, no specific crop"
+W4404120595,incorrect,AUS,false_country_assignment,correct,,GBR spurious ('New South Wales'); sole study area is Australia
+W7164983859,incorrect,"BFA,ETH,MLI,MWI,NER,NGA,TZA",other,correct,,Mali and Niger named as study countries but not coded
+W4385767625,correct,,,incorrect,tomato,Rice appears only in an aside comparison; tomato yield is modelled
+W2972711976,incorrect,CHN,false_country_assignment,correct,,"USA from 'US ALMANAC crop model'; study area is Shanxi, China"
+W7154632121,incorrect,USA,false_country_assignment,correct,,"GEO from the US state Georgia, not the country"
+W3117566954,incorrect,BRA,other,correct,,Brazil-only study coded global from the filler word 'worldwide'
+W3040185884,incorrect,THA,other,correct,,Thailand study coded global from generic phrase 'drought monitoring globally'
+W7162815070,incorrect,USA,other,correct,,US Corn Belt study wrongly coded global scope
+W2196961118,incorrect,BRA,other,correct,,Brazil study wrongly coded global scope
+W2990387227,incorrect,FRA,other,correct,,Northern France field study wrongly coded global scope
+W3042780372,incorrect,DEU,other,correct,,Four locations in Germany; wrongly coded global scope
+W4396772974,incorrect,USA,other,correct,,Midwestern US study; 'global de-trending' method name misread as scope
+W4405301470,incorrect,"ARG,DEU,URY",other,correct,,Three-country study coded global rather than multi_country
+W4303981410,incorrect,IND,other,correct,,Indian Indo-Gangetic Plains study wrongly coded global scope
+W4392760602,incorrect,MAR,other,correct,,Morocco semi-arid field study wrongly coded global scope
+W3159743384,incorrect,POL,other,correct,,Northern Poland varietal trials wrongly coded global scope
+W4321376907,incorrect,CHN,other,correct,,China maize study wrongly coded global scope
+W4417199848,incorrect,USA,other,correct,,"Greeley, Colorado USDA-ARS farm study wrongly coded global scope"
+W3217270882,incorrect,MYS,other,correct,,"Selangor, Malaysia irrigation scheme wrongly coded global scope"
+W130010577,incorrect,AUS,other,correct,,Western Australia shire-level study wrongly coded global scope
+W4414128240,cannot_determine,,,correct,,Title and abstract name no study area; Pakistan unverifiable

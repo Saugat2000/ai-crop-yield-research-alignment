@@ -1,0 +1,6 @@
+error_type,count
+missed_country_should_be_resolved,48
+other,29
+false_country_assignment,10
+global_forced_to_country,2
+wrong_country,1

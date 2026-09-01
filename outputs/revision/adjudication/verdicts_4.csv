@@ -1,0 +1,43 @@
+id,loc_verdict,loc_should_be,loc_error_type,crop_verdict,crop_should_be,note
+W4415145726,incorrect,HUN,missed_country_should_be_resolved,correct,,Winter wheat fields in Hungary; 'global food security' is a false cue
+W4406524733,incorrect,USA,missed_country_should_be_resolved,correct,,Yield of US corn is the modelled data; not global
+W4400941771,incorrect,USA,missed_country_should_be_resolved,correct,,"Test area of 258 fields in Arkansas, US; not global"
+W4309003307,incorrect,EGY,missed_country_should_be_resolved,correct,,Model calibrated and field experiments run across Egypt; not global
+W4414002569,incorrect,ETH,missed_country_should_be_resolved,incorrect,maize;sorghum;teff;wheat,Ethiopia-wide study coded global; teff omitted from coded crops
+W3093496230,incorrect,DNK,missed_country_should_be_resolved,correct,,876 Danish field trials and national yield map; not global
+W1554183641,incorrect,USA,missed_country_should_be_resolved,incorrect,maize;soybean;cotton,US 55-year yield panel coded global; soybean omitted from crops
+W7163182020,incorrect,RWA,missed_country_should_be_resolved,correct,,"Kayonza district, Rwanda case study; 'worldwide' is a false cue"
+W2277985105,incorrect,ZMB,missed_country_should_be_resolved,correct,,"Long-term maize experiment at Monze, Southern Province, Zambia"
+W3006660218,incorrect,AUS,missed_country_should_be_resolved,correct,,Australian forecasting context; sugarcane application at Tully; not global
+W2510560976,incorrect,IND,missed_country_should_be_resolved,correct,,"Indian satellite validated over Punjab, Haryana, Madhya Pradesh"
+W4319594319,incorrect,"AUT,BGR,BIH,CZE,HRV,HUN,MNE,ROU,SRB,SVK,SVN",missed_country_should_be_resolved,correct,,Danube River Basin multi-country European study; not global
+W4416231946,incorrect,GBR,missed_country_should_be_resolved,correct,,"Imagery, weather and yield data for North Norfolk, UK"
+W3080526112,incorrect,,global_forced_to_country,correct,,Northern Hemisphere simulation; allocation to USA alone is unsupported
+W3005461977,correct,,,not_applicable,,Abstract empty; title supports Mediterranean region; no crop identifiable
+W2037723597,incorrect,TUR,missed_country_should_be_resolved,incorrect,quinoa,"Field data from Tarsus and Adana, Turkey; quinoa uncoded"
+W4396785621,correct,,,correct,,
+W1497922424,incorrect,NER,missed_country_should_be_resolved,not_applicable,,Empirical site is south-west Niger; cereal species never named
+W4312834888,incorrect,,other,not_applicable,,No study area named; 'world' is generic; should be unresolved
+W2983243964,correct,,,correct,,
+W4382866917,incorrect,,other,incorrect,cabbage,Region cue came from model name WOFOST; no area; cabbage uncoded
+W2044591313,correct,,,incorrect,olive,Olive crop yield is modelled but no crop was coded
+W2759978598,incorrect,,other,correct,,No study area named; 'world' is generic; should be unresolved
+W7136699440,incorrect,,other,not_applicable,,No study area or crop named; 'real-world' is a false cue
+W4410853573,incorrect,,other,not_applicable,,No study area or crop named; should be unresolved not region
+W4293691056,incorrect,IND,missed_country_should_be_resolved,incorrect,rice;onion,"Karnataka state, Indian government data; onion omitted from crops"
+W4224944663,incorrect,,other,correct,,No study area named; 'world' is generic; should be unresolved
+W3037962270,incorrect,,other,correct,,No study area named; 'around the world' is generic framing
+W4410643532,incorrect,,other,incorrect,tomato,"No study area named; tomato is the modelled crop, uncoded"
+W4417072282,incorrect,,other,correct,,"Synthetic data, no study area; 'real-world' is a false cue"
+W2115103238,correct,,,not_applicable,,No crop named in title or in the truncated abstract
+W2999884014,incorrect,IND,missed_country_should_be_resolved,correct,,Indian Wheat Belt is the study area; 'world' is a false cue
+W4394686214,incorrect,,other,incorrect,apple,"University is affiliation, not study area; apple crop uncoded"
+W4410263434,incorrect,,other,not_applicable,,No study area or crop named; should be unresolved not region
+W4408295874,incorrect,AUS,wrong_country,correct,,"Queensland, Australia sites and SILO database; USA allocation unsupported"
+W2115398532,incorrect,BRA,missed_country_should_be_resolved,correct,,"144 municipalities in Parana State, Brazil named as study area"
+W2896336917,incorrect,LKA,missed_country_should_be_resolved,correct,,"Title names Polonnaruwa District, Sri Lanka as the case study"
+W4411316600,incorrect,IND,missed_country_should_be_resolved,correct,,"Karnal district, Haryana, India named as the study area"
+W4220660190,incorrect,IRN,missed_country_should_be_resolved,correct,,"Abstract empty but title names Guilan province, Iran"
+W4416301594,incorrect,IND,missed_country_should_be_resolved,correct,,"Korea district, Chhattisgarh, India; not the Republic of Korea"
+W4406814689,incorrect,IND,missed_country_should_be_resolved,correct,,"Belagavi district, Karnataka, India named as the study area"
+W1480454195,incorrect,TUR,missed_country_should_be_resolved,correct,,Turkey-wide drought and wheat yield analysis over ten provinces

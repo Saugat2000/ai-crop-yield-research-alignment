@@ -1,4 +1,4 @@
-# AI-Based Crop-Yield Research Follows Agricultural Importance and Scientific Capacity More Than Research Need: A Global Country-Crop Analysis
+# Global Geography of AI-Based Crop-Yield Research: Agricultural Scale, Research Need, and Scientific Capacity
 
 Replication data and code for the manuscript submitted to *Advances in Agriculture* (Wiley).
 
@@ -88,6 +88,38 @@ revised the reported specifications. In the submitted manuscript:
 - cross-crop comparisons use **harvested area**; production is compared within crops
   (`within_crop_benchmarks.csv`).
 - figure files `21_Figures/fig_0*_v2*.pdf` are the submitted versions.
+
+## Pre-submission revision (2026-08-31): reviewer-driven analyses
+
+`outputs/revision/` holds the scripts and outputs of a second pre-submission audit conducted
+as two skeptical reviewer passes. The reports are `Reviewer_1_PreSubmission_Report.md`,
+`Reviewer_2_PreSubmission_Report.md`, `Additional_Analysis_Audit.md`, and
+`PreSubmission_Action_Log.md` in the manuscript folder. Findings that changed the manuscript:
+
+- **Study-location and crop coding were validated for the first time** (`rev_05`, `rev_09`).
+  A 210-record stratified probability sample was adjudicated by model-assisted review, which
+  is a first pass requiring human confirmation and is labelled as such everywhere. Country
+  allocation is correct for 90.4% of adjudicated records (95% CI 84.3-94.3); 62.0% of sampled
+  unresolved records name a study area the coder did not recover.
+- **The PPML exposure offset was tested and rejected** (`rev_01`): the harvested-area
+  elasticity is 0.849 (95% CI 0.754-0.944), and unit elasticity is rejected at p = 0.002.
+  Under the free specification the research-need coefficient is no longer distinguishable
+  from zero, so the manuscript no longer reports a positive need association.
+- **The need-index coverage floor was corrected** (`rev_03`): the published floor counted all
+  eleven recorded indicators, including the two never-missing agricultural-scale shares.
+  Applied to the nine primary components it indexes 188 rather than 193 countries; results
+  are unchanged.
+- **Spatial weights were rebuilt on great-circle distance** (`rev_04`): neighbour sets change
+  for 86 of 195 countries and the clustering result is unchanged.
+- **The panel universe is now stated exactly** (`rev_06`): 2,590 FAOSTAT cells, plus 30 for
+  four territories FAOSTAT reports inside France, minus 4, giving 2,616; 109 cells carry no
+  FAOSTAT denominator.
+- Crop fixed effects, an expanded sample without R&D, nested block models, average marginal
+  effects, crop-specific and period-specific models, quasi-Poisson comparison, rank-tie
+  sensitivity, and LM spatial diagnostics are all reported (`rev_01`, `rev_02`, `rev_04`).
+
+The title was changed to the neutral form because the nested block comparison supports a
+capacity-over-need ordering for participation but separates neither block for intensity.
 
 ## Data sources and licences
 

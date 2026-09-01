@@ -1,0 +1,5 @@
+universe,n,total_weight,gini
+"2,616-cell FAOSTAT panel (199 countries)",199,2020.15,0.847805523741698
+full accepted-country allocation (all allocated countries),122,2031.0,0.7497593104901142
+"spatial layer, 195 countries",195,2031.0,0.8434391583579176
+panel countries carrying research,122,2020.1499999999999,0.7517483542999827

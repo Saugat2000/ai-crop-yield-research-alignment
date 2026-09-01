@@ -1,0 +1,43 @@
+id,loc_verdict,loc_should_be,loc_error_type,crop_verdict,crop_should_be,note
+W7165041369,correct,,,correct,,
+W3169469595,correct,,,correct,,
+W3149037922,correct,,,not_applicable,,
+W4400187386,cannot_determine,,,not_applicable,,India only background framing; no study area or data source stated
+W4224000061,correct,,,not_applicable,,
+W4411174509,correct,,,correct,,
+W2045116453,correct,,,incorrect,citrus,Citrus yield is modelled but no crop was coded
+W4284965050,correct,,,correct,,
+W2067450388,correct,,,correct,,
+W4409495029,correct,,,correct,,
+W4319039384,incorrect,,global_forced_to_country,correct,,"Multi-case EU MARS/JRC study; scope is regional, not Germany alone"
+W2760812061,correct,,,correct,,
+W7160248145,cannot_determine,,,correct,,India is motivation only; provenance of rice and wheat datasets unstated
+W7166333207,correct,,,correct,,
+W4323047154,cannot_determine,,,not_applicable,,India appears only as background context; no data location given
+W4387350610,cannot_determine,,,not_applicable,,India background framing only; dataset origin never stated
+W4391309074,correct,,,correct,,
+W4415420856,correct,,,not_applicable,,
+W4411246616,cannot_determine,,,not_applicable,,India cited as economic context only; no study area asserted
+W2402212556,correct,,,incorrect,wheat;maize;potato,B-CGMS also models winter wheat; potato appears only as land-use context
+W2088683152,correct,,,correct,,
+W2314645631,correct,,,correct,,
+W2565879548,correct,,,correct,,
+W7163223889,cannot_determine,,,not_applicable,,India framing only; no study area or data source stated
+W4408624670,correct,,,correct,,
+W4225787757,cannot_determine,,,not_applicable,,Single background mention of India; disease study names no location
+W4403759048,correct,,,correct,,
+W4384526360,correct,,,correct,,
+W3174369375,correct,,,not_applicable,,
+W4297978097,correct,,,correct,,
+W4411468846,correct,,,incorrect,maize;cotton;groundnut;soybean,Peanut and soybean also modelled but were not coded
+W4386031979,correct,,,correct,,
+W7131676956,correct,,,correct,,
+W7117244386,correct,,,correct,,
+W3112357587,correct,,,not_applicable,,
+W4316664674,correct,,,correct,,
+W3138825084,cannot_determine,,,incorrect,tomato;potato;chilli,India background only; dataset location unstated; yam was not studied
+W4379469092,correct,,,correct,,
+W4298082817,correct,,,not_applicable,,
+W2883166218,correct,,,correct,,
+W7171319723,correct,,,not_applicable,,
+W7114780653,correct,,,correct,,

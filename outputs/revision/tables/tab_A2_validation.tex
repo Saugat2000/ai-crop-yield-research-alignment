@@ -1,0 +1,36 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{Validation of screening, study-location coding, and crop coding}
+\label{tab:validation}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l r r r r r l@{}}
+\toprule
+\multicolumn{7}{l}{\textit{Panel A. Study-location coding by stratum}} \\
+Stratum & Records & Sampled & Weight & Correct & Rate & 95\% CI \\
+\midrule
+Global scope, countries accepted & 343 & 30 & 11.4 & 0 & 0.000 & [0.000, 0.114] \\
+Multiple named countries & 56 & 20 & 2.8 & 8 & 0.400 & [0.219, 0.613] \\
+Regional scope & 268 & 20 & 13.4 & 5 & 0.250 & [0.112, 0.469] \\
+Single country, locative cue & 859 & 45 & 19.1 & 34 & 0.756 & [0.613, 0.858] \\
+Single country, study-area cue & 962 & 45 & 21.4 & 43 & 0.956 & [0.852, 0.988] \\
+Unresolved scope, countries accepted & 294 & 30 & 9.8 & 2 & 0.067 & [0.018, 0.213] \\
+Unresolved, not allocated & 3,691 & 20 & 184.6 & 11 & 0.550 & [0.342, 0.742] \\
+\midrule
+\multicolumn{7}{l}{\textit{Panel B. Main quantities}} \\
+\multicolumn{4}{@{}l}{Location coding accuracy, allocated records (drive the counts)} & 87 & 0.551 & [0.473, 0.626] \\
+\multicolumn{4}{@{}l}{Location coding accuracy, single-country study-area cue} & 43 & 0.977 & [0.882, 0.996] \\
+\multicolumn{4}{@{}l}{Location coding accuracy, single-country locative cue} & 34 & 0.971 & [0.855, 0.995] \\
+\multicolumn{4}{@{}l}{Country-assignment precision, allocated records} & 87 & 0.554 & [0.476, 0.630] \\
+\multicolumn{4}{@{}l}{False-unresolved rate (study area present but not coded)} & 31 & 0.620 & [0.482, 0.741] \\
+\multicolumn{4}{@{}l}{Crop coding precision (records with a determinable crop)} & 152 & 0.894 & [0.839, 0.932] \\
+\midrule
+\multicolumn{7}{l}{\textit{Panel C. Screening validation}} \\
+Largest exclusion stratum & 8,677 & 45 & 99.7 & 44 & 0.978 & [0.884, 0.996] \\
+Inclusion, all criteria affirmative & 4,143 & 20 & 82.9 & 19 & 0.950 & [0.764, 0.992] \\
+Inclusion, empirical marker not named & 2,902 & 20 & 58.0 & 14 & 0.700 & [0.481, 0.855] \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}
+\item[] Panel A reports study-location coding accuracy by stratum on the 210-record probability sample (seed 20260831); Weight is the design weight, and Rate counts a record correct only if both scope and country match the title and abstract. Panel B reports the quantities that bear on the analysis, computed on records whose verdict is determinable. Panel C reports the screening validation of 85 records. Intervals are Wilson intervals. All adjudication was model-assisted review against the recorded evidence rather than independent human reading, and requires human confirmation before it is treated as settled.
+\end{tablenotes}
+\end{table*}

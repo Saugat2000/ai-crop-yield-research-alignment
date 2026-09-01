@@ -1,0 +1,43 @@
+id,loc_verdict,loc_should_be,loc_error_type,crop_verdict,crop_should_be,note
+W3014518228,incorrect,PAK,missed_country_should_be_resolved,correct,,Field experiment at research farm in Pakistan; coded unresolved
+W2945600159,incorrect,USA,missed_country_should_be_resolved,correct,,Midwestern United States is the stated study area
+W1989851445,incorrect,USA,missed_country_should_be_resolved,correct,,Weather and yield data from south-eastern USA locations
+W7165808889,incorrect,IND,missed_country_should_be_resolved,correct,,"Himachal Pradesh, India districts are the study area"
+W4404638069,incorrect,THA,missed_country_should_be_resolved,correct,,"Paddy fields in Chiang Mai, Thailand are study area"
+W7125814690,incorrect,IRQ,missed_country_should_be_resolved,correct,,"Wheat farm in Najaf Governorate, Iraq"
+W7117476400,incorrect,CHN,missed_country_should_be_resolved,correct,,"Plot experiments and farmer fields in Jiangsu Province, China"
+W2270888577,incorrect,ZAF,missed_country_should_be_resolved,correct,,"Mbizana, Eastern Cape, South Africa field trial"
+W7166433837,incorrect,IRN,missed_country_should_be_resolved,correct,,"Farmer survey in Sabzevar County, Iran"
+W4297435899,incorrect,IND,missed_country_should_be_resolved,correct,,"Cauvery Delta, Tamil Nadu, India dataset"
+W3206466112,correct,,,correct,,
+W2023758251,incorrect,USA,missed_country_should_be_resolved,correct,,"Sensor readings at St. Gabriel and Jeanerette, Louisiana, USA"
+W2058709694,incorrect,MEX,missed_country_should_be_resolved,correct,,"Farmers' fields in Sinaloa, Mexico"
+W4414623252,incorrect,IND,missed_country_should_be_resolved,correct,,"Title names Himachal Pradesh, India; BGD cue is journal name"
+W1946042141,incorrect,CHN,missed_country_should_be_resolved,correct,,"Jiangsu Province, China rice pixels and yield statistics"
+W4415402724,incorrect,USA,missed_country_should_be_resolved,correct,,"Field-scale winter wheat in Kansas, USA"
+W4200170688,incorrect,CHN,missed_country_should_be_resolved,correct,,"Guanzhong Plain, PR China winter wheat estimation"
+W3201207117,correct,,,correct,,
+W3209013515,incorrect,IND,missed_country_should_be_resolved,correct,,"Hisar district, Haryana, India crop cutting data"
+W7126169709,incorrect,IND,missed_country_should_be_resolved,incorrect,groundnut;maize;pulses;rice;millet,"Tamil Nadu, India yield series; minor millets omitted from crops"
+W7133225567,incorrect,PAK,missed_country_should_be_resolved,correct,,"UAV flights over site in Bahawalpur District, Pakistan"
+W4312559873,incorrect,JPN,missed_country_should_be_resolved,correct,,"Pi-SAR2 data over Osaki City, Miyagi, Japan"
+W7164391833,cannot_determine,,,correct,,Abstract empty; title names no study area
+W7134280857,correct,,,correct,,
+W2887018800,correct,,,correct,,
+W4415695727,incorrect,CHN,missed_country_should_be_resolved,not_applicable,,"Heilongjiang, China is the study area; four crops unnamed"
+W4412136456,correct,,,correct,,
+W3034643611,correct,,,incorrect,snap bean,Greenhouse snap bean yield is modelled; crop field left empty
+W4411042705,correct,,,correct,,
+W2539627447,incorrect,CHN,missed_country_should_be_resolved,not_applicable,,"Jilin province, China grain data; no specific crop named"
+W1577753377,correct,,,correct,,
+W4405654560,incorrect,CHN,missed_country_should_be_resolved,correct,,"Winter wheat yields estimated for Henan Province, China"
+W4220893071,correct,,,correct,,
+W2187805256,incorrect,IRN,missed_country_should_be_resolved,correct,,"Trial planted in Ardabil region, Iran"
+W4323321487,cannot_determine,,,correct,,Abstract empty; title names no study area
+W3165382817,correct,,,not_applicable,,No crop named; generic IoT soil monitoring
+W7164367931,cannot_determine,,,correct,,Abstract empty; title names no study area
+W7133922187,correct,,,correct,,
+W4407507224,cannot_determine,,,not_applicable,,Abstract empty; no study area or crop identifiable
+W3209666587,correct,,,not_applicable,,Generic method paper; no specific crop named
+W3010838566,correct,,,correct,,
+W3088885014,cannot_determine,,,correct,,Abstract empty; title names no study area
