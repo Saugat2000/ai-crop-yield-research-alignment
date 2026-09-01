@@ -1,0 +1,35 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{Determinants of research participation and research intensity}
+\label{tab:reg}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l r@{\hspace{4pt}}l r@{\hspace{4pt}}l r@{\hspace{4pt}}l@{}}
+\toprule
+& \multicolumn{2}{c}{Participation (logit)} & \multicolumn{2}{c}{Intensity, area offset} & \multicolumn{2}{c}{Intensity, free elasticity} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}
+Covariate & Estimate & 95\% CI & Estimate & 95\% CI & Estimate & 95\% CI \\
+\midrule
+Log harvested area & 0.723 & [0.622, 0.824] & \multicolumn{2}{c}{offset} & 0.849 & [0.755, 0.944] \\
+ & (0.051) & &  & & (0.048) & \\
+R\&D expenditure (\% GDP) & 0.323 & [0.081, 0.565] & 0.521 & [0.281, 0.760] & 0.451 & [0.236, 0.667] \\
+ & (0.124) & & (0.122) & & (0.110) & \\
+Research-need index & 0.880 & [$-$0.997, 2.756] & 1.282 & [0.139, 2.424] & 0.982 & [$-$0.148, 2.111] \\
+ & (0.957) & & (0.583) & & (0.576) & \\
+Log GDP per capita & 0.338 & [$-$0.347, 1.023] & $-$0.045 & [$-$0.507, 0.417] & 0.031 & [$-$0.416, 0.477] \\
+ & (0.350) & & (0.236) & & (0.228) & \\
+Tertiary enrolment & 0.213 & [$-$0.712, 1.138] & $-$0.961 & [$-$1.798, $-$0.124] & $-$0.842 & [$-$1.713, 0.029] \\
+ & (0.472) & & (0.427) & & (0.444) & \\
+Internet use & 1.342 & [$-$0.654, 3.337] & 2.167 & [0.537, 3.797] & 1.831 & [0.240, 3.423] \\
+ & (1.018) & & (0.831) & & (0.812) & \\
+Log population & 0.109 & [$-$0.103, 0.321] & $-$0.107 & [$-$0.215, 0.002] & 0.016 & [$-$0.111, 0.143] \\
+ & (0.108) & & (0.055) & & (0.065) & \\
+\midrule
+Country-crop systems & \multicolumn{2}{c}{1,799} & \multicolumn{2}{c}{1,792} & \multicolumn{2}{c}{1,792} \\
+Countries & \multicolumn{2}{c}{142} & \multicolumn{2}{c}{142} & \multicolumn{2}{c}{142} \\
+Pseudo-$R^{2}$ & \multicolumn{2}{c}{0.365} & \multicolumn{2}{c}{---} & \multicolumn{2}{c}{---} \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}
+\item[] The participation column reports a logit for whether a country-crop system carries any eligible study. The two intensity columns report Poisson pseudo-maximum-likelihood estimates of the fractional study count: the first enters log harvested area as an exposure offset, fixing its elasticity at one; the second estimates that elasticity, which is 0.849 (95\% CI 0.755 to 0.944) and rejects the unit restriction ($\chi^{2}_{1}=9.73$, $p=0.002$). The research-need index is the nine-component scale-excluded measure; yield volatility enters through the index and is not a separate regressor. Standard errors, clustered by country, are in parentheses.
+\end{tablenotes}
+\end{table*}

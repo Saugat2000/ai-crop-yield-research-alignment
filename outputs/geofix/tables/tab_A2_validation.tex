@@ -1,0 +1,40 @@
+\begin{table*}[t]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\caption{Validation of screening, study-location coding, and crop coding}
+\label{tab:validation}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l r r r r r l@{}}
+\toprule
+\multicolumn{7}{l}{\textit{Panel A. Scope and country both correct, by stratum}} \\
+Stratum & Records & Sampled & Weight & Correct & Rate & 95\% CI \\
+\midrule
+Global scope, countries accepted & 343 & 30 & 11.4 & 0 & 0.000 & [0.000, 0.114] \\
+Multiple named countries & 56 & 20 & 2.8 & 8 & 0.400 & [0.219, 0.613] \\
+Regional scope & 268 & 20 & 13.4 & 5 & 0.250 & [0.112, 0.469] \\
+Single country, locative cue & 859 & 45 & 19.1 & 34 & 0.756 & [0.613, 0.858] \\
+Single country, study-area cue & 962 & 45 & 21.4 & 43 & 0.956 & [0.852, 0.988] \\
+Unresolved scope, countries accepted & 294 & 30 & 9.8 & 2 & 0.067 & [0.018, 0.213] \\
+Unresolved, not allocated & 3,691 & 20 & 184.6 & 11 & 0.550 & [0.342, 0.742] \\
+\midrule
+\multicolumn{7}{l}{\textit{Panel B. Accuracy of the countries that receive research weight}} \\
+\multicolumn{4}{@{}l}{Countries receiving weight are correct} & 130 & 0.956 & [0.907, 0.980] \\
+\multicolumn{4}{@{}l}{Allocated wholly to the wrong country} & 1 & 0.007 & [0.001, 0.040] \\
+\multicolumn{4}{@{}l}{Allocation misses or adds a country} & 5 & 0.037 & --- \\
+\midrule
+\multicolumn{7}{l}{\textit{Panel C. Other quantities}} \\
+\multicolumn{4}{@{}l}{Location coding accuracy, single-country study-area cue} & 43 & 0.977 & [0.882, 0.996] \\
+\multicolumn{4}{@{}l}{Location coding accuracy, single-country locative cue} & 34 & 0.971 & [0.855, 0.995] \\
+\multicolumn{4}{@{}l}{False-unresolved rate (study area present but not coded)} & 31 & 0.620 & [0.482, 0.741] \\
+\multicolumn{4}{@{}l}{Crop coding precision (records with a determinable crop)} & 152 & 0.894 & [0.839, 0.932] \\
+\midrule
+\multicolumn{7}{l}{\textit{Panel D. Screening validation}} \\
+Largest exclusion stratum & 8,677 & 45 & 99.7 & 44 & 0.978 & [0.884, 0.996] \\
+Inclusion, all criteria affirmative & 4,143 & 20 & 82.9 & 19 & 0.950 & [0.764, 0.992] \\
+Inclusion, empirical marker not named & 2,902 & 20 & 58.0 & 14 & 0.700 & [0.481, 0.855] \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}
+\item[] Panel A applies a strict rule: a record counts as correct only if the scope label and the country assignment both match the title and abstract. That rule explains the low rates for the global-scope and regional strata, where the scope label was triggered by generic wording such as global food security while the countries the study names were still allocated correctly. Panel B reports the quantity the analysis depends on, namely whether the countries that receive research weight are the countries the study examines; it is the statistic cited in Section~3.2 and it is higher than Panel A precisely because scope-label errors do not misdirect weight. Panel B is computed after the three systematic coding errors described in \ref{app:coding} were repaired. Intervals are Wilson intervals. All adjudication was model-assisted review against the recorded evidence rather than independent human reading, and requires human confirmation before it is treated as settled.
+\end{tablenotes}
+\end{table*}

@@ -1,0 +1,23 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{Estimated quantities across the robustness suite}
+\label{tab:robust}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{5.1cm} r c r >{\raggedright\arraybackslash}p{3.9cm}@{}}
+\toprule
+Estimated quantity & Baseline & Range across variants & Variants & Sign retained / interval excludes zero \\
+\midrule
+Gini of country research counts, all countries & 0.848 & [0.771, 0.904] & 13 & 13 of 13 / not applicable \\
+Logit coefficient on log harvested area & 0.723 & [0.668, 0.838] & 11 & 11 of 11 / 11 of 11 \\
+Global Moran's $I$ on the mismatch measure & 0.364 & [0.190, 0.429] & 13 & 13 of 13 / 13 of 13 \\
+Share of crop attention held by wheat, maize and rice & 69.5\% & 67.9\% under the machine-learning subset & 2 & not applicable \\
+Logit coefficient on R\&D expenditure & 0.323 & [$-$0.126, 2.375] & 11 & 10 of 11 / 6 of 11 \\
+Logit coefficient on the research-need index & 0.880 & [$-$9.405, 1.081] & 11 & 10 of 11 / 0 of 11 \\
+PPML coefficient on the research-need index & 1.282 & [0.114, 1.282] & 4 & 4 of 4 / 2 of 4 \\
+Harvested-area elasticity, freely estimated & 0.849 & [0.755, 0.944] & 1 & unit elasticity rejected, $p=0.002$ \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+\item[] Baseline is the value in the main specification: the nine-component scale-excluded need index on the corrected coverage floor, observed-sample spatial statistics, and harvested area entered as an exposure offset in the intensity model. Range is the span across the variants listed in \ref{app:robust}, which include counting rules, document type, influential-country exclusions, period splits, the machine-learning subset, crop and region fixed effects, income-group splits, both need indices, alternative weight matrices, great-circle neighbours, alternative tie conventions, and the free-elasticity specification. The wide range on the need coefficient is driven by the low-income subsample, which contains 14 countries. The final column reports how many variants preserve the sign of the baseline estimate and how many return an interval excluding zero; no categorical stability label is assigned, because the thresholds that would define one were not fixed before the results were examined.
+\end{tablenotes}
+\end{table*}

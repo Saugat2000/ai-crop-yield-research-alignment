@@ -1,0 +1,26 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{Country-level models of research output}
+\label{tab:countrylevel}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l r@{\hspace{6pt}}l r@{\hspace{6pt}}l@{}}
+\toprule
+& \multicolumn{2}{c}{Log study count} & \multicolumn{2}{c}{Studies per hectare (PPML)} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Covariate & Estimate & 95\% CI & Estimate & 95\% CI \\
+\midrule
+Log harvested area & 0.138 & [0.07, 0.20] & $-$0.463 & [$-$0.62, $-$0.31] \\
+R\&D expenditure (\% GDP) & 0.020 & [$-$0.14, 0.18] & 0.282 & [0.07, 0.49] \\
+Research-need index & $-$1.107 & [$-$2.09, $-$0.13] & 0.590 & [$-$0.57, 1.75] \\
+Log GDP per capita & $-$0.024 & [$-$0.35, 0.30] & 0.252 & [$-$0.21, 0.72] \\
+Tertiary enrolment & $-$0.202 & [$-$0.80, 0.39] & $-$0.445 & [$-$1.34, 0.45] \\
+Internet use & 1.083 & [0.03, 2.14] & 0.714 & [$-$0.93, 2.36] \\
+Log population & 0.450 & [0.33, 0.57] & 0.354 & [0.17, 0.54] \\
+\midrule
+Countries & \multicolumn{2}{c}{142} & \multicolumn{2}{c}{142} \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}
+\item[] Countries are the unit. The left column regresses the log of one plus the country's fractional study count on the same covariates as Table~\ref{tab:reg}; the right column is Poisson pseudo-maximum likelihood with total harvested area as an exposure offset. Heteroskedasticity-robust standard errors. Estimates describe association, not effect.
+\end{tablenotes}
+\end{table*}
