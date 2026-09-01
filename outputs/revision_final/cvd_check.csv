@@ -1,0 +1,11 @@
+figure,file,n_colours,passed,deuteranopia,protanopia,tritanopia
+Figure 1  (research output map),fig_01_research_intensity_map.pdf,9,False,13.8,12.8,10.5
+Figure 2  (scale alignment),fig_03_v2_scale_alignment.pdf,9,False,12.6,10.5,10.5
+Figure 3  (need vs research),fig_04_v2_need_vs_research.pdf,9,False,12.6,10.1,15.1
+Figure 4  (LISA clusters + insets),fig_05_v2_mismatch_lisa.pdf,9,False,11.4,13.1,16.4
+Figure A1 (crop attention vs area),fig_02_v2_crop_attention_area.pdf,9,False,10.4,10.4,9.0
+Figure A2 (coefficients),fig_06_v2_coefficients.pdf,9,True,17.2,15.0,15.9
+Figure A3 (sample flow),fig_A6_sample_flow.pdf,9,False,12.2,11.8,8.7
+Figure A4 (predicted probability),fig_A3_predicted_probability.pdf,6,True,12.7,12.6,12.7
+Figure A5 (concentration by period),fig_A4_temporal_concentration.pdf,4,True,17.8,18.2,15.2
+Figure A6 (component correlations),fig_A5_need_component_correlations.pdf,9,False,9.6,10.5,15.6

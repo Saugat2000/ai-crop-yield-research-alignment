@@ -1,0 +1,40 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{Covariate vintage, dispersion, and spatial diagnostics}
+\label{tab:diagnostics}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l r r r r r r@{}}
+\toprule
+\multicolumn{7}{l}{\textit{Panel A. Reference year of the R\&D expenditure observation, 142 estimation countries}} \\
+Income group & Countries & Median & Earliest & Latest & \multicolumn{2}{c}{} \\
+\midrule
+High income & 54 & 2023 & 2015 & 2024 & \multicolumn{2}{c}{} \\
+Low income & 14 & 2018 & 2005 & 2024 & \multicolumn{2}{c}{} \\
+Lower middle income & 31 & 2019 & 2002 & 2024 & \multicolumn{2}{c}{} \\
+Upper middle income & 43 & 2023 & 1999 & 2024 & \multicolumn{2}{c}{} \\
+\midrule
+\multicolumn{7}{l}{\textit{Panel B. Intensity model: clustered against quasi-Poisson standard errors}} \\
+Covariate & Estimate & SE (clustered) & SE (quasi-Poisson) & Ratio & $p$ (clust.) & $p$ (quasi) \\
+\midrule
+R\&D expenditure (\% GDP) & 0.522 & 0.123 & 0.601 & 4.9 & $<$0.001 & 0.385 \\
+Research-need index & 1.261 & 0.590 & 3.637 & 6.2 & 0.033 & 0.729 \\
+Log GDP per capita & $-$0.052 & 0.238 & 1.390 & 5.8 & 0.827 & 0.970 \\
+Tertiary enrolment & $-$0.985 & 0.425 & 2.892 & 6.8 & 0.020 & 0.733 \\
+Internet use & 2.179 & 0.835 & 5.039 & 6.0 & 0.009 & 0.665 \\
+Log population & $-$0.108 & 0.056 & 0.291 & 5.2 & 0.054 & 0.711 \\
+\midrule
+\multicolumn{7}{l}{\textit{Panel C. Lagrange Multiplier tests on country-mean residuals, $k = 6$}} \\
+& \multicolumn{2}{c}{Participation logit} & \multicolumn{2}{c}{Intensity PPML} & \multicolumn{2}{c}{} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Test & Statistic & $p$ & Statistic & $p$ & \multicolumn{2}{c}{} \\
+\midrule
+LM lag & 0.674 & 0.412 & 0.000 & 0.986 & \\
+Robust LM lag & 0.628 & 0.428 & 0.545 & 0.460 & \\
+LM error & 0.567 & 0.451 & 0.242 & 0.623 & \\
+Robust LM error & 0.521 & 0.470 & 0.787 & 0.375 & \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}
+\item[] Panel A gives the year of the most recent research and development expenditure observation for each estimation country. Panel B compares the reported cluster-robust standard errors with quasi-Poisson standard errors formed from the Pearson dispersion, $\hat\phi_{P} = 288$. The deviance-based dispersion for the same fit is $\hat\phi_{D} = 1.4$. The two disagree by more than two orders of magnitude because the Pearson statistic is dominated by a small number of cells with very large counts, so a constant variance-to-mean ratio does not describe these data and the quasi-Poisson interval is conservative rather than correct. Cluster-robust errors, which assume no variance function, remain the reported choice. Panel C reports Lagrange Multiplier tests for a spatial lag and a spatial error process on country-mean residuals under the primary six-nearest-neighbour matrix; none rejects at the 5\% level, which agrees with the residual Moran statistics in Section~5.4.
+\end{tablenotes}
+\end{table*}

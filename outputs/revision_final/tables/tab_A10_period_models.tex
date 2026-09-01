@@ -1,0 +1,27 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{Participation models by publication period}
+\label{tab:periods}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l r@{\hspace{6pt}}l r@{\hspace{6pt}}l@{}}
+\toprule
+& \multicolumn{2}{c}{Published 2000--2019} & \multicolumn{2}{c}{Published 2020--2026} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Covariate & Estimate & 95\% CI & Estimate & 95\% CI \\
+\midrule
+Log harvested area & 0.750 & [0.60, 0.90] & 0.748 & [0.64, 0.86] \\
+R\&D expenditure (\% GDP) & 0.567 & [0.26, 0.88] & 0.285 & [0.03, 0.54] \\
+Research-need index & 0.617 & [$-$1.92, 3.16] & 0.447 & [$-$1.38, 2.28] \\
+Log GDP per capita & 0.073 & [$-$0.75, 0.90] & 0.273 & [$-$0.42, 0.97] \\
+Tertiary enrolment & $-$0.767 & [$-$2.21, 0.68] & 0.419 & [$-$0.53, 1.36] \\
+Internet use & 1.644 & [$-$0.87, 4.16] & 1.234 & [$-$0.93, 3.40] \\
+Log population & $-$0.031 & [$-$0.23, 0.17] & 0.070 & [$-$0.16, 0.30] \\
+\midrule
+Country-crop cells & \multicolumn{2}{c}{1,799} & \multicolumn{2}{c}{1,799} \\
+Cells carrying a study & \multicolumn{2}{c}{225} & \multicolumn{2}{c}{402} \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}
+\item[] The outcome is whether a country-crop system carries a study published in the stated period; the covariate panel is unchanged, because the capacity and need indicators are single most-recent observations rather than annual series. The models therefore test whether the associations are stable across the literature's recent expansion, not whether covariates changed. Standard errors are clustered by country. Note that 2026 is a partial publication year in the frozen corpus.
+\end{tablenotes}
+\end{table*}
