@@ -1,0 +1,25 @@
+\begin{table*}[!t]
+\centering
+\footnotesize
+\caption{Specification checks on the participation and intensity models}
+\label{tab:specchecks}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l r r r r r@{}}
+\toprule
+& Baseline & Crop FE & No R\&D, & Intensity & Intensity, \\
+Covariate & participation & participation & expanded & (offset) & free area \\
+\midrule
+Log harvested area & 0.713 & 0.656 & 0.671 & \multicolumn{1}{c}{---} & 0.849 \\
+R\&D expenditure (\% GDP) & 0.316 & 0.301 & \multicolumn{1}{c}{---} & 0.523 & 0.454 \\
+Research-need index & 0.950 & 0.694 & 0.706 & 1.278 & 0.977 \\
+Log GDP per capita & 0.351 & 0.340 & 0.633 & $-$0.052 & 0.024 \\
+Tertiary enrolment & 0.258 & 0.158 & 0.554 & $-$0.976 & $-$0.857 \\
+Internet use & 1.316 & 1.040 & 0.324 & 2.202 & 1.865 \\
+Log population & 0.111 & 0.309 & 0.184 & $-$0.107 & 0.015 \\
+\midrule
+Cells & 1,799 & 1,799 & 2,161 & 1,792 & 1,792 \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}
+\item[] Coefficients only; intervals are in the replication outputs. Crop fixed effects identify the harvested-area association from variation across countries within a crop. The expanded column drops research and development expenditure, which restores 33 countries and 362 systems. The final column estimates the harvested-area elasticity rather than fixing it at one: the estimate is 0.849 (95\% CI [0.754, 0.944]), and a Wald test rejects unit elasticity ($\chi^2_1 = 9.64$, $p = 0.0019$). Standard errors are clustered by country.
+\end{tablenotes}
+\end{table*}
