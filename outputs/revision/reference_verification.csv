@@ -1,0 +1,34 @@
+bibkey,doi,doi_resolves,year_bib,year_crossref,year_ok,authors_ok,title_ok,journal_ok,volume_ok,pages_ok,issue_ok,severity,problem
+Bhagat2022,10.1371/journal.pone.0268989,TRUE,2022,2022,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Bueno2025,10.3390/su17146449,TRUE,2025,2025,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,minor,"Author diacritics stored as literal UTF-8, not LaTeX escapes (u-acute in Rodrigues, Clarice Araujo); characters match Crossref exactly, but Wiley/pdfLaTeX may need \usepackage[T1]{fontenc} or LaTeX escape form (e.g. Ara{\'u}jo)."
+CashGibson2018,10.1371/journal.pone.0191901,TRUE,2018,2018,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,minor,"Author diacritics stored as literal UTF-8, not LaTeX escapes (o-acute in Rojas-Gualdron; a-grave in Pericas); characters match Crossref exactly, but Wiley/pdfLaTeX may need \usepackage[T1]{fontenc} or LaTeX escape form (e.g. Gualdr{\'o}n, Peric{\`a}s)."
+Fuglie2019,10.1596/978-1-4648-1393-1,TRUE,2019,2019,TRUE,TRUE,TRUE,TRUE,NA,NA,NA,minor,"Crossref issued/published-online 2019-09-05 (matches bib) but published-print 2020; World Bank commonly cites this book as 2020 - confirm intended year. Also publisher={Washington, {DC}: World Bank} bundles place into publisher (Crossref stores it the same way); BibTeX-standard form is publisher={World Bank}, address={Washington, DC}."
+Habibi2024,10.1016/j.jafr.2024.101096,TRUE,2024,2024,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Jabed2024,10.1016/j.heliyon.2024.e40836,TRUE,2024,2024,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Joshi2023,10.3390/rs15082014,TRUE,2023,2023,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Lokeshwari2024,10.18520/cs/v126/i10/1245-1253,TRUE,2024,2024,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,TRUE,minor,"pages={1245} is the first page only. The DOI suffix itself encodes the range 1245-1253, so pages should read 1245--1253. Crossref (page=1245) and OpenAlex (first=last=1245) are both truncated at source; confirm against the PDF before editing."
+Malec2024,10.1016/j.heliyon.2024.e35913,TRUE,2024,2024,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,minor,"Author diacritics stored as literal UTF-8, not LaTeX escapes (i-acute in Rojik); characters match Crossref exactly, but Wiley/pdfLaTeX may need \usepackage[T1]{fontenc} or LaTeX escape form (e.g. Roj{\'i}k)."
+Momenpour2024,10.1007/s00484-024-02628-2,TRUE,2024,2024,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Muruganantham2022,10.3390/rs14091990,TRUE,2022,2022,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+NinPratt2021,10.1111/agec.12620,TRUE,2021,2021,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+NinPratt2023,10.3389/fsufs.2023.1051356,TRUE,2023,2023,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Okupska2026,10.3390/agronomy16070763,TRUE,2026,2026,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,minor,"Author diacritics stored as literal UTF-8, not LaTeX escapes (o-acute in Wojcik-Gront; z-dot-above (U+017C, outside Latin-1) in Elzbieta); characters match Crossref exactly, but Wiley/pdfLaTeX may need \usepackage[T1]{fontenc} or LaTeX escape form (e.g. W{\'o}jcik-Gront, El{\.z}bieta)."
+Radocaj2026a,10.3390/agriculture16040417,TRUE,2026,2026,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,minor,"Author diacritics stored as literal UTF-8, not LaTeX escapes (c-caron, s-caron, c-acute (U+010D/U+0161/U+0107, all outside Latin-1) in Radocaj, Jurisic, Plascak, Galic); characters match Crossref exactly, but Wiley/pdfLaTeX may need \usepackage[T1]{fontenc} or LaTeX escape form (e.g. Rado{\v c}aj, Juri{\v s}i{\'c}, Pla{\v s}{\v c}ak, Gali{\'c})."
+Rosegrant2023,10.1017/bca.2023.27,TRUE,2023,2023,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,minor,"Title uses a hyphen 'Benefit-Cost Analysis'; Crossref/Cambridge use an en dash 'Benefit-Cost' (U+2013), i.e. Benefit--Cost in LaTeX. Journal name correctly keeps the hyphen. Typographic only."
+Sakthivel2026,10.14719/pst.13990,TRUE,2026,2026,TRUE,TRUE,TRUE,TRUE,TRUE,NA,TRUE,none,
+SanchezChavez2026,10.11591/eei.v15i2.10476,TRUE,2026,2026,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,minor,"Author diacritics stored as literal UTF-8, not LaTeX escapes (a-acute in Sanchez; e-acute and o-acute in Garces-Gomez); characters match Crossref exactly, but Wiley/pdfLaTeX may need \usepackage[T1]{fontenc} or LaTeX escape form (e.g. S{\'a}nchez-Chavez, Garc{\'e}s-G{\'o}mez)."
+Screpnik2025,10.1109/access.2025.3560631,TRUE,2025,2025,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Sharma2023,10.1109/access.2023.3321861,TRUE,2023,2023,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Shawon2025,10.1016/j.atech.2024.100718,TRUE,2025,2025,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Stads2020,10.2499/p15738coll2.134063,TRUE,2020,2020,TRUE,TRUE,TRUE,TRUE,NA,NA,NA,none,
+Stiller2024,10.1016/j.ophoto.2024.100064,TRUE,2024,2024,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Toscano2026,10.3390/agronomy16121189,TRUE,2026,2026,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+vanDijk2025,10.1038/s41597-025-05331-y,TRUE,2025,2025,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+vanKlompenburg2020,10.1016/j.compag.2020.105709,TRUE,2020,2020,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Zhang2021,10.3390/su13147662,TRUE,2021,2021,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,TRUE,minor,"Title uses a hyphen 'Management-A Scientometric Review'; Crossref/MDPI use an em dash 'Management-A' (U+2014), i.e. Management---A in LaTeX. Typographic only."
+Zhao2023,10.3390/foods12091827,TRUE,2023,2023,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+Moran1950,10.2307/2332142,TRUE,1950,1950,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,FALSE,minor,number={1--2} renders as 37(1-2); Crossref/Biometrika designate the double issue as '1/2'. Bib pages 17--23 are correct and more complete than the truncated Crossref page field (17).
+Anselin1995,10.1111/j.1538-4632.1995.tb00338.x,TRUE,1995,1995,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+GetisOrd1992,10.1111/j.1538-4632.1992.tb00261.x,TRUE,1992,1992,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
+BenjaminiHochberg1995,10.1111/j.2517-6161.1995.tb02031.x,TRUE,1995,1995,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE,TRUE,minor,"Journal in bib is 'Journal of the Royal Statistical Society: Series B (Methodological)' (the name the journal carried in 1995, historically correct); Crossref now returns the retitled 'Journal of the Royal Statistical Society Series B: Statistical Methodology'. No factual error - decide which convention the reference list follows."
+SilvaTenreyro2006,10.1162/rest.88.4.641,TRUE,2006,2006,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,none,
