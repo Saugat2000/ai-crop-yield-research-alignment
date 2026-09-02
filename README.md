@@ -3,8 +3,9 @@
 Replication data, analysis code, and the submitted manuscript for a study of where AI-based
 crop-yield research is actually conducted.
 
-**Prasamsha Poudel**, Agriculture and Forestry University, Nepal
-**Saugat Khanal**, Department of Agricultural Economics, Oklahoma State University, USA
+- **Prasamsha Poudel** — Agriculture and Forestry University, Nepal
+- **Saugat Khanal** — Department of Agricultural Economics, Oklahoma State University, USA
+
 Both authors contributed equally.
 
 ## Overview
