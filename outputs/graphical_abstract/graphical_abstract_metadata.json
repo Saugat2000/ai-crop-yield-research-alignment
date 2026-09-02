@@ -1,0 +1,40 @@
+{
+  "figure": "Graphical abstract, Manuscript 1",
+  "built_by": "outputs/graphical_abstract/ga_01_build.py",
+  "size_mm": [
+    180,
+    90
+  ],
+  "raster_px": [
+    4251,
+    2125
+  ],
+  "raster_dpi": 600,
+  "files": {
+    "vector": "graphical_abstract.pdf",
+    "png": "graphical_abstract_600dpi.png",
+    "tiff": "graphical_abstract_600dpi.tif"
+  },
+  "colour_mode": "RGB",
+  "palette": "Okabe-Ito + sequential blues; identical to Figure 1",
+  "summary_text_words": 47,
+  "summary_text": "AI-based crop-yield studies cluster where cropland is extensive and research is funded. Across 2,616 country-crop systems, 483 carry any study; harvested area raises the chance of being studied by 35 percentage points, five times any other predictor. Fifty-four of 188 countries pair high need with low research.",
+  "caption": "Graphical abstract. Left, fractional count of eligible AI-based crop-yield studies by country, 2000-2026, equal-earth projection, Antarctica omitted; grey marks a true zero rather than missing data. Right, average marginal effects on the probability that a country-crop system carries research, in percentage points, for an interquartile-range increase in each covariate, from the participation logit on 1,799 systems across 142 countries. The ribbon reports the four headline counts: countries carrying any study; country-crop systems carrying any study; the share of the panel's harvested area lying in systems with no study; and countries at or above median research need and at or below median research, of the 188 with a computable nine-component need index.",
+  "values_shown": {
+    "countries_with_research": 120,
+    "cells_with_research": 483,
+    "gini_panel199": 0.849,
+    "n_gap": 188,
+    "quadrant": 54,
+    "moran_k6": 0.364,
+    "wald_p": 0.002,
+    "iqr_dprob_log_area_pp": 35.1
+  },
+  "source_outputs": [
+    "outputs/geofix/country_crop_panel_corrected.parquet",
+    "outputs/geofix/ame_geofix.csv",
+    "outputs/geofix/gap_corrected_lisa.csv",
+    "outputs/geofix/headline_numbers.json",
+    "14_Spatial_Weights/country_analytical_layer.parquet"
+  ]
+}

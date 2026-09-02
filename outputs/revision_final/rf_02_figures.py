@@ -24,7 +24,10 @@ ROOT = HERE.parent.parent
 sys.path.insert(0, str(ROOT / "01_Project_Management"))
 from project_config import P, RunLogger  # noqa: E402
 
-SUB = ROOT / "Final Manuscript" / "Manuscript 1" / "09_Wiley_Submission"
+# The submission folder lives outside this replication repository. When it is absent
+# (the normal case for anyone running this repo) figures are written here only.
+_SUB = ROOT / "Final Manuscript" / "Manuscript 1" / "09_Wiley_Submission"
+SUB = _SUB if _SUB.is_dir() else None
 OUT = HERE
 PNG = OUT / "png_previews"; PNG.mkdir(exist_ok=True)
 plt.rcParams.update({"font.size": 9, "axes.titlesize": 10, "axes.labelsize": 9,
@@ -35,7 +38,7 @@ COL = {"High-High": "#b2182b", "Low-Low": "#2166ac", "High-Low": "#f4a582",
 
 
 def save(fig, name):
-    for d in (OUT, SUB):
+    for d in [d for d in (OUT, SUB) if d is not None]:
         fig.savefig(d / name, bbox_inches="tight", dpi=300)
     fig.savefig(PNG / name.replace(".pdf", ".png"), bbox_inches="tight", dpi=150)
     plt.close(fig)

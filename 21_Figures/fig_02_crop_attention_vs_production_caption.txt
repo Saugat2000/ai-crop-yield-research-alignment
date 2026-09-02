@@ -1,6 +1,0 @@
-Crop-level attention against crop-level production. Unit is the crop aggregated over the 2,616
-country-crop cells of the panel, 2000-2026 publication years. Blue is each crop's share of the
-total fractional eligible study count; vermillion is the same crop's share of world production
-in tonnes, from the FAOSTAT reference-period mean already stored in the panel. The number at the
-right of each row is the crop's absolute fractional study count. All 25 crops are in the saved
-data; the figure shows the 15 with the most attention.

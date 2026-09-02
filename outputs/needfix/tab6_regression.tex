@@ -1,0 +1,35 @@
+\begin{table*}[!t]
+\centering
+\caption{Determinants of research participation and research intensity}
+\label{tab:reg}
+\begin{tabular*}{\textwidth}{@{\extracolsep\fill}l r@{\hspace{6pt}}l r@{\hspace{6pt}}l@{}}
+\toprule
+& \multicolumn{2}{c}{Participation (logit)} & \multicolumn{2}{c}{Intensity (PPML)} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}
+Covariate & Estimate & 95\% CI & Estimate & 95\% CI \\
+\midrule
+Log harvested area & 0.713 & [0.613, 0.813] & \multicolumn{2}{c}{offset} \\
+ & (0.051) & &  & \\
+R\&D expenditure (\% GDP) & 0.316 & [0.076, 0.555] & 0.523 & [0.284, 0.762] \\
+ & (0.122) & & (0.122) & \\
+Research-need index & 0.950 & [$-$0.902, 2.801] & 1.278 & [0.131, 2.426] \\
+ & (0.945) & & (0.586) & \\
+Log GDP per capita & 0.351 & [$-$0.328, 1.030] & $-$0.052 & [$-$0.517, 0.413] \\
+ & (0.347) & & (0.237) & \\
+Tertiary enrolment & 0.258 & [$-$0.660, 1.176] & $-$0.976 & [$-$1.806, $-$0.145] \\
+ & (0.468) & & (0.424) & \\
+Internet use & 1.316 & [$-$0.659, 3.290] & 2.202 & [0.568, 3.835] \\
+ & (1.007) & & (0.834) & \\
+Log population & 0.111 & [$-$0.099, 0.321] & $-$0.107 & [$-$0.216, 0.001] \\
+ & (0.107) & & (0.055) & \\
+\midrule
+Country-crop systems & \multicolumn{2}{c}{1,799} & \multicolumn{2}{c}{1,792} \\
+Countries & \multicolumn{2}{c}{142} & \multicolumn{2}{c}{142} \\
+Pseudo-$R^{2}$ & \multicolumn{2}{c}{0.366} & \multicolumn{2}{c}{---} \\
+Residual Moran's $I$ & \multicolumn{2}{c}{$-0.029$ ($p=0.324$)} & \multicolumn{2}{c}{$-0.020$ ($p=0.386$)} \\
+\bottomrule
+\end{tabular*}
+\begin{tablenotes}
+\item[] The participation column reports a logit for whether a country-crop system carries any eligible study. The intensity column reports Poisson pseudo-maximum-likelihood estimates of the fractional study count with log harvested area as an exposure offset. The research-need index is the nine-component scale-excluded measure computed on the corrected coverage floor; yield volatility enters through the index and is not a separate regressor. Standard errors, clustered by country, are in parentheses; 95\% confidence intervals are in brackets.
+\end{tablenotes}
+\end{table*}

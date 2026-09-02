@@ -1,5 +1,69 @@
-__pycache__/
-*.pyc
+# --- OS and editor cruft ---
 .DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
 .venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# --- credentials and local configuration: never commit ---
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+client_secret*.json
+token.json
+*_token*
+*.secret
+.netrc
+cookies.txt
+.claude/
+local_config.py
+local_paths.py
+
+# --- LaTeX auxiliaries (the .tex, .bib, .bbl and PDF are tracked) ---
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
+*.bcf
+*.pag
+*.nav
+*.snm
+*.vrb
+
+# --- run logs: the seven logs behind the reported results are tracked, new runs are not ---
 29_Logs/*.log
+29_Logs/*.txt
+
+# --- scratch ---
+tmp/
+scratch/
+*.bak
+*.bak-*
+*.orig
+*.rej

@@ -1,196 +1,200 @@
-iso3,fao_area_name,wb_region,wb_income_group,n_studies_fractional,n_studies_full,intensity_class,mapped
-USA,United States of America,North America,High income,326.2261904761905,489.0,n > 100,True
-IND,India,South Asia,Lower middle income,292.59285714285716,411.0,n > 100,True
-CHN,"China, mainland",East Asia & Pacific,Upper middle income,252.3095238095238,302.0,n > 100,True
-BRA,Brazil,Latin America & Caribbean ,Upper middle income,93.28333333333333,123.0,20 < n ≤ 100,True
-IRN,Iran (Islamic Republic of),"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,49.5,65.0,20 < n ≤ 100,True
-PAK,Pakistan,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,49.266666666666666,59.0,20 < n ≤ 100,True
-AUS,Australia,East Asia & Pacific,High income,42.14285714285714,50.0,20 < n ≤ 100,True
-ETH,Ethiopia,Sub-Saharan Africa ,Low income,39.45,58.0,20 < n ≤ 100,True
-NGA,Nigeria,Sub-Saharan Africa ,Lower middle income,38.8,49.0,20 < n ≤ 100,True
-CAN,Canada,North America,High income,38.05952380952381,72.0,20 < n ≤ 100,True
-DEU,Germany,Europe & Central Asia,High income,36.708333333333336,85.0,20 < n ≤ 100,True
-IDN,Indonesia,East Asia & Pacific,Upper middle income,34.875,43.0,20 < n ≤ 100,True
-BGD,Bangladesh,South Asia,Lower middle income,32.66666666666667,43.0,20 < n ≤ 100,True
-UKR,Ukraine,Europe & Central Asia,Upper middle income,31.016666666666666,48.0,20 < n ≤ 100,True
-ESP,Spain,Europe & Central Asia,High income,23.0,34.0,20 < n ≤ 100,True
-VNM,Viet Nam,East Asia & Pacific,Upper middle income,22.333333333333332,26.0,20 < n ≤ 100,True
-KEN,Kenya,Sub-Saharan Africa ,Lower middle income,21.916666666666664,30.0,20 < n ≤ 100,True
-THA,Thailand,East Asia & Pacific,Upper middle income,21.5,22.0,20 < n ≤ 100,True
-MEX,Mexico,Latin America & Caribbean ,Upper middle income,20.2,26.0,20 < n ≤ 100,True
-NPL,Nepal,South Asia,Lower middle income,19.166666666666664,25.0,5 < n ≤ 20,True
-MAR,Morocco,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,19.0,25.0,5 < n ≤ 20,True
-GBR,United Kingdom of Great Britain and Northern Ireland,Europe & Central Asia,High income,18.833333333333332,30.0,5 < n ≤ 20,True
-KAZ,Kazakhstan,Europe & Central Asia,Upper middle income,18.5,22.0,5 < n ≤ 20,True
-HUN,Hungary,Europe & Central Asia,High income,16.09090909090909,23.0,5 < n ≤ 20,True
-ITA,Italy,Europe & Central Asia,High income,15.875,27.0,5 < n ≤ 20,True
-ARG,Argentina,Latin America & Caribbean ,Upper middle income,15.25,29.0,5 < n ≤ 20,True
-KOR,Republic of Korea,East Asia & Pacific,High income,15.0,16.0,5 < n ≤ 20,True
-FRA,France,Europe & Central Asia,High income,14.517857142857142,42.0,5 < n ≤ 20,True
-MYS,Malaysia,East Asia & Pacific,Upper middle income,14.5,15.0,5 < n ≤ 20,True
-LKA,Sri Lanka,South Asia,Upper middle income,14.5,16.0,5 < n ≤ 20,True
-SEN,Senegal,Sub-Saharan Africa ,Lower middle income,14.0,26.0,5 < n ≤ 20,True
-TUR,Türkiye,Europe & Central Asia,Upper middle income,14.0,23.0,5 < n ≤ 20,True
-POL,Poland,Europe & Central Asia,High income,14.0,34.0,5 < n ≤ 20,True
-CZE,Czechia,Europe & Central Asia,High income,13.757575757575758,37.0,5 < n ≤ 20,True
-EGY,Egypt,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,12.75,17.0,5 < n ≤ 20,True
-TZA,United Republic of Tanzania,Sub-Saharan Africa ,Lower middle income,12.7,17.0,5 < n ≤ 20,True
-PER,Peru,Latin America & Caribbean ,Upper middle income,12.25,13.0,5 < n ≤ 20,True
-RUS,Russian Federation,Europe & Central Asia,High income,12.059523809523808,21.0,5 < n ≤ 20,True
-PHL,Philippines,East Asia & Pacific,Upper middle income,12.0,18.0,5 < n ≤ 20,True
-ZAF,South Africa,Sub-Saharan Africa ,Upper middle income,11.583333333333332,15.0,5 < n ≤ 20,True
-COL,Colombia,Latin America & Caribbean ,Upper middle income,10.75,14.0,5 < n ≤ 20,True
-SWE,Sweden,Europe & Central Asia,High income,10.0,16.0,5 < n ≤ 20,True
-JPN,Japan,East Asia & Pacific,High income,10.0,11.0,5 < n ≤ 20,True
-RWA,Rwanda,Sub-Saharan Africa ,Low income,9.25,13.0,5 < n ≤ 20,True
-GHA,Ghana,Sub-Saharan Africa ,Lower middle income,9.083333333333332,11.0,5 < n ≤ 20,True
-SRB,Serbia,Europe & Central Asia,Upper middle income,8.59090909090909,14.0,5 < n ≤ 20,True
-NLD,Netherlands (Kingdom of the),Europe & Central Asia,High income,8.291666666666666,21.0,5 < n ≤ 20,True
-TWN,"China, Taiwan Province of",,,8.0,8.0,5 < n ≤ 20,True
-BFA,Burkina Faso,Sub-Saharan Africa ,Low income,7.699999999999999,20.0,5 < n ≤ 20,True
-GRC,Greece,Europe & Central Asia,High income,7.0,7.0,5 < n ≤ 20,True
-DNK,Denmark,Europe & Central Asia,High income,6.833333333333333,9.0,5 < n ≤ 20,True
-UZB,Uzbekistan,Europe & Central Asia,Lower middle income,6.0,10.0,5 < n ≤ 20,True
-DZA,Algeria,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,6.0,9.0,5 < n ≤ 20,True
-BEL,Belgium,Europe & Central Asia,High income,5.625,16.0,5 < n ≤ 20,True
-FIN,Finland,Europe & Central Asia,High income,5.625,17.0,5 < n ≤ 20,True
-UGA,Uganda,Sub-Saharan Africa ,Low income,5.5,7.0,5 < n ≤ 20,True
-MWI,Malawi,Sub-Saharan Africa ,Low income,5.116666666666667,9.0,5 < n ≤ 20,True
-IRQ,Iraq,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,5.0,8.0,1 < n ≤ 5,True
-TUN,Tunisia,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,5.0,5.0,1 < n ≤ 5,True
-URY,Uruguay,Latin America & Caribbean ,High income,4.416666666666667,13.0,1 < n ≤ 5,True
-ZWE,Zimbabwe,Sub-Saharan Africa ,Lower middle income,4.0,4.0,1 < n ≤ 5,True
-ECU,Ecuador,Latin America & Caribbean ,Upper middle income,4.0,5.0,1 < n ≤ 5,True
-BLR,Belarus,Europe & Central Asia,Upper middle income,4.0,7.0,1 < n ≤ 5,True
-ZMB,Zambia,Sub-Saharan Africa ,Lower middle income,3.3333333333333335,4.0,1 < n ≤ 5,True
-MOZ,Mozambique,Sub-Saharan Africa ,Low income,3.25,4.0,1 < n ≤ 5,True
-BGR,Bulgaria,Europe & Central Asia,High income,3.2159090909090913,10.0,1 < n ≤ 5,True
-HRV,Croatia,Europe & Central Asia,High income,3.090909090909091,4.0,1 < n ≤ 5,True
-SLE,Sierra Leone,Sub-Saharan Africa ,Low income,3.0,3.0,1 < n ≤ 5,True
-SAU,Saudi Arabia,"Middle East, North Africa, Afghanistan & Pakistan",High income,3.0,6.0,1 < n ≤ 5,True
-CRI,Costa Rica,Latin America & Caribbean ,High income,3.0,3.0,1 < n ≤ 5,True
-CYP,Cyprus,Europe & Central Asia,High income,3.0,3.0,1 < n ≤ 5,True
-NER,Niger,Sub-Saharan Africa ,Low income,2.5,7.0,1 < n ≤ 5,True
-AUT,Austria,Europe & Central Asia,High income,2.4242424242424243,14.0,1 < n ≤ 5,True
-BEN,Benin,Sub-Saharan Africa ,Lower middle income,2.25,4.0,1 < n ≤ 5,True
-LBN,Lebanon,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,2.25,4.0,1 < n ≤ 5,True
-MMR,Myanmar,East Asia & Pacific,Lower middle income,2.1666666666666665,6.0,1 < n ≤ 5,True
-MKD,North Macedonia,Europe & Central Asia,Upper middle income,2.0,3.0,1 < n ≤ 5,True
-CMR,Cameroon,Sub-Saharan Africa ,Lower middle income,2.0,2.0,1 < n ≤ 5,True
-MLI,Mali,Sub-Saharan Africa ,Low income,2.0,5.0,1 < n ≤ 5,True
-AZE,Azerbaijan,Europe & Central Asia,Upper middle income,2.0,2.0,1 < n ≤ 5,True
-NOR,Norway,Europe & Central Asia,High income,2.0,2.0,1 < n ≤ 5,True
-PRK,Democratic People's Republic of Korea,East Asia & Pacific,Low income,2.0,3.0,1 < n ≤ 5,True
-KHM,Cambodia,East Asia & Pacific,Lower middle income,2.0,2.0,1 < n ≤ 5,True
-SWZ,Eswatini,Sub-Saharan Africa ,Lower middle income,2.0,2.0,1 < n ≤ 5,True
-CHL,Chile,Latin America & Caribbean ,High income,2.0,3.0,1 < n ≤ 5,True
-SSD,South Sudan,Sub-Saharan Africa ,Low income,2.0,2.0,1 < n ≤ 5,True
-PRT,Portugal,Europe & Central Asia,High income,2.0,2.0,1 < n ≤ 5,True
-MNG,Mongolia,East Asia & Pacific,Upper middle income,1.6666666666666665,3.0,1 < n ≤ 5,True
-CHE,Switzerland,Europe & Central Asia,High income,1.5,2.0,1 < n ≤ 5,True
-MDG,Madagascar,Sub-Saharan Africa ,Low income,1.3333333333333333,2.0,1 < n ≤ 5,True
-HND,Honduras,Latin America & Caribbean ,Lower middle income,1.25,2.0,1 < n ≤ 5,True
-BIH,Bosnia and Herzegovina,Europe & Central Asia,Upper middle income,1.0909090909090908,2.0,1 < n ≤ 5,True
-ROU,Romania,Europe & Central Asia,High income,1.0909090909090908,2.0,1 < n ≤ 5,True
-MRT,Mauritania,Sub-Saharan Africa ,Lower middle income,1.0,1.0,0 < n ≤ 1,True
-LTU,Lithuania,Europe & Central Asia,High income,1.0,1.0,0 < n ≤ 1,True
-PAN,Panama,Latin America & Caribbean ,High income,1.0,1.0,0 < n ≤ 1,True
-MDA,Republic of Moldova,Europe & Central Asia,Upper middle income,1.0,2.0,0 < n ≤ 1,True
-LUX,Luxembourg,Europe & Central Asia,High income,1.0,2.0,0 < n ≤ 1,True
-NZL,New Zealand,East Asia & Pacific,High income,1.0,1.0,0 < n ≤ 1,True
-LVA,Latvia,Europe & Central Asia,High income,1.0,1.0,0 < n ≤ 1,True
-CIV,Côte d'Ivoire,Sub-Saharan Africa ,Lower middle income,1.0,1.0,0 < n ≤ 1,True
-CUB,Cuba,Latin America & Caribbean ,Upper middle income,1.0,1.0,0 < n ≤ 1,True
-GNB,Guinea-Bissau,Sub-Saharan Africa ,Low income,1.0,1.0,0 < n ≤ 1,True
-ISR,Israel,"Middle East, North Africa, Afghanistan & Pakistan",High income,1.0,1.0,0 < n ≤ 1,True
-BOL,Bolivia (Plurinational State of),Latin America & Caribbean ,Lower middle income,1.0,1.0,0 < n ≤ 1,True
-GTM,Guatemala,Latin America & Caribbean ,Upper middle income,1.0,1.0,0 < n ≤ 1,True
-IRL,Ireland,Europe & Central Asia,High income,1.0,1.0,0 < n ≤ 1,True
-KGZ,Kyrgyzstan,Europe & Central Asia,Lower middle income,1.0,2.0,0 < n ≤ 1,True
-LAO,Lao People's Democratic Republic,East Asia & Pacific,Lower middle income,1.0,1.0,0 < n ≤ 1,True
-ALB,Albania,Europe & Central Asia,Upper middle income,1.0,1.0,0 < n ≤ 1,True
-EST,Estonia,Europe & Central Asia,High income,1.0,3.0,0 < n ≤ 1,True
-GEO,Georgia,Europe & Central Asia,Upper middle income,0.5,1.0,0 < n ≤ 1,True
-NAM,Namibia,Sub-Saharan Africa ,Lower middle income,0.5,1.0,0 < n ≤ 1,True
-ARM,Armenia,Europe & Central Asia,Upper middle income,0.5,1.0,0 < n ≤ 1,True
-BWA,Botswana,Sub-Saharan Africa ,Upper middle income,0.5,1.0,0 < n ≤ 1,True
-GIN,Guinea,Sub-Saharan Africa ,Lower middle income,0.5,1.0,0 < n ≤ 1,True
-VEN,Venezuela (Bolivarian Republic of),Latin America & Caribbean ,Lower middle income,0.5,1.0,0 < n ≤ 1,True
-SYR,Syrian Arab Republic,"Middle East, North Africa, Afghanistan & Pakistan",Low income,0.25,1.0,0 < n ≤ 1,True
-SOM,Somalia,Sub-Saharan Africa ,Low income,0.25,1.0,0 < n ≤ 1,True
-MNE,Montenegro,Europe & Central Asia,Upper middle income,0.09090909090909091,1.0,0 < n ≤ 1,True
-SVN,Slovenia,Europe & Central Asia,High income,0.09090909090909091,1.0,0 < n ≤ 1,True
-SVK,Slovakia,Europe & Central Asia,High income,0.09090909090909091,1.0,0 < n ≤ 1,True
-COM,Comoros,Sub-Saharan Africa ,Lower middle income,0.0,0.0,0 (no resolved study),True
-SDN,Sudan,Sub-Saharan Africa ,Low income,0.0,0.0,0 (no resolved study),True
-CPV,Cabo Verde,Sub-Saharan Africa ,Upper middle income,0.0,0.0,0 (no resolved study),True
-SYC,Seychelles,Sub-Saharan Africa ,High income,0.0,0.0,0 (no resolved study),True
-CAF,Central African Republic,Sub-Saharan Africa ,Low income,0.0,0.0,0 (no resolved study),True
-SUR,Suriname,Latin America & Caribbean ,Upper middle income,0.0,0.0,0 (no resolved study),True
-TCD,Chad,Sub-Saharan Africa ,Low income,0.0,0.0,0 (no resolved study),True
-COK,Cook Islands,,,0.0,0.0,0 (no resolved study),True
-SGP,Singapore,East Asia & Pacific,High income,0.0,0.0,0 (no resolved study),True
-TJK,Tajikistan,Europe & Central Asia,Lower middle income,0.0,0.0,0 (no resolved study),True
-SLB,Solomon Islands,East Asia & Pacific,Lower middle income,0.0,0.0,0 (no resolved study),True
-HKG,"China, Hong Kong SAR",East Asia & Pacific,High income,0.0,0.0,0 (no resolved study),True
-COG,Congo,Sub-Saharan Africa ,Lower middle income,0.0,0.0,0 (no resolved study),True
-LBR,Liberia,Sub-Saharan Africa ,Low income,0.0,0.0,0 (no resolved study),True
-BDI,Burundi,Sub-Saharan Africa ,Low income,0.0,0.0,0 (no resolved study),True
-TLS,Timor-Leste,East Asia & Pacific,Lower middle income,0.0,0.0,0 (no resolved study),True
-AGO,Angola,Sub-Saharan Africa ,Lower middle income,0.0,0.0,0 (no resolved study),True
-YEM,Yemen,"Middle East, North Africa, Afghanistan & Pakistan",Low income,0.0,0.0,0 (no resolved study),True
-ATG,Antigua and Barbuda,Latin America & Caribbean ,High income,0.0,0.0,0 (no resolved study),True
-VUT,Vanuatu,East Asia & Pacific,Lower middle income,0.0,0.0,0 (no resolved study),True
-BHS,Bahamas,Latin America & Caribbean ,High income,0.0,0.0,0 (no resolved study),True
-BHR,Bahrain,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.0,0 (no resolved study),True
-BRB,Barbados,Latin America & Caribbean ,High income,0.0,0.0,0 (no resolved study),True
-BLZ,Belize,Latin America & Caribbean ,Upper middle income,0.0,0.0,0 (no resolved study),True
-ARE,United Arab Emirates,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.0,0 (no resolved study),True
-BTN,Bhutan,South Asia,Lower middle income,0.0,0.0,0 (no resolved study),True
-TUV,Tuvalu,East Asia & Pacific,Upper middle income,0.0,0.0,0 (no resolved study),True
-BRN,Brunei Darussalam,East Asia & Pacific,High income,0.0,0.0,0 (no resolved study),True
-TTO,Trinidad and Tobago,Latin America & Caribbean ,High income,0.0,0.0,0 (no resolved study),True
-TON,Tonga,East Asia & Pacific,Upper middle income,0.0,0.0,0 (no resolved study),True
-TGO,Togo,Sub-Saharan Africa ,Lower middle income,0.0,0.0,0 (no resolved study),True
-TKM,Turkmenistan,Europe & Central Asia,Upper middle income,0.0,0.0,0 (no resolved study),True
-KNA,Saint Kitts and Nevis,Latin America & Caribbean ,High income,0.0,0.0,0 (no resolved study),True
-COD,Democratic Republic of the Congo,Sub-Saharan Africa ,Low income,0.0,0.0,0 (no resolved study),True
-STP,Sao Tome and Principe,Sub-Saharan Africa ,Lower middle income,0.0,0.0,0 (no resolved study),True
-GMB,Gambia,Sub-Saharan Africa ,Low income,0.0,0.0,0 (no resolved study),True
-NIU,Niue,,,0.0,0.0,0 (no resolved study),True
-GRD,Grenada,Latin America & Caribbean ,Upper middle income,0.0,0.0,0 (no resolved study),True
-NIC,Nicaragua,Latin America & Caribbean ,Lower middle income,0.0,0.0,0 (no resolved study),True
-NCL,New Caledonia,East Asia & Pacific,High income,0.0,0.0,0 (no resolved study),True
-GUY,Guyana,Latin America & Caribbean ,High income,0.0,0.0,0 (no resolved study),True
-HTI,Haiti,Latin America & Caribbean ,Lower middle income,0.0,0.0,0 (no resolved study),True
-ISL,Iceland,Europe & Central Asia,High income,0.0,0.0,0 (no resolved study),True
-FSM,Micronesia (Federated States of),East Asia & Pacific,Upper middle income,0.0,0.0,0 (no resolved study),True
-JAM,Jamaica,Latin America & Caribbean ,Upper middle income,0.0,0.0,0 (no resolved study),True
-MUS,Mauritius,Sub-Saharan Africa ,Upper middle income,0.0,0.0,0 (no resolved study),True
-JOR,Jordan,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,0.0,0.0,0 (no resolved study),True
-MLT,Malta,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.0,0 (no resolved study),True
-KIR,Kiribati,East Asia & Pacific,Lower middle income,0.0,0.0,0 (no resolved study),True
-MDV,Maldives,South Asia,Upper middle income,0.0,0.0,0 (no resolved study),True
-KWT,Kuwait,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.0,0 (no resolved study),True
-LSO,Lesotho,Sub-Saharan Africa ,Lower middle income,0.0,0.0,0 (no resolved study),True
-OMN,Oman,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.0,0 (no resolved study),True
-GAB,Gabon,Sub-Saharan Africa ,Upper middle income,0.0,0.0,0 (no resolved study),True
-PSE,Palestine,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,0.0,0.0,0 (no resolved study),True
-SLV,El Salvador,Latin America & Caribbean ,Upper middle income,0.0,0.0,0 (no resolved study),True
-WSM,Samoa,East Asia & Pacific,Upper middle income,0.0,0.0,0 (no resolved study),True
-VCT,Saint Vincent and the Grenadines,Latin America & Caribbean ,Upper middle income,0.0,0.0,0 (no resolved study),True
-LCA,Saint Lucia,Latin America & Caribbean ,Upper middle income,0.0,0.0,0 (no resolved study),True
-LBY,Libya,"Middle East, North Africa, Afghanistan & Pakistan",Upper middle income,0.0,0.0,0 (no resolved study),True
-DJI,Djibouti,"Middle East, North Africa, Afghanistan & Pakistan",Lower middle income,0.0,0.0,0 (no resolved study),True
-DMA,Dominica,Latin America & Caribbean ,Upper middle income,0.0,0.0,0 (no resolved study),True
-DOM,Dominican Republic,Latin America & Caribbean ,Upper middle income,0.0,0.0,0 (no resolved study),True
-GNQ,Equatorial Guinea,Sub-Saharan Africa ,Upper middle income,0.0,0.0,0 (no resolved study),True
-PYF,French Polynesia,East Asia & Pacific,High income,0.0,0.0,0 (no resolved study),True
-QAT,Qatar,"Middle East, North Africa, Afghanistan & Pakistan",High income,0.0,0.0,0 (no resolved study),True
-PRI,Puerto Rico,Latin America & Caribbean ,High income,0.0,0.0,0 (no resolved study),True
-ERI,Eritrea,Sub-Saharan Africa ,Low income,0.0,0.0,0 (no resolved study),True
-FRO,Faroe Islands,Europe & Central Asia,High income,0.0,0.0,0 (no resolved study),True
-FJI,Fiji,East Asia & Pacific,Upper middle income,0.0,0.0,0 (no resolved study),True
-PRY,Paraguay,Latin America & Caribbean ,Upper middle income,0.0,0.0,0 (no resolved study),True
-PNG,Papua New Guinea,East Asia & Pacific,Lower middle income,0.0,0.0,0 (no resolved study),True
-AFG,Afghanistan,"Middle East, North Africa, Afghanistan & Pakistan",Low income,0.0,0.0,0 (no resolved study),True
+iso3,n_studies_fractional,intensity_class,intensity_label,share_of_world_pct
+USA,327.7261904761905,5,n > 100,16.198808317534066
+IND,292.59285714285716,5,n > 100,14.462242401347265
+CHN,252.3095238095238,5,n > 100,12.471122942417704
+BRA,93.28333333333333,4,20 < n <= 100,4.610796694922934
+IRN,49.5,4,20 < n <= 100,2.4466796826730595
+PAK,49.266666666666666,4,20 < n <= 100,2.435146512451705
+AUS,45.14285714285714,4,20 < n <= 100,2.2313153816008273
+NGA,39.8,4,20 < n <= 100,1.967229320613894
+ETH,39.45,4,20 < n <= 100,1.949929565281863
+CAN,38.05952380952381,4,20 < n <= 100,1.8812012855954237
+DEU,36.708333333333336,4,20 < n <= 100,1.8144148151809474
+IDN,34.875,4,20 < n <= 100,1.7237970491560193
+BGD,32.66666666666667,4,20 < n <= 100,1.6146438309896287
+UKR,31.016666666666666,4,20 < n <= 100,1.5330878415671931
+ESP,23.0,4,20 < n <= 100,1.1368410646763711
+VNM,22.333333333333332,4,20 < n <= 100,1.1038891497582153
+KEN,21.916666666666664,4,20 < n <= 100,1.083294202934368
+THA,21.5,4,20 < n <= 100,1.0626992561105209
+MEX,20.2,4,20 < n <= 100,0.9984430220201173
+NPL,19.166666666666664,3,5 < n <= 20,0.9473675538969758
+MAR,19.0,3,5 < n <= 20,0.939129575167437
+KAZ,18.5,3,5 < n <= 20,0.9144156389788202
+GBR,16.833333333333332,3,5 < n <= 20,0.832035851683431
+HUN,16.09090909090909,3,5 < n <= 20,0.7953394009791213
+ITA,15.875,3,5 < n <= 20,0.7846674739885822
+ARG,15.25,3,5 < n <= 20,0.7537750537528113
+KOR,15.0,3,5 < n <= 20,0.7414180856585029
+FRA,14.517857142857142,3,5 < n <= 20,0.7175867900480509
+MYS,14.5,3,5 < n <= 20,0.7167041494698861
+LKA,14.5,3,5 < n <= 20,0.7167041494698861
+SEN,14.0,3,5 < n <= 20,0.6919902132812693
+POL,14.0,3,5 < n <= 20,0.6919902132812693
+TUR,14.0,3,5 < n <= 20,0.6919902132812693
+CZE,13.757575757575758,3,5 < n <= 20,0.6800076987655764
+EGY,12.75,3,5 < n <= 20,0.6302053728097274
+TZA,12.7,3,5 < n <= 20,0.6277339791908658
+PER,12.25,3,5 < n <= 20,0.6054914366211107
+RUS,12.059523809523808,3,5 < n <= 20,0.5960766037873518
+PHL,12.0,3,5 < n <= 20,0.5931344685268023
+ZAF,11.583333333333332,3,5 < n <= 20,0.572539521702955
+COL,10.75,3,5 < n <= 20,0.5313496280552604
+JPN,10.0,3,5 < n <= 20,0.4942787237723352
+SWE,10.0,3,5 < n <= 20,0.4942787237723352
+GHA,9.583333333333332,3,5 < n <= 20,0.4736837769484879
+RWA,9.25,3,5 < n <= 20,0.4572078194894101
+SRB,8.59090909090909,3,5 < n <= 20,0.42463035814986977
+NLD,8.291666666666666,3,5 < n <= 20,0.4098394417945613
+TWN,8.0,3,5 < n <= 20,0.3954229790178682
+BFA,7.699999999999999,3,5 < n <= 20,0.38059461730469807
+GRC,7.0,3,5 < n <= 20,0.34599510664063465
+DNK,6.833333333333333,3,5 < n <= 20,0.33775712791109574
+UZB,6.0,3,5 < n <= 20,0.29656723426340115
+DZA,6.0,3,5 < n <= 20,0.29656723426340115
+BEL,5.625,3,5 < n <= 20,0.2780317821219386
+FIN,5.625,3,5 < n <= 20,0.2780317821219386
+UGA,5.5,3,5 < n <= 20,0.27185329807478437
+MWI,5.116666666666667,3,5 < n <= 20,0.25290594699684493
+TUN,5.0,2,1 < n <= 5,0.2471393618861676
+IRQ,5.0,2,1 < n <= 5,0.2471393618861676
+URY,4.416666666666667,2,1 < n <= 5,0.2183064363327814
+ZWE,4.0,2,1 < n <= 5,0.1977114895089341
+ECU,4.0,2,1 < n <= 5,0.1977114895089341
+BLR,4.0,2,1 < n <= 5,0.1977114895089341
+ZMB,3.3333333333333335,2,1 < n <= 5,0.16475957459077845
+MOZ,3.25,2,1 < n <= 5,0.16064058522600896
+BGR,3.2159090909090913,2,1 < n <= 5,0.15895554412223964
+HRV,3.090909090909091,2,1 < n <= 5,0.15277706007508543
+CRI,3.0,2,1 < n <= 5,0.14828361713170057
+SLE,3.0,2,1 < n <= 5,0.14828361713170057
+SAU,3.0,2,1 < n <= 5,0.14828361713170057
+CYP,3.0,2,1 < n <= 5,0.14828361713170057
+NER,2.5,2,1 < n <= 5,0.1235696809430838
+AUT,2.4242424242424243,2,1 < n <= 5,0.11982514515692977
+BEN,2.25,2,1 < n <= 5,0.11121271284877543
+LBN,2.25,2,1 < n <= 5,0.11121271284877543
+MMR,2.1666666666666665,2,1 < n <= 5,0.10709372348400596
+MLI,2.0,2,1 < n <= 5,0.09885574475446705
+AZE,2.0,2,1 < n <= 5,0.09885574475446705
+KHM,2.0,2,1 < n <= 5,0.09885574475446705
+MKD,2.0,2,1 < n <= 5,0.09885574475446705
+SWZ,2.0,2,1 < n <= 5,0.09885574475446705
+CMR,2.0,2,1 < n <= 5,0.09885574475446705
+CHL,2.0,2,1 < n <= 5,0.09885574475446705
+PRK,2.0,2,1 < n <= 5,0.09885574475446705
+SSD,2.0,2,1 < n <= 5,0.09885574475446705
+NOR,2.0,2,1 < n <= 5,0.09885574475446705
+PRT,2.0,2,1 < n <= 5,0.09885574475446705
+MNG,1.6666666666666665,2,1 < n <= 5,0.08237978729538921
+CHE,1.5,2,1 < n <= 5,0.07414180856585029
+MDG,1.3333333333333333,2,1 < n <= 5,0.06590382983631136
+HND,1.25,2,1 < n <= 5,0.0617848404715419
+BIH,1.0909090909090908,2,1 < n <= 5,0.05392131532061838
+ROU,1.0909090909090908,2,1 < n <= 5,0.05392131532061838
+LUX,1.0,1,0 < n <= 1,0.04942787237723353
+LTU,1.0,1,0 < n <= 1,0.04942787237723353
+NZL,1.0,1,0 < n <= 1,0.04942787237723353
+MRT,1.0,1,0 < n <= 1,0.04942787237723353
+LVA,1.0,1,0 < n <= 1,0.04942787237723353
+MDA,1.0,1,0 < n <= 1,0.04942787237723353
+PAN,1.0,1,0 < n <= 1,0.04942787237723353
+LAO,1.0,1,0 < n <= 1,0.04942787237723353
+CUB,1.0,1,0 < n <= 1,0.04942787237723353
+IRL,1.0,1,0 < n <= 1,0.04942787237723353
+ALB,1.0,1,0 < n <= 1,0.04942787237723353
+EST,1.0,1,0 < n <= 1,0.04942787237723353
+BOL,1.0,1,0 < n <= 1,0.04942787237723353
+GNB,1.0,1,0 < n <= 1,0.04942787237723353
+GTM,1.0,1,0 < n <= 1,0.04942787237723353
+KGZ,1.0,1,0 < n <= 1,0.04942787237723353
+CIV,1.0,1,0 < n <= 1,0.04942787237723353
+ISR,1.0,1,0 < n <= 1,0.04942787237723353
+ARM,0.5,1,0 < n <= 1,0.024713936188616763
+VEN,0.5,1,0 < n <= 1,0.024713936188616763
+BWA,0.5,1,0 < n <= 1,0.024713936188616763
+NAM,0.5,1,0 < n <= 1,0.024713936188616763
+SOM,0.25,1,0 < n <= 1,0.012356968094308382
+SYR,0.25,1,0 < n <= 1,0.012356968094308382
+SVN,0.09090909090909091,1,0 < n <= 1,0.004493442943384866
+MNE,0.09090909090909091,1,0 < n <= 1,0.004493442943384866
+SVK,0.09090909090909091,1,0 < n <= 1,0.004493442943384866
+CAF,0.0,0,0 (no resolved study),0.0
+SYC,0.0,0,0 (no resolved study),0.0
+TCD,0.0,0,0 (no resolved study),0.0
+STP,0.0,0,0 (no resolved study),0.0
+SUR,0.0,0,0 (no resolved study),0.0
+COD,0.0,0,0 (no resolved study),0.0
+COG,0.0,0,0 (no resolved study),0.0
+SLV,0.0,0,0 (no resolved study),0.0
+COK,0.0,0,0 (no resolved study),0.0
+SLB,0.0,0,0 (no resolved study),0.0
+SGP,0.0,0,0 (no resolved study),0.0
+COM,0.0,0,0 (no resolved study),0.0
+TGO,0.0,0,0 (no resolved study),0.0
+LBR,0.0,0,0 (no resolved study),0.0
+TJK,0.0,0,0 (no resolved study),0.0
+TKM,0.0,0,0 (no resolved study),0.0
+ARE,0.0,0,0 (no resolved study),0.0
+YEM,0.0,0,0 (no resolved study),0.0
+WSM,0.0,0,0 (no resolved study),0.0
+VUT,0.0,0,0 (no resolved study),0.0
+VCT,0.0,0,0 (no resolved study),0.0
+ATG,0.0,0,0 (no resolved study),0.0
+BDI,0.0,0,0 (no resolved study),0.0
+BHR,0.0,0,0 (no resolved study),0.0
+BHS,0.0,0,0 (no resolved study),0.0
+BLZ,0.0,0,0 (no resolved study),0.0
+BRB,0.0,0,0 (no resolved study),0.0
+TUV,0.0,0,0 (no resolved study),0.0
+BRN,0.0,0,0 (no resolved study),0.0
+BTN,0.0,0,0 (no resolved study),0.0
+SDN,0.0,0,0 (no resolved study),0.0
+TON,0.0,0,0 (no resolved study),0.0
+TLS,0.0,0,0 (no resolved study),0.0
+TTO,0.0,0,0 (no resolved study),0.0
+REU,0.0,0,0 (no resolved study),0.0
+CPV,0.0,0,0 (no resolved study),0.0
+DJI,0.0,0,0 (no resolved study),0.0
+NCL,0.0,0,0 (no resolved study),0.0
+GRD,0.0,0,0 (no resolved study),0.0
+MUS,0.0,0,0 (no resolved study),0.0
+MTQ,0.0,0,0 (no resolved study),0.0
+GUF,0.0,0,0 (no resolved study),0.0
+GUY,0.0,0,0 (no resolved study),0.0
+HKG,0.0,0,0 (no resolved study),0.0
+HTI,0.0,0,0 (no resolved study),0.0
+MLT,0.0,0,0 (no resolved study),0.0
+ISL,0.0,0,0 (no resolved study),0.0
+MDV,0.0,0,0 (no resolved study),0.0
+JAM,0.0,0,0 (no resolved study),0.0
+JOR,0.0,0,0 (no resolved study),0.0
+KIR,0.0,0,0 (no resolved study),0.0
+KNA,0.0,0,0 (no resolved study),0.0
+KWT,0.0,0,0 (no resolved study),0.0
+LSO,0.0,0,0 (no resolved study),0.0
+AGO,0.0,0,0 (no resolved study),0.0
+LCA,0.0,0,0 (no resolved study),0.0
+GNQ,0.0,0,0 (no resolved study),0.0
+NIC,0.0,0,0 (no resolved study),0.0
+NIU,0.0,0,0 (no resolved study),0.0
+PRI,0.0,0,0 (no resolved study),0.0
+DMA,0.0,0,0 (no resolved study),0.0
+LBY,0.0,0,0 (no resolved study),0.0
+QAT,0.0,0,0 (no resolved study),0.0
+PYF,0.0,0,0 (no resolved study),0.0
+PSE,0.0,0,0 (no resolved study),0.0
+PRY,0.0,0,0 (no resolved study),0.0
+DOM,0.0,0,0 (no resolved study),0.0
+ERI,0.0,0,0 (no resolved study),0.0
+PNG,0.0,0,0 (no resolved study),0.0
+GMB,0.0,0,0 (no resolved study),0.0
+FJI,0.0,0,0 (no resolved study),0.0
+FRO,0.0,0,0 (no resolved study),0.0
+FSM,0.0,0,0 (no resolved study),0.0
+GAB,0.0,0,0 (no resolved study),0.0
+OMN,0.0,0,0 (no resolved study),0.0
+GEO,0.0,0,0 (no resolved study),0.0
+GIN,0.0,0,0 (no resolved study),0.0
+GLP,0.0,0,0 (no resolved study),0.0
+AFG,0.0,0,0 (no resolved study),0.0

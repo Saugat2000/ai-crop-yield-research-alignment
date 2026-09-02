@@ -1,11 +1,12 @@
-kind,name,status,detail
-figure,fig_01_research_intensity_map,produced,195 plotted rows
-figure,fig_02_crop_attention_vs_production,produced,25 plotted rows
-figure,fig_03_research_vs_production_share,produced,199 plotted rows
-figure,fig_04_need_vs_research_percentile,produced,195 plotted rows
-figure,fig_05_evidence_gap_lisa_map,produced,195 plotted rows
-figure,fig_06_model_coefficients,produced,16 plotted rows
-table,tab_01_corpus_construction,produced,24 rows
-table,tab_02_main_regression_estimates,produced,16 rows
-table,tab_03_under_researched_systems,produced,20 rows
-table,tab_04_finding_stability,produced,8 rows
+manuscript_exhibit,file,drawn_by,plotted_data,source_dataset
+Figure 1,21_Figures/fig_01_research_intensity_map.pdf,outputs/geofix/gf_03_figures.py,21_Figures/fig_01_research_intensity_map_data.csv,outputs/geofix/country_crop_panel_corrected.parquet
+Figure 2,21_Figures/fig_02_v2_crop_attention_area.pdf,outputs/geofix/gf_03_figures.py,21_Figures/fig_02_v2_crop_attention_area_data.csv,outputs/geofix/country_crop_panel_corrected.parquet
+Figure 3,21_Figures/fig_03_v2_scale_alignment.pdf,outputs/geofix/gf_03_figures.py,21_Figures/fig_03_v2_scale_alignment_data.csv,outputs/geofix/country_crop_panel_corrected.parquet
+Figure 4,21_Figures/fig_04_v2_need_vs_research.pdf,outputs/geofix/gf_03_figures.py,21_Figures/fig_04_v2_need_vs_research_data.csv,outputs/geofix/gap_corrected_lisa.csv
+Figure 5,21_Figures/fig_05_v2_mismatch_lisa.pdf,outputs/geofix/gf_03_figures.py,21_Figures/fig_05_v2_mismatch_lisa_data.csv,outputs/geofix/gap_corrected_lisa.csv + 14_Spatial_Weights/country_analytical_layer.parquet
+Figure 6,21_Figures/fig_06_v2_coefficients.pdf,31_Presubmission_Audit/audit_figures.py,21_Figures/fig_06_v2_coefficients_data.csv,outputs/geofix/model_estimates_geofix.csv
+Figure A3,21_Figures/fig_A3_predicted_probability.pdf,outputs/geofix/gf_03_figures.py,outputs/revision/fig_A3_predicted_probability_data.csv,outputs/geofix/country_crop_panel_corrected.parquet + 16_Econometrics/estimation_sample.parquet
+Figure A4,21_Figures/fig_A4_temporal_concentration.pdf,outputs/revision_final/rf_02_figures.py,21_Figures/fig_A4_temporal_concentration_data.csv,outputs/revision/temporal_gini.csv
+Figure A5,21_Figures/fig_A5_need_component_correlations.pdf,outputs/revision/rev_08_figures.py,21_Figures/fig_A5_need_component_correlations_data.csv,outputs/revision/need_component_corr_spearman.csv
+Figure A6,21_Figures/fig_A6_sample_flow.pdf,outputs/revision/rev_08_figures.py,outputs/revision/panel_definition_decomposition.csv,outputs/geofix/headline_numbers.json + 31_Presubmission_Audit/sample_flow.csv
+Graphical abstract,outputs/graphical_abstract/graphical_abstract.pdf,outputs/graphical_abstract/ga_01_build.py,outputs/graphical_abstract/graphical_abstract_panelA_data.csv + graphical_abstract_panelB_data.csv + graphical_abstract_ribbon_gap_data.csv,outputs/geofix/headline_numbers.json

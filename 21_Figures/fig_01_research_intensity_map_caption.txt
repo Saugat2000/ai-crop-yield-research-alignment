@@ -1,9 +1,0 @@
-Fractional count of eligible AI-based crop-yield studies, one value per country, 2000-2026
-publication years, 195 countries with a mapped boundary out of the 199 in the country-crop
-panel. A study covering k countries contributes 1/k to each, so the map totals the corpus rather
-than multiplying it. Colour encodes the fractional study count in six classes with fixed breaks
-at 0, 1, 5, 20 and 100. White is a measured zero, meaning no resolved eligible study, and covers
-73 countries, which is a real value and not a gap. Grey hatching marks a country whose external
-data is unavailable and covers 0 countries here. The four panel territories without a boundary
-in the layer (GLP, GUF, MTQ, REU) each have a fractional count of 0 and are listed in the log
-rather than drawn. Equal Earth projection (EPSG:8857).

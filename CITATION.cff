@@ -1,6 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this dataset or code, please cite it as below."
-title: "Global Geography of AI-Based Crop-Yield Research: Agricultural Scale, Research Need, and Scientific Capacity — replication data and code"
+title: "Where Is AI-Based Crop-Yield Research Done? A Study-Location Analysis of 2,616 Country-Crop Systems — replication data and code"
+abstract: >-
+  Replication data, analysis code, and the submitted manuscript for a study of the empirical
+  study locations of AI-based crop-yield research across 2,616 country-crop systems, comparing
+  research attention with harvested area, research need, and scientific capacity.
+type: dataset
 authors:
   - family-names: Poudel
     given-names: Prasamsha
@@ -13,3 +18,10 @@ authors:
 year: 2026
 repository-code: "https://github.com/Saugat2000/ai-crop-yield-research-alignment"
 license: MIT
+keywords:
+  - crop yield prediction
+  - machine learning
+  - research geography
+  - bibliometrics
+  - spatial analysis
+  - agricultural research policy

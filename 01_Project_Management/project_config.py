@@ -44,8 +44,13 @@ for _p in P.values():
 # --------------------------------------------------------------------------- constants
 SEARCH_FREEZE_DATE = "2026-07-30"   # decision D5, approved
 SEARCH_START_DATE  = "2000-01-01"
-CONTACT_EMAIL      = "ksaugat506@gmail.com"
-USER_AGENT         = f"GlobalAIYieldResearchGaps/1.0 (mailto:{CONTACT_EMAIL})"
+# OpenAlex and Crossref ask for a contact address in the User-Agent so that requests are
+# routed to their faster "polite" pool. Set OPENALEX_CONTACT_EMAIL to your own address before
+# re-running any harvesting script; the analysis scripts in this repository never make network
+# calls and do not read it.
+CONTACT_EMAIL      = os.environ.get("OPENALEX_CONTACT_EMAIL", "")
+USER_AGENT         = (f"GlobalAIYieldResearchGaps/1.0 (mailto:{CONTACT_EMAIL})"
+                      if CONTACT_EMAIL else "GlobalAIYieldResearchGaps/1.0")
 RANDOM_SEED        = 20260730
 
 OPENALEX_BASE = "https://api.openalex.org"

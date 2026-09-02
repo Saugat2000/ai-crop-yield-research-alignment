@@ -1,0 +1,125 @@
+{
+  "script": "export_plotted_data",
+  "start": "2026-09-02T05:25:17Z",
+  "end": "2026-09-02T05:25:23Z",
+  "elapsed_s": 6.0,
+  "python": "3.9.6",
+  "platform": "macOS-26.6.1-arm64-arm-64bit",
+  "random_seed": 20260730,
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.3.3",
+    "scipy": "1.12.0",
+    "statsmodels": "0.14.6",
+    "geopandas": "1.0.1",
+    "libpysal": "4.8.1",
+    "esda": "2.5.1",
+    "spreg": "1.9.0",
+    "networkx": "3.2.1",
+    "pyarrow": "21.0.0",
+    "pymc": "5.12.0",
+    "arviz": "0.17.1",
+    "sklearn": "1.6.1"
+  },
+  "inputs": [
+    {
+      "path": "outputs/geofix/headline_numbers.json",
+      "exists": true,
+      "sha256": "bfba0922dd2a2a6ac50490b22b38fed8a2e2c95cac9865c0e330ab2e253940da",
+      "bytes": 1081
+    },
+    {
+      "path": "outputs/geofix/country_crop_panel_corrected.parquet",
+      "exists": true,
+      "sha256": "9eb09ccde3a94b292ad8a9475012528e45e3bc7d0d4278381847bfb5121a1754",
+      "bytes": 310924
+    },
+    {
+      "path": "outputs/geofix/gap_corrected_lisa.csv",
+      "exists": true,
+      "sha256": "dbfdeef10d588d8037acbe58ce183687544d92661cea8c871e294c31a7323fc6",
+      "bytes": 13884
+    },
+    {
+      "path": "outputs/geofix/model_estimates_geofix.csv",
+      "exists": true,
+      "sha256": "2d4bfc39740b37e6905dc898ad2691813eab835333c0c30f21d7a36e45031944",
+      "bytes": 3655
+    },
+    {
+      "path": "outputs/revision/temporal_gini.csv",
+      "exists": true,
+      "sha256": "95c273fbac3a009225aba54652237f49fe864dd1b7f24960434166a011e99989",
+      "bytes": 214
+    },
+    {
+      "path": "outputs/revision/need_component_corr_spearman.csv",
+      "exists": true,
+      "sha256": "d5321c8d2feb41858289e267807d187f66340e9f2c488b48ae3d32765b4cb8cc",
+      "bytes": 1773
+    }
+  ],
+  "outputs": [
+    {
+      "path": "21_Figures/fig_01_research_intensity_map_data.csv",
+      "exists": true,
+      "sha256": "d2565b11c00ef05e984dab35f56c6ecc84638f15dc14c9654b60bb001dc0ce3e",
+      "bytes": 8463,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_02_v2_crop_attention_area_data.csv",
+      "exists": true,
+      "sha256": "d58e705e2ea1e554fbec24b923aca1cfae05754477d99015f207a87e3a31feb9",
+      "bytes": 2052,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_03_v2_scale_alignment_data.csv",
+      "exists": true,
+      "sha256": "86472982e073755eac070f54379c22154d1864ad0154782b71e7adfec4613772",
+      "bytes": 186587,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_04_v2_need_vs_research_data.csv",
+      "exists": true,
+      "sha256": "2d07f1244d4aacd8628d10650459e7d49d9905c20b122ee9cce12efbb9302376",
+      "bytes": 14961,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_05_v2_mismatch_lisa_data.csv",
+      "exists": true,
+      "sha256": "e8afc5e73c2d7d280f231233b9008e325be2be9262ff5934a98ff8e6b0a194b7",
+      "bytes": 13864,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_06_v2_coefficients_data.csv",
+      "exists": true,
+      "sha256": "71a155e8d02a555b2530179b1579d2d456d3ceffadcb22c7570b02322738258c",
+      "bytes": 3592,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_A4_temporal_concentration_data.csv",
+      "exists": true,
+      "sha256": "95c273fbac3a009225aba54652237f49fe864dd1b7f24960434166a011e99989",
+      "bytes": 214,
+      "rows": null
+    },
+    {
+      "path": "21_Figures/fig_A5_need_component_correlations_data.csv",
+      "exists": true,
+      "sha256": "edb3e64fe5f52a953333accdb6c72fdcdd393575f270b5bb4784eaa0542d2960",
+      "bytes": 1725,
+      "rows": null
+    }
+  ],
+  "counts": {},
+  "errors": [],
+  "warnings": [],
+  "notes": [],
+  "free_disk_gb_end": 19.1
+}

@@ -21,7 +21,10 @@ HERE = Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent / "01_Project_Management"))
 from project_config import P, RunLogger  # noqa: E402
 
-OUT = HERE.parent / "Final Manuscript" / "Manuscript 1" / "09_Wiley_Submission"
+# The submission folder lives outside this replication repository. When it is absent
+# (the normal case for anyone running this repo) figures are written here only.
+_OUT = HERE.parent / "Final Manuscript" / "Manuscript 1" / "09_Wiley_Submission"
+OUT = _OUT if _OUT.is_dir() else HERE
 plt.rcParams.update({"font.size": 9, "axes.titlesize": 10, "axes.labelsize": 9,
                      "legend.fontsize": 8, "figure.dpi": 200})
 OKB, OKV, OKG = "#0072B2", "#D55E00", "#009E73"

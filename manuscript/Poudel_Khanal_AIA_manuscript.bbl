@@ -1,0 +1,271 @@
+\begin{thebibliography}{33}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[\protect\citeauthoryear{van Klompenburg, Kassahun, and Catal}{van
+  Klompenburg et~al.}{}]{vanKlompenburg2020}
+Thomas van Klompenburg, Ayalew Kassahun,, and Cagatay Catal.
+\newblock
+\newblock ``Crop yield prediction using machine learning: A systematic
+  literature review.''  {\it Computers and Electronics in Agriculture\/}177
+  (2020): 105709.
+
+\bibitem[\protect\citeauthoryear{Shawon, Ema, Mahi, Niha, and Zubair}{Shawon
+  et~al.}{}]{Shawon2025}
+Sarowar~Morshed Shawon, Falguny~Barua Ema, Asura~Khanom Mahi, Fahima~Lokman
+  Niha,, and H.T. Zubair.
+\newblock
+\newblock ``Crop yield prediction using machine learning: An extensive and
+  systematic literature review.''  {\it Smart Agricultural Technology\/}10
+  (2025): 100718.
+
+\bibitem[\protect\citeauthoryear{Jabed and Azmi~Murad}{Jabed and
+  Azmi~Murad}{}]{Jabed2024}
+Md.~Abu Jabed, and Masrah~Azrifah Azmi~Murad.
+\newblock
+\newblock ``Crop yield prediction in agriculture: A comprehensive review of
+  machine learning and deep learning approaches, with insights for future
+  research and sustainability.''  {\it Heliyon\/}~10, no. 24 (2024): e40836.
+
+\bibitem[\protect\citeauthoryear{Habibi, Matsui, and Tanaka}{Habibi
+  et~al.}{}]{Habibi2024}
+Luthfan~Nur Habibi, Tsutomu Matsui,, and Takashi~S.T. Tanaka.
+\newblock
+\newblock ``Critical evaluation of the effects of a cross-validation strategy
+  and machine learning optimization on the prediction accuracy and
+  transferability of a soybean yield prediction model using UAV-based remote
+  sensing.''  {\it Journal of Agriculture and Food Research\/}16 (2024):
+  101096.
+
+\bibitem[\protect\citeauthoryear{Okupska, Juostas, Gozdowski, and
+  W{\'o}jcik-Gront}{Okupska et~al.}{}]{Okupska2026}
+Edyta Okupska, Antanas Juostas, Dariusz Gozdowski,, and El{\.z}bieta
+  W{\'o}jcik-Gront.
+\newblock
+\newblock ``Yield Prediction in Winter Oilseed Rape Based on Multi-Temporal
+  {NDVI} and Modelling Approaches.''  {\it Agronomy\/}~16, no. 7 (2026): 763.
+
+\bibitem[\protect\citeauthoryear{Stiller, Grahmann, Ghazaryan, and Ryo}{Stiller
+  et~al.}{}]{Stiller2024}
+Stefan Stiller, Kathrin Grahmann, Gohar Ghazaryan,, and Masahiro Ryo.
+\newblock
+\newblock ``Improving spatial transferability of deep learning models for
+  small-field crop yield prediction.''  {\it {ISPRS} Open Journal of
+  Photogrammetry and Remote Sensing\/}12 (2024): 100064.
+
+\bibitem[\protect\citeauthoryear{Bueno, Macharete, Rodrigues, Kamia, Moreira,
+  Freitas, Nascimento, and Gadelha}{Bueno et~al.}{}]{Bueno2025}
+Carolina Bueno, Rafael Macharete, Clarice~Ara{\'u}jo Rodrigues, Felipe Kamia,
+  Juliana Moreira, Camila~Rizzini Freitas, Marco Nascimento,, and
+  Carlos~Grabois Gadelha.
+\newblock
+\newblock ``Global Knowledge Asymmetries in Health: A Data-Driven Analysis of
+  the Sustainable Development Goals ({SDGs}).''  {\it Sustainability\/}~17, no.
+  14 (2025): 6449.
+
+\bibitem[\protect\citeauthoryear{Cash-Gibson, Rojas-Gualdr{\'o}n, Peric{\`a}s,
+  and Benach}{Cash-Gibson et~al.}{}]{CashGibson2018}
+Lucinda Cash-Gibson, Diego~F. Rojas-Gualdr{\'o}n, Juan~M. Peric{\`a}s,, and
+  Joan Benach.
+\newblock
+\newblock ``Inequalities in global health inequalities research: A 50-year
+  bibliometric analysis (1966-2015).''  {\it {PLOS} {ONE}\/}~13, no. 1 (2018):
+  e0191901.
+
+\bibitem[\protect\citeauthoryear{Nin-Pratt}{Nin-Pratt}{}]{NinPratt2021}
+Alejandro Nin-Pratt.
+\newblock
+\newblock ``Agricultural {R\&D} investment intensity: A misleading conventional
+  measure and a new intensity index.''  {\it Agricultural Economics\/}~52, no.
+  2 (2021): 317--328.
+
+\bibitem[\protect\citeauthoryear{Nin-Pratt and Stads}{Nin-Pratt and
+  Stads}{}]{NinPratt2023}
+Alejandro Nin-Pratt, and Gert-Jan Stads.
+\newblock
+\newblock ``Innovation capacity, food system development, and the size of the
+  agricultural research system.''  {\it Frontiers in Sustainable Food
+  Systems\/}7 (2023): 1051356.
+
+\bibitem[\protect\citeauthoryear{Rosegrant, Wong, Sulser, Dubosse, and
+  Lybbert}{Rosegrant et~al.}{}]{Rosegrant2023}
+Mark~W. Rosegrant, Brad Wong, Timothy~B. Sulser, Nancy Dubosse,, and Travis~J.
+  Lybbert.
+\newblock
+\newblock ``Benefit--Cost Analysis of Increased Funding for Agricultural
+  Research and Development in the Global South.''  {\it Journal of Benefit-Cost
+  Analysis\/}~14, no. S1 (2023): 181--205.
+
+\bibitem[\protect\citeauthoryear{van Dijk, Fuglie, Heisey, and Deng}{van Dijk
+  et~al.}{}]{vanDijk2025}
+Michiel van Dijk, Keith Fuglie, Paul~W. Heisey,, and Haiyan Deng.
+\newblock
+\newblock ``A global dataset of public agricultural {R\&D} investment:
+  1960-2022.''  {\it Scientific Data\/}~12, no. 1 (2025): 1140.
+
+\bibitem[\protect\citeauthoryear{Joshi, Pradhan, Gite, and Chakraborty}{Joshi
+  et~al.}{}]{Joshi2023}
+Abhasha Joshi, Biswajeet Pradhan, Shilpa Gite,, and Subrata Chakraborty.
+\newblock
+\newblock ``Remote-Sensing Data and Deep-Learning Techniques in Crop Mapping
+  and Yield Prediction: A Systematic Review.''  {\it Remote Sensing\/}~15, no.
+  8 (2023): 2014.
+
+\bibitem[\protect\citeauthoryear{Muruganantham, Wibowo, Grandhi, Samrat, and
+  Islam}{Muruganantham et~al.}{}]{Muruganantham2022}
+Priyanga Muruganantham, Santoso Wibowo, Srimannarayana Grandhi, Nahidul~Hoque
+  Samrat,, and Nahina Islam.
+\newblock
+\newblock ``A Systematic Literature Review on Crop Yield Prediction with Deep
+  Learning and Remote Sensing.''  {\it Remote Sensing\/}~14, no. 9 (2022):
+  1990.
+
+\bibitem[\protect\citeauthoryear{Screpnik, Zamudio, and Gimenez}{Screpnik
+  et~al.}{}]{Screpnik2025}
+Claudia~R. Screpnik, Eduardo Zamudio,, and Laura~I. Gimenez.
+\newblock
+\newblock ``Artificial Intelligence in Agriculture: A Systematic Review of Crop
+  Yield Prediction and Optimization.''  {\it {IEEE} Access\/}13 (2025):
+  70691--70697.
+
+\bibitem[\protect\citeauthoryear{Sharma, Dadheech, Aneja, and Aneja}{Sharma
+  et~al.}{}]{Sharma2023}
+Priyanka Sharma, Pankaj Dadheech, Nagender Aneja,, and Sandhya Aneja.
+\newblock
+\newblock ``Predicting Agriculture Yields Based on Machine Learning Using
+  Regression and Deep Learning.''  {\it {IEEE} Access\/}11 (2023):
+  111255--111264.
+
+\bibitem[\protect\citeauthoryear{Fuglie, Gautam, Goyal, and Maloney}{Fuglie
+  et~al.}{}]{Fuglie2019}
+Keith Fuglie, Madhur Gautam, Aparajita Goyal,, and William~F. Maloney. 2019.
+\newblock {\it Harvesting Prosperity: Technology and Productivity Growth in
+  Agriculture},
+\newblock Washington, {DC}: World Bank.
+
+\bibitem[\protect\citeauthoryear{Stads, Nin-Pratt, Omot, and Thi~Pham}{Stads
+  et~al.}{}]{Stads2020}
+Gert-Jan Stads, Alejandro Nin-Pratt, Norah Omot,, and Nguyen Thi~Pham. 2020.
+\newblock ``Agricultural research in Southeast {Asia}: A cross-country analysis
+  of resource allocation, performance, and impact on productivity.''   ,
+  International Food Policy Research Institute.
+
+\bibitem[\protect\citeauthoryear{Zhao and Chen}{Zhao and Chen}{}]{Zhao2023}
+Yongzhi Zhao, and Yangfen Chen.
+\newblock
+\newblock ``Global Patterns of Agricultural Investment and Food Security:
+  Evidence from the fDi Markets Database.''  {\it Foods\/}~12, no. 9 (2023):
+  1827.
+
+\bibitem[\protect\citeauthoryear{Malec, Roj{\'i}k, Maitah, Abdu, and
+  Abdullahi}{Malec et~al.}{}]{Malec2024}
+Karel Malec, Stanislav Roj{\'i}k, Mansoor Maitah, Musa Abdu,, and Kamal~Tasiu
+  Abdullahi.
+\newblock
+\newblock ``Impact of investments in agricultural innovation on food security
+  in sub-Saharan {Africa}.''  {\it Heliyon\/}~10, no. 16 (2024): e35913.
+
+\bibitem[\protect\citeauthoryear{Lokeshwari, Jha, Praveen, and
+  Bharadwaj}{Lokeshwari et~al.}{}]{Lokeshwari2024}
+M.~Lokeshwari, Girish~Kumar Jha, K.~V. Praveen,, and Anshu Bharadwaj.
+\newblock
+\newblock ``Artificial intelligence for crop yield prediction: a bibliometric
+  analysis.''  {\it Current Science\/}~126, no. 10 (2024): 1245.
+
+\bibitem[\protect\citeauthoryear{Momenpour, Bazgeer, and Moghbel}{Momenpour
+  et~al.}{}]{Momenpour2024}
+Seyed~Erfan Momenpour, Saeed Bazgeer,, and Masoumeh Moghbel.
+\newblock
+\newblock ``A bibliometric analysis of the literature on crop yield prediction:
+  insights from previous findings and prospects for future research.''  {\it
+  International Journal of Biometeorology\/}~68, no. 5 (2024): 829--842.
+
+\bibitem[\protect\citeauthoryear{Bhagat, Naz, and Magda}{Bhagat
+  et~al.}{}]{Bhagat2022}
+Priya~Rani Bhagat, Farheen Naz,, and Robert Magda.
+\newblock
+\newblock ``Artificial intelligence solutions enabling sustainable agriculture:
+  A bibliometric analysis.''  {\it {PLOS} {ONE}\/}~17, no. 6 (2022): e0268989.
+
+\bibitem[\protect\citeauthoryear{Zhang, Liu, Chen, Feng, and Sun}{Zhang
+  et~al.}{}]{Zhang2021}
+Jingyi Zhang, Jiaxin Liu, Yaqi Chen, Xiaochun Feng,, and Zilai Sun.
+\newblock
+\newblock ``Knowledge Mapping of Machine Learning Approaches Applied in
+  Agricultural Management---A Scientometric Review with CiteSpace.''  {\it
+  Sustainability\/}~13, no. 14 (2021): 7662.
+
+\bibitem[\protect\citeauthoryear{S{\'a}nchez-Chavez, Henao-Cespedes, and
+  Garc{\'e}s-G{\'o}mez}{S{\'a}nchez-Chavez et~al.}{}]{SanchezChavez2026}
+Andrea Del~Pilar S{\'a}nchez-Chavez, Vladimir Henao-Cespedes,, and
+  Yeison~Alberto Garc{\'e}s-G{\'o}mez.
+\newblock
+\newblock ``Bibliometrics on the use of remote sensing and machine learning in
+  crop classification.''  {\it Bulletin of Electrical Engineering and
+  Informatics\/}~15, no. 2 (2026): 1901--1910.
+
+\bibitem[\protect\citeauthoryear{Sakthivel, Pazhanivelan, Thiruvarassan, Prabu,
+  Gnanachitra, Rahale, Ragunath, Sudarmanian, and Satheesh}{Sakthivel
+  et~al.}{}]{Sakthivel2026}
+S~Sakthivel, S~Pazhanivelan, S~Thiruvarassan, P~C Prabu, M~Gnanachitra, C~S
+  Rahale, K~P Ragunath, N~S Sudarmanian,, and S~Satheesh.
+\newblock
+\newblock ``A comprehensive bibliometric review of remote sensing and machine
+  learning applications in maize yield prediction.''  {\it Plant Science
+  Today\/}~13, no. sp1.
+
+\bibitem[\protect\citeauthoryear{Rado{\v c}aj, Juri{\v s}i{\'c}, Pla{\v s}{\v
+  c}ak, and Gali{\'c}}{Rado{\v c}aj et~al.}{}]{Radocaj2026a}
+Dorijan Rado{\v c}aj, Mladen Juri{\v s}i{\'c}, Ivan Pla{\v s}{\v c}ak,, and
+  Lucija Gali{\'c}.
+\newblock
+\newblock ``Satellite Remote Sensing for Crop Yield Prediction: A Review.''
+  {\it Agriculture\/}~16, no. 4 (2026): 417.
+
+\bibitem[\protect\citeauthoryear{Toscano, D'Antonio, Santana, and
+  Fiorentino}{Toscano et~al.}{}]{Toscano2026}
+Francesco Toscano, Paola D'Antonio, Lucas~Santos Santana,, and Costanza
+  Fiorentino.
+\newblock
+\newblock ``Olive Yield Prediction in the Mediterranean Basin: Bibliometric
+  Evidence of Precision Agricultural Engineering Gaps and Innovation Priorities
+  for Sustainable Agri-Food Systems.''  {\it Agronomy\/}~16, no. 12 (2026):
+  1189.
+
+\bibitem[\protect\citeauthoryear{Silva and Tenreyro}{Silva and
+  Tenreyro}{}]{SilvaTenreyro2006}
+J.~M. C.~Santos Silva, and Silvana Tenreyro.
+\newblock
+\newblock ``The log of gravity.''  {\it The Review of Economics and
+  Statistics\/}~88, no. 4 (2006): 641--658.
+
+\bibitem[\protect\citeauthoryear{Moran}{Moran}{}]{Moran1950}
+P.~A.~P. Moran.
+\newblock
+\newblock ``Notes on continuous stochastic phenomena.''  {\it Biometrika\/}~37,
+  no. 1/2 (1950): 17--23.
+
+\bibitem[\protect\citeauthoryear{Anselin}{Anselin}{}]{Anselin1995}
+Luc Anselin.
+\newblock
+\newblock ``Local indicators of spatial association---{LISA}.''  {\it
+  Geographical Analysis\/}~27, no. 2 (1995): 93--115.
+
+\bibitem[\protect\citeauthoryear{Benjamini and Hochberg}{Benjamini and
+  Hochberg}{}]{BenjaminiHochberg1995}
+Yoav Benjamini, and Yosef Hochberg.
+\newblock
+\newblock ``Controlling the false discovery rate: A practical and powerful
+  approach to multiple testing.''  {\it Journal of the Royal Statistical
+  Society: Series B (Methodological)\/}~57, no. 1 (1995): 289--300.
+
+\bibitem[\protect\citeauthoryear{Getis and Ord}{Getis and Ord}{}]{GetisOrd1992}
+Arthur Getis, and J.~K. Ord.
+\newblock
+\newblock ``The analysis of spatial association by use of distance
+  statistics.''  {\it Geographical Analysis\/}~24, no. 3 (1992): 189--206.
+
+\end{thebibliography}

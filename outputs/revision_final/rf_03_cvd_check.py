@@ -18,7 +18,10 @@ ROOT = HERE.parent.parent
 sys.path.insert(0, str(ROOT / "01_Project_Management"))
 from project_config import P, RunLogger  # noqa: E402
 
-SUB = ROOT / "Final Manuscript" / "Manuscript 1" / "09_Wiley_Submission"
+# The submission folder lives outside this replication repository. When it is absent
+# (the normal case for anyone running this repo) figures are written here only.
+_SUB = ROOT / "Final Manuscript" / "Manuscript 1" / "09_Wiley_Submission"
+SUB = _SUB if _SUB.is_dir() else ROOT / "21_Figures"
 OUT = HERE / "cvd"; OUT.mkdir(exist_ok=True)
 
 # Machado et al. (2009), severity 1.0

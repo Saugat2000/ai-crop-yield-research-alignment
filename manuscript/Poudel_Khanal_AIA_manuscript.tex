@@ -26,13 +26,13 @@
 
 \begin{document}
 
-\title{Global Geography of AI-Based Crop-Yield Research: Agricultural Scale, Research Need, and Scientific Capacity}
+\title{Where Is AI-Based Crop-Yield Research Done? A Study-Location Analysis of 2,616 Country-Crop Systems}
 
 \author[1]{Prasamsha Poudel}[https://orcid.org/0009-0003-6441-3023]
 \author[2]{Saugat Khanal}[https://orcid.org/0000-0002-9146-7428]
 
 \authormark{POUDEL and KHANAL}
-\titlemark{Global Geography of AI-Based Crop-Yield Research}
+\titlemark{Where Is AI-Based Crop-Yield Research Done?}
 
 \address[1]{\orgname{Agriculture and Forestry University, }%
 \orgaddress{\city{Puranchaur, Pokhara, }\state{Kaski 33713, }\country{Nepal}}}
@@ -42,25 +42,32 @@
 
 \corres{Prasamsha Poudel (\email{poudelprasamsha64@gmail.com}) ~|~ Saugat Khanal (\email{saugat.khanal@okstate.edu})}
 
-\keywords{crop-yield prediction | artificial intelligence | machine learning | research allocation | scientific capacity | agricultural R\&D | spatial inequality}
+\keywords{crop-yield prediction | machine learning | research allocation | scientific capacity | spatial inequality}
 
-\abstract[ABSTRACT]{AI-based crop-yield prediction has expanded quickly, but the evidence it produces need
-not come from the places where crops occupy the most land or where additional evidence would be
-most useful. This study maps that geography against agricultural scale, research need, and
-scientific capacity. From a frozen
-corpus of 7,045 eligible studies published between 2000 and 2026, each study's empirical location was read from its reported study area and data rather than from
-author affiliations, then allocated fractionally over 2,616 country-crop systems covering 199
-countries and 25 crops. Evidence is concentrated: 120 countries carry at least one eligible study, 483 systems carry research, and the Gini
-coefficient across the 199 countries is 0.849. Harvested area has the largest association with
-whether a system is studied: an interquartile-range increase raises the predicted probability by
-35 percentage points, about five times the change from any other covariate, and the association
-holds under crop fixed effects and within each of the five most studied crops.
-Research and development expenditure is positively associated with both participation and
-intensity; the remaining capacity indicators do not point one way. The association with measured research need is not distinguishable from zero for participation.
-A positive intensity association appears only when research is constrained to scale
-proportionally with harvested area; estimating that scaling freely eliminates it. Research standing relative to need is spatially clustered (Moran's $I = 0.364$), with
-High--High clusters in western and northern Europe and Low--Low clusters in central and eastern
-Africa.}
+\abstract[ABSTRACT]{\textbf{Background:} Artificial intelligence (AI) and machine learning now
+dominate crop-yield prediction, but the geography of that evidence is undocumented: bibliometric
+studies record where authors work, not where the agriculture studied is located.
+\textbf{Objective:} To measure that distribution across countries and crops and test whether it
+tracks agricultural scale, research need, or scientific capacity. \textbf{Methods:} Screening
+43,543 works gave 7,045 eligible studies, 2000--2026. Each was assigned to the countries and crops
+it empirically examines, read from its reported study area rather than author affiliations. The
+2,031 studies with accepted country evidence and a matched crop were allocated fractionally across
+2,616 country-crop systems spanning 199 countries and 25 crops. Attention was compared with
+harvested area, a nine-component research-need index excluding agricultural scale, and capacity
+indicators, using participation and count regressions with spatial statistics. \textbf{Results:}
+Evidence is narrowly held: 120 of 199 countries carry at least one eligible study, 483 of 2,616
+systems carry any research, and the Gini coefficient of country counts is 0.849. The 1,866
+unstudied systems with harvested area hold 19.1\% of the panel's cropland. Harvested area has the
+largest association with participation: an interquartile-range increase raises the predicted
+probability by 35 percentage points, five times the next largest covariate. Attention scales
+sublinearly with area (elasticity 0.849, unit elasticity rejected, $p = 0.002$). Research and
+development expenditure predicts participation and intensity, other capacity indicators show no
+consistent direction, and the research-need association is not identified. Research standing
+relative to need is spatially clustered (Moran's $I = 0.364$), positive in western and northern
+Europe, negative in central and eastern Africa. \textbf{Conclusions:} AI-based yield evidence
+follows cropland and research funding, not need: 54 of 188 indexed countries combine above-median
+need with below-median research. Closing that shortfall calls for data sharing and capacity
+investment targeted at unstudied systems.}
 % Abbreviations are defined at first use in the body. \abbr is a class no-op and
 % would silently discard anything passed to it, so no list is supplied here.
 
@@ -860,9 +867,9 @@ distinguishable from zero with crop fixed effects (1.248, CI 0.068 to 2.428). Th
 fixes the harvested-area elasticity at one. Estimated freely, the elasticity is 0.849 (SE 0.048, CI
 0.755 to 0.944), and a Wald test rejects unit elasticity ($\chi^{2}_{1} = 9.73$, $p = 0.002$);
 under the free specification the need coefficient falls to 0.982 with an interval from $-0.148$ to
-2.111. No specification therefore
-distinguishes the need association from zero, which is a statement about the precision these data
-support and not evidence that no association exists. The elasticity itself carries a substantive
+2.111. Once that restriction is dropped, no specification distinguishes the need association from zero.
+That is a statement about the precision these data support, not evidence that no association
+exists. The elasticity itself carries a substantive
 reading that the offset conceals. At 0.849 rather than one, research per hectare falls as systems
 grow: doubling harvested area raises expected attention by about 80\% rather than 100\%, so the
 largest systems are studied less intensively than their size alone implies, even though they are
